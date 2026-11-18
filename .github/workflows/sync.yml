@@ -1,0 +1,34 @@
+name: Sync Stars
+on:
+  schedule:
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [notes.json, config.json, sync_stars.py, test_sync.py, .github/workflows/sync.yml]
+permissions:
+  contents: write
+concurrency:
+  group: star-library
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Test
+        run: python3 -m unittest -v
+      - name: Sync public stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 sync_stars.py
+      - name: Save generated files only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stars.json INBOX.md INDEX.md search.html
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync starred repositories"
+            git push origin HEAD:main
+          fi
