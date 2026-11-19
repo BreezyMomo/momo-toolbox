@@ -1,6 +1,6 @@
 {
   "username": "BreezyMomo",
-  "last_sync": "2026-11-19T02:04:41+00:00",
+  "last_sync": "2026-11-19T08:53:29+00:00",
   "records": [
     {
       "id": 1459971684,
@@ -29,7 +29,7 @@
         "rust",
         "typescript"
       ],
-      "pushed_at": "2026-11-18T21:09:57Z",
+      "pushed_at": "2026-11-19T08:45:01Z",
       "archived": false,
       "url": "https://github.com/erkamyaman/rust-anything",
       "starred_at": "2026-11-19T01:51:07Z",
@@ -46,7 +46,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-19T01:13:58Z",
+      "pushed_at": "2026-11-19T05:13:17Z",
       "archived": false,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "starred_at": "2026-11-18T12:35:34Z",
@@ -84,7 +84,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-18T16:59:51Z",
+      "pushed_at": "2026-11-19T08:53:08Z",
       "archived": false,
       "url": "https://github.com/nexu-io/openmotion",
       "starred_at": "2026-11-18T12:23:17Z",
@@ -137,7 +137,7 @@
         "semantic-search",
         "skills"
       ],
-      "pushed_at": "2026-11-18T11:12:40Z",
+      "pushed_at": "2026-11-19T07:05:58Z",
       "archived": false,
       "url": "https://github.com/zilliztech/memsearch",
       "starred_at": "2026-11-18T08:22:35Z",
@@ -154,7 +154,7 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-19T01:59:36Z",
+      "pushed_at": "2026-11-19T08:46:36Z",
       "archived": false,
       "url": "https://github.com/ranxianglei/billion-context",
       "starred_at": "2026-11-18T08:22:11Z",
@@ -222,7 +222,7 @@
         "dsh-plugin",
         "marketplace"
       ],
-      "pushed_at": "2026-11-18T20:53:09Z",
+      "pushed_at": "2026-11-19T08:24:36Z",
       "archived": false,
       "url": "https://github.com/dsh-market/dsh-market",
       "starred_at": "2026-11-18T08:21:42Z",
@@ -302,7 +302,7 @@
         "video-generation",
         "video-production"
       ],
-      "pushed_at": "2026-11-18T16:11:19Z",
+      "pushed_at": "2026-11-19T03:44:14Z",
       "archived": false,
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "starred_at": "2026-11-18T08:09:08Z",
@@ -423,7 +423,7 @@
         "historical-map",
         "interactive-map"
       ],
-      "pushed_at": "2026-11-19T01:07:13Z",
+      "pushed_at": "2026-11-19T08:04:59Z",
       "archived": false,
       "url": "https://github.com/DeanChensj/jiangshan-map",
       "starred_at": "2026-11-17T08:15:09Z",
@@ -495,7 +495,7 @@
         "flutter",
         "llm"
       ],
-      "pushed_at": "2026-11-18T09:20:06Z",
+      "pushed_at": "2026-11-19T08:07:54Z",
       "archived": false,
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "starred_at": "2026-11-16T03:36:47Z",
@@ -529,7 +529,7 @@
         "vibe-coding",
         "xiaomi"
       ],
-      "pushed_at": "2026-11-17T15:00:49Z",
+      "pushed_at": "2026-11-19T05:39:43Z",
       "archived": false,
       "url": "https://github.com/Gathin23/cleanyourtv",
       "starred_at": "2026-11-16T03:35:27Z",
@@ -577,7 +577,7 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "topics": [],
-      "pushed_at": "2026-11-19T01:56:40Z",
+      "pushed_at": "2026-11-19T07:36:50Z",
       "archived": false,
       "url": "https://github.com/storytold/craft-anything",
       "starred_at": "2026-11-07T09:38:01Z",
@@ -610,7 +610,7 @@
         "sherlock",
         "tools"
       ],
-      "pushed_at": "2026-11-18T05:14:00Z",
+      "pushed_at": "2026-11-19T05:14:03Z",
       "archived": false,
       "url": "https://github.com/sherlock-project/sherlock",
       "starred_at": "2026-11-07T09:37:59Z",
@@ -642,7 +642,7 @@
         "youtube-automation",
         "youtube-shorts"
       ],
-      "pushed_at": "2026-11-19T02:04:33Z",
+      "pushed_at": "2026-11-19T08:34:30Z",
       "archived": false,
       "url": "https://github.com/jub0t/Concat",
       "starred_at": "2026-11-07T09:37:01Z",
@@ -901,7 +901,7 @@
         "patent",
         "skill"
       ],
-      "pushed_at": "2026-11-18T03:59:22Z",
+      "pushed_at": "2026-11-19T03:59:18Z",
       "archived": false,
       "url": "https://github.com/handsomestWei/patent-disclosure-skill",
       "starred_at": "2026-11-05T02:08:39Z",
@@ -1098,7 +1098,7 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "pushed_at": "2026-11-19T01:52:27Z",
+      "pushed_at": "2026-11-19T07:47:29Z",
       "archived": false,
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "starred_at": "2026-10-29T05:01:28Z",
@@ -1124,7 +1124,7 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "pushed_at": "2026-11-19T01:21:10Z",
+      "pushed_at": "2026-11-19T05:45:39Z",
       "archived": false,
       "url": "https://github.com/github/awesome-copilot",
       "starred_at": "2026-10-29T05:01:17Z",
@@ -1235,7 +1235,7 @@
         "puppeteer",
         "zig"
       ],
-      "pushed_at": "2026-11-19T02:03:59Z",
+      "pushed_at": "2026-11-19T08:44:12Z",
       "archived": false,
       "url": "https://github.com/lightpanda-io/browser",
       "starred_at": "2026-10-29T04:59:08Z",
@@ -1381,7 +1381,7 @@
         "mcp",
         "skills"
       ],
-      "pushed_at": "2026-11-19T01:39:13Z",
+      "pushed_at": "2026-11-19T07:30:36Z",
       "archived": false,
       "url": "https://github.com/anthropics/claude-plugins-official",
       "starred_at": "2026-10-29T04:56:49Z",
@@ -1405,7 +1405,7 @@
         "own-your-data",
         "personal"
       ],
-      "pushed_at": "2026-11-19T02:04:14Z",
+      "pushed_at": "2026-11-19T08:52:25Z",
       "archived": false,
       "url": "https://github.com/openclaw/openclaw",
       "starred_at": "2026-10-29T04:56:42Z",
@@ -1421,7 +1421,7 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-19T01:14:04Z",
+      "pushed_at": "2026-11-19T08:23:13Z",
       "archived": false,
       "url": "https://github.com/anthropics/claude-code",
       "starred_at": "2026-10-29T04:56:41Z",
@@ -1960,7 +1960,7 @@
         "video-converter",
         "windows"
       ],
-      "pushed_at": "2026-11-19T02:04:29Z",
+      "pushed_at": "2026-11-19T08:20:23Z",
       "archived": false,
       "url": "https://github.com/KnifeLemon/Filee",
       "starred_at": "2026-10-29T04:51:51Z",
@@ -2182,7 +2182,7 @@
         "zi-wei-dou-shu",
         "ziwei-doushu"
       ],
-      "pushed_at": "2026-11-18T08:08:26Z",
+      "pushed_at": "2026-11-19T06:48:03Z",
       "archived": false,
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "starred_at": "2026-10-29T04:49:16Z",
@@ -2296,7 +2296,7 @@
         "vrm",
         "vtuber"
       ],
-      "pushed_at": "2026-11-19T01:12:55Z",
+      "pushed_at": "2026-11-19T05:04:10Z",
       "archived": false,
       "url": "https://github.com/moeru-ai/airi",
       "starred_at": "2026-10-29T04:46:54Z",
@@ -2385,7 +2385,7 @@
         "tauri",
         "vue"
       ],
-      "pushed_at": "2026-11-18T18:29:27Z",
+      "pushed_at": "2026-11-19T08:36:55Z",
       "archived": false,
       "url": "https://github.com/t8y2/dbx",
       "starred_at": "2026-10-29T04:46:11Z",
@@ -2424,7 +2424,7 @@
         "source-generator",
         "zero-allocation"
       ],
-      "pushed_at": "2026-11-18T20:39:10Z",
+      "pushed_at": "2026-11-19T04:51:03Z",
       "archived": false,
       "url": "https://github.com/JasonXuDeveloper/EasyEcs",
       "starred_at": "2026-10-29T04:44:54Z",
@@ -2459,7 +2459,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "pushed_at": "2026-11-18T10:20:24Z",
+      "pushed_at": "2026-11-19T03:23:35Z",
       "archived": false,
       "url": "https://github.com/nano-muse/nanoMuse",
       "starred_at": "2026-10-29T04:44:32Z",
@@ -2570,7 +2570,7 @@
       "description": "Windows 本地 PBR 材质管理器 · 磨砂玻璃界面 · Blender 材质联动",
       "language": "Python",
       "topics": [],
-      "pushed_at": "2026-11-15T05:51:40Z",
+      "pushed_at": "2026-11-19T03:33:04Z",
       "archived": false,
       "url": "https://github.com/XXLDinosaur/SurfaceStudio",
       "starred_at": "2026-10-27T13:22:03Z",
@@ -2623,7 +2623,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-18T14:02:27Z",
+      "pushed_at": "2026-11-19T07:04:52Z",
       "archived": false,
       "url": "https://github.com/hypit-ai/hypit",
       "starred_at": "2026-10-24T14:10:27Z",
@@ -2816,7 +2816,7 @@
         "rapidocr",
         "tensorrt"
       ],
-      "pushed_at": "2026-11-18T05:10:38Z",
+      "pushed_at": "2026-11-19T05:04:14Z",
       "archived": false,
       "url": "https://github.com/RapidAI/RapidOCR",
       "starred_at": "2026-10-20T08:50:26Z",
@@ -2841,7 +2841,7 @@
         "qwen",
         "transformer"
       ],
-      "pushed_at": "2026-11-18T22:37:15Z",
+      "pushed_at": "2026-11-19T06:04:03Z",
       "archived": false,
       "url": "https://github.com/FlashML-org/FreeToken",
       "starred_at": "2026-10-19T11:18:44Z",
@@ -2880,7 +2880,7 @@
       "description": "GitHub Profile README",
       "language": null,
       "topics": [],
-      "pushed_at": "2026-11-18T21:24:22Z",
+      "pushed_at": "2026-11-19T03:21:05Z",
       "archived": false,
       "url": "https://github.com/alchaincyf/alchaincyf",
       "starred_at": "2026-10-14T09:54:38Z",
@@ -2997,7 +2997,7 @@
         "touhou",
         "typescript"
       ],
-      "pushed_at": "2026-11-19T01:57:21Z",
+      "pushed_at": "2026-11-19T08:52:04Z",
       "archived": false,
       "url": "https://github.com/morluto/rea",
       "starred_at": "2026-10-12T03:44:06Z",
@@ -3085,7 +3085,7 @@
       "topics": [
         "open-source"
       ],
-      "pushed_at": "2026-11-18T22:00:34Z",
+      "pushed_at": "2026-11-19T08:51:06Z",
       "archived": false,
       "url": "https://github.com/EpicGames/lore",
       "starred_at": "2026-09-17T10:06:59Z",
@@ -3319,7 +3319,7 @@
         "unity",
         "windsurf"
       ],
-      "pushed_at": "2026-11-18T00:02:55Z",
+      "pushed_at": "2026-11-19T08:29:47Z",
       "archived": false,
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "starred_at": "2026-07-22T03:00:11Z",
@@ -3647,7 +3647,7 @@
         "wifi",
         "wifi-security"
       ],
-      "pushed_at": "2026-11-19T00:24:50Z",
+      "pushed_at": "2026-11-19T06:17:11Z",
       "archived": false,
       "url": "https://github.com/ruvnet/RuView",
       "starred_at": "2026-07-08T02:28:16Z",
@@ -3714,7 +3714,7 @@
         "system-prompt",
         "system-prompts"
       ],
-      "pushed_at": "2026-11-18T17:18:43Z",
+      "pushed_at": "2026-11-19T07:55:30Z",
       "archived": false,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "starred_at": "2026-07-08T02:27:10Z",
@@ -3869,7 +3869,7 @@
         "security",
         "security-automation"
       ],
-      "pushed_at": "2026-11-19T01:46:03Z",
+      "pushed_at": "2026-11-19T05:44:14Z",
       "archived": false,
       "url": "https://github.com/usestrix/strix",
       "starred_at": "2026-07-02T02:04:20Z",
@@ -3939,7 +3939,7 @@
         "unity-plugin",
         "unity3d"
       ],
-      "pushed_at": "2026-11-17T23:14:18Z",
+      "pushed_at": "2026-11-19T07:21:44Z",
       "archived": false,
       "url": "https://github.com/mob-sakai/SoftMaskForUGUI",
       "starred_at": "2026-06-30T15:44:13Z",
@@ -3992,7 +3992,7 @@
         "tauri",
         "wsl-support"
       ],
-      "pushed_at": "2026-11-18T13:25:09Z",
+      "pushed_at": "2026-11-19T08:20:48Z",
       "archived": false,
       "url": "https://github.com/farion1231/cc-switch",
       "starred_at": "2026-06-08T07:34:16Z",
@@ -4115,7 +4115,7 @@
         "spanner",
         "tidb"
       ],
-      "pushed_at": "2026-11-19T01:54:21Z",
+      "pushed_at": "2026-11-19T08:44:58Z",
       "archived": false,
       "url": "https://github.com/googleapis/mcp-toolbox",
       "starred_at": "2026-04-24T02:39:25Z",
