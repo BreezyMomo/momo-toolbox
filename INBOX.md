@@ -1,9 +1,10 @@
 # 待整理清单
 
-最后成功同步：2026-11-18T13:50:10+00:00。共 194 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-19T02:04:41+00:00。共 195 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
 | [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.  | AI与智能体 |
 | [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
