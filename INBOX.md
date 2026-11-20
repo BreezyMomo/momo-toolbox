@@ -1,9 +1,12 @@
 # 待整理清单
 
-最后成功同步：2026-11-19T08:53:29+00:00。共 195 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-20T08:39:53+00:00。共 198 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
+| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.  | 其他 |
+| [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
 | [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.  | AI与智能体 |
@@ -155,7 +158,7 @@
 | [jynew/jynew](https://github.com/jynew/jynew) | JinYongLegend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.  | 游戏开发 |
 | [Sorumi/UnityFurShader](https://github.com/Sorumi/UnityFurShader) | 🐈 Fur shader for Unity.  | 游戏开发 |
 | [hecomi/UnityFurURP](https://github.com/hecomi/UnityFurURP) | Fur shader implementation for URP  | 游戏开发 |
-| [htdt/godogen](https://github.com/htdt/godogen) | Autonomous game development with Claude Code and Codex  | 游戏开发 |
+| [htdt/godogen](https://github.com/htdt/godogen) | Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well  | 游戏开发 |
 | [dotnet/skills](https://github.com/dotnet/skills) | Repository for skills to assist AI coding agents with .NET and C#  | AI与智能体 |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.  | AI与智能体 / 界面与网页 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages  | AI与智能体 / 界面与网页 |

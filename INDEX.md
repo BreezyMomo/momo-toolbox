@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-19T08:53:29+00:00。当前 Star：195。
+最后成功同步：2026-11-20T08:39:53+00:00。当前 Star：198。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -8,6 +8,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
 | [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.  | AI与智能体 |
@@ -85,6 +86,8 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
+| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.  | 其他 |
 | [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .  | 其他 |
 | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。  | 其他 |
@@ -187,6 +190,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [jesdga95/basalt](https://github.com/jesdga95/basalt) | Local inference engine optimized for NVIDIA Blackwell  | 本地大模型 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.  | 本地大模型 / AI与智能体 |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.  | 本地大模型 / AI与智能体 / 界面与网页 |
@@ -220,7 +224,7 @@
 | [jynew/jynew](https://github.com/jynew/jynew) | JinYongLegend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.  | 游戏开发 |
 | [Sorumi/UnityFurShader](https://github.com/Sorumi/UnityFurShader) | 🐈 Fur shader for Unity.  | 游戏开发 |
 | [hecomi/UnityFurURP](https://github.com/hecomi/UnityFurURP) | Fur shader implementation for URP  | 游戏开发 |
-| [htdt/godogen](https://github.com/htdt/godogen) | Autonomous game development with Claude Code and Codex  | 游戏开发 |
+| [htdt/godogen](https://github.com/htdt/godogen) | Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well  | 游戏开发 |
 | [alelievr/NodeGraphProcessor](https://github.com/alelievr/NodeGraphProcessor) | Node graph editor framework focused on data processing using Unity UIElements and C# 4.6  | 游戏开发 |
 | [mob-sakai/SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) | Enhance Unity UI (uGUI) with advanced soft-masking features to create more visually appealing effects!  | 游戏开发 / 界面与网页 |
 | [Alex-Rachel/TEngine](https://github.com/Alex-Rachel/TEngine) | Unity 商用级别开发框架，原生内置 AI 工作流支持，集成 HybridCLR 高性能热更、Obfuz 代码混淆加固、YooAssets 企业级资源管理方案，构建高效、安全、可扩展的工业化开发底座。  | 游戏开发 / AI与智能体 |
