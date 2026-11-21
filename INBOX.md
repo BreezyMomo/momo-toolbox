@@ -1,9 +1,11 @@
 # 待整理清单
 
-最后成功同步：2026-11-20T08:39:53+00:00。共 198 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-21T08:21:47+00:00。共 200 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
+| [GF007/game-rebuild-kit](https://github.com/GF007/game-rebuild-kit) | AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.  | 游戏开发 |
 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
 | [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.  | 其他 |
 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |

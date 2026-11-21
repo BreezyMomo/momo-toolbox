@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-20T08:39:53+00:00。当前 Star：198。
+最后成功同步：2026-11-21T08:21:47+00:00。当前 Star：200。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -8,6 +8,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
@@ -190,6 +191,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [jesdga95/basalt](https://github.com/jesdga95/basalt) | Local inference engine optimized for NVIDIA Blackwell  | 本地大模型 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.  | 本地大模型 / AI与智能体 |
@@ -203,6 +205,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [GF007/game-rebuild-kit](https://github.com/GF007/game-rebuild-kit) | AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.  | 游戏开发 |
 | [arjun988/blender-skills](https://github.com/arjun988/blender-skills) | 94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.  | 游戏开发 / AI与智能体 |
 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.  | 游戏开发 |
 | [Tencent/puerts](https://github.com/Tencent/puerts) | PUER(普洱) Typescript. Let&#x27;s write your game in UE or Unity with TypeScript.  | 游戏开发 |
