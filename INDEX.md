@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-21T08:21:47+00:00。当前 Star：200。
+最后成功同步：2026-11-22T08:08:27+00:00。当前 Star：203。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -8,6 +8,9 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。  | AI与智能体 |
+| [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.  | AI与智能体 / 界面与网页 |
+| [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.  | 游戏开发 / AI与智能体 |
 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
@@ -89,7 +92,7 @@
 |---|---|---|
 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
 | [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.  | 其他 |
-| [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
+| [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .  | 其他 |
 | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。  | 其他 |
 | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.  | 其他 |
@@ -205,6 +208,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.  | 游戏开发 / AI与智能体 |
 | [GF007/game-rebuild-kit](https://github.com/GF007/game-rebuild-kit) | AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.  | 游戏开发 |
 | [arjun988/blender-skills](https://github.com/arjun988/blender-skills) | 94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.  | 游戏开发 / AI与智能体 |
 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.  | 游戏开发 |
@@ -244,6 +248,7 @@
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.  | AI与智能体 / 界面与网页 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | AI video skill for Claude Code &amp; Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench &amp; JianYing (CapCut CN) export.  | AI与智能体 / 界面与网页 |
 | [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental design. It provides a flexible framework for creating and managing intelligent agents in simulated environments.  | AI与智能体 / 界面与网页 |

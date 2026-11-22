@@ -1,9 +1,12 @@
 # 待整理清单
 
-最后成功同步：2026-11-21T08:21:47+00:00。共 200 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-22T08:08:27+00:00。共 203 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。  | AI与智能体 |
+| [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.  | AI与智能体 / 界面与网页 |
+| [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.  | 游戏开发 / AI与智能体 |
 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
 | [GF007/game-rebuild-kit](https://github.com/GF007/game-rebuild-kit) | AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.  | 游戏开发 |
 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
@@ -12,7 +15,7 @@
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
 | [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.  | AI与智能体 |
-| [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
+| [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
 | [zilliztech/memsearch](https://github.com/zilliztech/memsearch) | A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.  | AI与智能体 / 知识与效率 |
 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .  | 其他 |
 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | A context insight plugin officially recommended by DeepSeek Harness, for context composition, evolution and Multi-Agent details. DeepSeek Harness官方推荐的上下文洞察插件，透视上下文组成与演进，以及多Agent 协作与通讯。  | AI与智能体 |
