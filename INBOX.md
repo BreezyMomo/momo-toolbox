@@ -1,16 +1,52 @@
 # 待整理清单
 
-最后成功同步：2026-11-22T08:08:27+00:00。共 203 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-23T09:12:36+00:00。共 239 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.  | AI与智能体 |
+| [Vanilagy/mediabunny](https://github.com/Vanilagy/mediabunny) | Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser.  | 其他 |
+| [pmndrs/drei](https://github.com/pmndrs/drei) | 🥉 useful helpers for react-three-fiber  | 界面与网页 |
+| [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) | 🇨🇭 A React renderer for Three.js  | 界面与网页 |
+| [dimforge/rapier](https://github.com/dimforge/rapier) | 2D and 3D physics engines focused on performance.  | 其他 |
+| [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | Mirror of https://git.ffmpeg.org/ffmpeg.git  | 开发工具 |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥      Make videos programmatically with React  | 界面与网页 |
+| [supercollider/supercollider](https://github.com/supercollider/supercollider) | An audio server, programming language, and IDE for sound synthesis and algorithmic composition.  | 其他 |
+| [kripken/ammo.js](https://github.com/kripken/ammo.js) | Direct port of the Bullet physics engine to JavaScript using Emscripten  | 其他 |
+| [tweenjs/tween.js](https://github.com/tweenjs/tween.js) | JavaScript/TypeScript animation engine  | 其他 |
+| [juliangarnier/anime](https://github.com/juliangarnier/anime) | JavaScript animation engine  | 界面与网页 |
+| [mrdoob/three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library.  | 其他 |
+| [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.  | AI与智能体 |
+| [txga01Lwz/shendeng](https://github.com/txga01Lwz/shendeng) | 神灯 · 东方心理学（治根不治表，看见人心）——一套方法解决情绪、关系、商业三类问题，开源免费  | 其他 |
+| [Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) | Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^  | 其他 |
+| [guokaigdg/naive-icons](https://github.com/guokaigdg/naive-icons) | A library of hand-drawn SVG icons in a naive folk art style  手绘 naive folk art 风格的 SVG 图标库  | 界面与网页 |
+| [EricJujianZou/rederive](https://github.com/EricJujianZou/rederive) | Explain code that AI wrote for you, in an interview or at work. An open source Claude Code skill that asks how you would build each part of your repo, so you re-derive its design decisions yourself. It also works on open source repos you want to learn.  | AI与智能体 / 界面与网页 |
+| [RachelForster/Shinsekai](https://github.com/RachelForster/Shinsekai) | AI RPG maker  | AI与智能体 |
+| [lucas-martinic/polyfork-catalog](https://github.com/lucas-martinic/polyfork-catalog) | Free low-poly 3D models for three.js and the web: 3,529 GLB models and 37 themed kits, CC BY 4.0. The public index of polyfork.dev.  | 游戏开发 / 界面与网页 |
+| [guokaigdg/animal-island-ui](https://github.com/guokaigdg/animal-island-ui) | A Kawaii React UI component library  一个可爱的 React UI  组件库  | 界面与网页 |
+| [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.  | AI与智能体 / 开发工具 |
+| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.  | AI与智能体 |
+| [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.  | AI与智能体 / 开发工具 |
+| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.   | 其他 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.  | 界面与网页 |
+| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | Open-source plugin for designing and reviewing software with agents  | AI与智能体 / 开发工具 |
+| [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | Open-source gym &amp; body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.  | AI与智能体 / 界面与网页 |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Open-source Grok Bot alternative with a virtual machine that bots can use  | 其他 |
+| [dream-num/univer](https://github.com/dream-num/univer) | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.  | AI与智能体 |
+| [meta/astryx](https://github.com/meta/astryx) | An open source design system that&#x27;s fully customizable and agent ready  | AI与智能体 / 界面与网页 |
+| [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。  | 其他 |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents  | AI与智能体 / 开发工具 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents  | AI与智能体 / 开发工具 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | &quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/  | 其他 |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.  | AI与智能体 |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary  | AI与智能体 / 界面与网页 / 开发工具 |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.  | AI与智能体 |
 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。  | AI与智能体 |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.  | AI与智能体 / 界面与网页 |
 | [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.  | 游戏开发 / AI与智能体 |
 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer: High-performance, large-scale inference framework for DeepSeek models  | 本地大模型 / AI与智能体 |
 | [GF007/game-rebuild-kit](https://github.com/GF007/game-rebuild-kit) | AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.  | 游戏开发 |
 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat Demo  | 其他 |
-| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.  | 其他 |
 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.  | 本地大模型 / AI与智能体 |
 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.  | AI与智能体 / 开发工具 |
 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest web best practices  | AI与智能体 / 界面与网页 |
