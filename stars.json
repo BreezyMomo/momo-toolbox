@@ -1,6 +1,6 @@
 {
   "username": "BreezyMomo",
-  "last_sync": "2026-11-24T02:25:26+00:00",
+  "last_sync": "2026-11-24T02:44:52+00:00",
   "records": [
     {
       "id": 1438623288,
@@ -17,7 +17,15 @@
       "suggested_categories": [
         "界面与网页"
       ],
-      "ai_summary": null
+      "ai_summary": "unslop 是面向 Claude Code、Codex 和 Google Antigravity 的技能，用于识别 AI 生成界面的常见设计问题，并按产品定位分轮改进。",
+      "ai_tags": [
+        "AI 界面改版",
+        "UI 设计审查",
+        "Claude Code",
+        "Codex",
+        "Google Antigravity"
+      ],
+      "ai_use_when": "当上线的落地页有突兀的发光效果和不一致的间距，而你手头只有网址时，可以用它审查页面并找出改进点。"
     },
     {
       "id": 1440705679,
@@ -34,7 +42,15 @@
       "suggested_categories": [
         "AI与智能体"
       ],
-      "ai_summary": null
+      "ai_summary": "dsh-superagent 是面向单个 GitHub 仓库的主动编码代理，可接收请求、执行任务并反馈结果。",
+      "ai_tags": [
+        "GitHub代码协作",
+        "编码代理",
+        "DeepSeek Harness",
+        "Feishu",
+        "Pull Request"
+      ],
+      "ai_use_when": "当获授权者在 GitHub 提出开发任务并希望代理自动处理、提交 Pull Request 时可用。"
     },
     {
       "id": 1368596582,
@@ -68,7 +84,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "EGM 是用于软件规格设计与评审的 AI 助手插件，由 Elephant 管理项目上下文并起草规范，Goldfish 独立审查草案及源码资料。",
+      "ai_tags": [
+        "软件规格设计",
+        "文档评审",
+        "AI agents",
+        "Claude Code",
+        "multi-agent"
+      ],
+      "ai_use_when": "当需要为代码库起草软件规范并减少上下文偏见时，可用其让独立审查者发现未声明的假设与盲点。"
     },
     {
       "id": 574523116,
@@ -103,7 +128,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "提供适用于 ChatGPT、Claude、Gemini 等模型的提示词库，并支持自托管、机器人与团队管理。",
+      "ai_tags": [
+        "提示词库",
+        "提示工程",
+        "ChatGPT",
+        "MCP Server",
+        "AI代理"
+      ],
+      "ai_use_when": "当你需要查找任务提示词或在私有环境部署库时可用，例如通过 MCP Server 接入 AI 工具。"
     },
     {
       "id": 850821713,
@@ -136,7 +170,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Mediabunny 是用于在浏览器中读取、写入和转换 MP4、WebM、MP3、HLS 等媒体的 TypeScript 库。",
+      "ai_tags": [
+        "媒体格式转换",
+        "视频音频处理",
+        "WebCodecs",
+        "MP4",
+        "WebM"
+      ],
+      "ai_use_when": "当网页需要流式转码、裁剪或调整媒体尺寸时，可用它在浏览器中处理大文件。"
     },
     {
       "id": 259117468,
@@ -158,7 +201,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "为 @react-three/fiber 提供相机、控制器、几何体、材质等可直接使用的组件与抽象。",
+      "ai_tags": [
+        "react-three-fiber",
+        "3D场景",
+        "相机控制",
+        "CameraControls",
+        "MeshReflectorMaterial"
+      ],
+      "ai_use_when": "当你要在 React Three Fiber 场景中加入相机控制或反射材质时，可使用 CameraControls 与 MeshReflectorMaterial。"
     },
     {
       "id": 172521926,
@@ -181,7 +233,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "react-three-fiber 是将 Three.js 场景映射为 JSX 的 React 渲染器，支持状态驱动、组件复用与交互。",
+      "ai_tags": [
+        "React 3D场景",
+        "Three.js",
+        "JSX",
+        "WebGL渲染",
+        "交互动画"
+      ],
+      "ai_use_when": "当你要在 React 应用中声明式构建可交互的 Three.js 3D 场景时可以使用它，例如制作响应用户输入的可复用组件。"
     },
     {
       "id": 290312103,
@@ -197,7 +258,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Rapier 是面向游戏、动画和机器人的 Rust 2D、3D 物理引擎集合。",
+      "ai_tags": [
+        "物理引擎",
+        "游戏开发",
+        "Rust",
+        "rapier2d",
+        "rapier3d"
+      ],
+      "ai_use_when": "需要在 Rust 项目中实现二维或三维刚体物理模拟时可使用 Rapier。"
     },
     {
       "id": 1614410,
@@ -221,7 +291,7 @@
         "video",
         "webm"
       ],
-      "pushed_at": "2026-11-24T01:59:19Z",
+      "pushed_at": "2026-11-24T02:41:26Z",
       "archived": false,
       "url": "https://github.com/FFmpeg/FFmpeg",
       "starred_at": "2026-11-22T17:03:07Z",
@@ -229,7 +299,16 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "FFmpeg 提供音视频、字幕和元数据的处理、转换、流式传输及分析库与命令行工具。",
+      "ai_tags": [
+        "音视频处理",
+        "格式转换",
+        "FFmpeg",
+        "ffprobe",
+        "libavfilter"
+      ],
+      "ai_use_when": "当你需要用命令行转换视频格式、处理音频或检查媒体信息时，可以使用它。"
     },
     {
       "id": 274495425,
@@ -249,7 +328,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Remotion 用于以 React 代码制作视频，支持交互式编辑、动画制作和批量渲染。",
+      "ai_tags": [
+        "React",
+        "Node.js",
+        "程序化视频制作",
+        "批量渲染",
+        "视频编辑"
+      ],
+      "ai_use_when": "当你需要为团队建立一套可复用的动画素材库时，可以使用 Remotion。"
     },
     {
       "id": 4228314,
@@ -281,7 +369,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于实时音频合成、算法作曲与声音处理的平台，包含 scsynth、sclang 和 scide。",
+      "ai_tags": [
+        "音频合成",
+        "算法作曲",
+        "sclang",
+        "scsynth"
+      ],
+      "ai_use_when": "需要用代码控制实时音频服务器、进行现场编程或多核 DSP 合成时可以使用它。"
     },
     {
       "id": 1815807,
@@ -297,7 +393,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "将 Bullet 物理引擎通过 Emscripten 直接移植到 JavaScript，为浏览器提供刚体、软体、车辆等物理模拟能力。",
+      "ai_tags": [
+        "JavaScript物理模拟",
+        "WebGL碰撞检测",
+        "Bullet",
+        "Emscripten",
+        "软体物理"
+      ],
+      "ai_use_when": "当你用 JavaScript 开发 WebGL 场景，需要处理立方体碰撞、绳索或车辆模拟时，可以使用它。"
     },
     {
       "id": 691146,
@@ -325,7 +430,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在 JavaScript/TypeScript 中按缓动函数补间动画化对象属性。",
+      "ai_tags": [
+        "对象动画",
+        "补间动画",
+        "easing",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "ai_use_when": "需要将对象属性平滑过渡并接入自定义动画循环时可使用。"
     },
     {
       "id": 53809090,
@@ -349,7 +463,15 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Anime.js 是一个轻量级 JavaScript 动画库，可为 CSS 属性、SVG、DOM 属性和 JavaScript 对象创建动画。",
+      "ai_tags": [
+        "网页动画",
+        "CSS",
+        "SVG",
+        "JavaScript"
+      ],
+      "ai_use_when": "需要为网页中的 CSS 属性或 SVG 元素添加动画时，例如制作页面元素的入场效果，可以使用它。"
     },
     {
       "id": 576201,
@@ -378,7 +500,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "three.js 是一个用于在浏览器中创建和渲染三维场景的通用 JavaScript 库，支持 WebGL 和 WebGPU。",
+      "ai_tags": [
+        "网页三维",
+        "3D 场景渲染",
+        "JavaScript",
+        "WebGL",
+        "WebGPU"
+      ],
+      "ai_use_when": "当你想在网页中通过 WebGL 展示一个可旋转的三维模型时，可以使用它。"
     },
     {
       "id": 1261204838,
@@ -415,7 +546,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "面向 iOS 和 Android 应用的上架审查手册与提交前扫描，可识别常见拒审风险，并列出需人工核实的事项。",
+      "ai_tags": [
+        "应用上架预检",
+        "拒审排查",
+        "隐私清单",
+        "App Store",
+        "Google Play"
+      ],
+      "ai_use_when": "准备提交新版 iOS 应用时，可先扫描项目中的权限用途说明和隐私清单，再按清单确认审核用演示账号能正常登录。"
     },
     {
       "id": 1461235210,
@@ -439,7 +579,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "神灯是一套供 AI 使用的东方心理学方法，帮助分析情绪、关系与用户需求，并生成最小行动建议。",
+      "ai_tags": [
+        "焦虑内耗",
+        "亲子关系",
+        "用户洞察",
+        "东方心理学",
+        "SKILL.md"
+      ],
+      "ai_use_when": "当你想梳理焦虑内耗或分析孩子不愿上学等日常困扰时，可将 SKILL.md 交给 AI 辅助提问。"
     },
     {
       "id": 804128991,
@@ -455,7 +604,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Kazumi 托管多个站点的 JSON 规则，支持请求、解析与 HLS 广告过滤配置。",
+      "ai_tags": [
+        "Kazumi",
+        "规则文件",
+        "JSON",
+        "HLS 广告过滤"
+      ],
+      "ai_use_when": "当 Kazumi 需要接入或更新已收录站点的规则时，可查找对应 JSON 文件使用。"
     },
     {
       "id": 1368254580,
@@ -475,7 +632,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供936个手绘 naive folk art 风格图标，含 SVG、React TSX 与 Vue 3 组件及类型辅助。",
+      "ai_tags": [
+        "图标库",
+        "SVG图标",
+        "React",
+        "Vue 3",
+        "naive folk art"
+      ],
+      "ai_use_when": "当你为 React 登录页搭配手绘图标时，可按名称导入 SVG/TSX，并用 currentColor 和 title 适配页面。"
     },
     {
       "id": 1425045498,
@@ -506,7 +672,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "rederive 是一项 Claude Code 技能，只提问、不讲解，引导你从第一性原理推导代码库各部分的设计决策。",
+      "ai_tags": [
+        "Claude Code",
+        "代码理解",
+        "苏格拉底式提问",
+        "技术面试",
+        "AI 生成代码"
+      ],
+      "ai_use_when": "当你准备技术面试，需要讲清楚 AI 写的代码为什么采用当前设计时，可以用它练习。"
     },
     {
       "id": 1222455527,
@@ -522,7 +697,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "新世界是由大语言模型驱动的 Galgame、乙女与剧情向 RPG 桌面伙伴及交互演出平台。",
+      "ai_tags": [
+        "AI剧情创作",
+        "Galgame",
+        "桌面伙伴",
+        "Live2D",
+        "MCP"
+      ],
+      "ai_use_when": "当你想制作带分支剧情、角色立绘、语音和好感度变化的互动剧本时可以使用它。"
     },
     {
       "id": 1442373084,
@@ -550,7 +734,16 @@
       "suggested_categories": [
         "游戏开发",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供可用于 three.js、游戏和网页的 3,529 个免费低多边形 3D 模型及主题套件，支持 GLB 与 ES module。",
+      "ai_tags": [
+        "低多边形模型",
+        "3D资产",
+        "three.js",
+        "GLB",
+        "游戏场景"
+      ],
+      "ai_use_when": "需要为 three.js、Unity、Godot 或 Blender 项目查找模型时可用，例如用 CLI 搜索并添加模型。"
     },
     {
       "id": 1208718257,
@@ -572,7 +765,15 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Animal Island UI 是一个采用岛屿风格设计语言的 React + TypeScript UI 组件库。",
+      "ai_tags": [
+        "React组件库",
+        "TypeScript",
+        "界面设计",
+        "animal-island-ui"
+      ],
+      "ai_use_when": "当你要在 React 项目中快速搭建可爱风格页面并统一组件样式时可使用它。"
     },
     {
       "id": 1314510108,
@@ -601,7 +802,7 @@
         "workflow-automation",
         "workflow-engine"
       ],
-      "pushed_at": "2026-11-24T02:08:33Z",
+      "pushed_at": "2026-11-24T02:33:08Z",
       "archived": false,
       "url": "https://github.com/Tencent/LoopForge",
       "starred_at": "2026-11-22T09:54:37Z",
@@ -610,7 +811,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "LoopForge 是自托管的软件交付工作区，可编排编码代理、角色、Docker 沙箱、SOP 和人工审批来产出代码或 PR。",
+      "ai_tags": [
+        "代码代理编排",
+        "SOP",
+        "Docker sandbox",
+        "Human-gate",
+        "PR交付"
+      ],
+      "ai_use_when": "当团队要把修复、测试、评审和人工批准固化为可暂停、可重试的重复流程时可用。"
     },
     {
       "id": 1356077516,
@@ -647,7 +857,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Cursor、Codex 等编码代理提供本地 FFmpeg 视频剪辑、检查与导出能力。",
+      "ai_tags": [
+        "视频剪辑",
+        "字幕制作",
+        "FFmpeg",
+        "MCP",
+        "Claude Code"
+      ],
+      "ai_use_when": "当你要把演讲视频与幻灯片剪成带字幕的竖屏短片，并在本地检查成片时可以使用它。"
     },
     {
       "id": 1135847870,
@@ -664,7 +883,15 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "为 Google Stitch MCP server 提供遵循 Agent Skills 标准的代理技能与插件集合。",
+      "ai_tags": [
+        "Google Stitch",
+        "MCP server",
+        "Agent Skills",
+        "编码代理"
+      ],
+      "ai_use_when": "当你使用 Claude Code 等编码代理并需接入 Stitch MCP server 时可用。"
     },
     {
       "id": 1123956658,
@@ -682,7 +909,7 @@
         "plan-mode",
         "skills"
       ],
-      "pushed_at": "2026-11-24T02:17:47Z",
+      "pushed_at": "2026-11-24T02:43:36Z",
       "archived": false,
       "url": "https://github.com/backnotprop/plannotator",
       "starred_at": "2026-11-22T09:54:20Z",
@@ -690,7 +917,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Plannotator 在本地浏览器中集中呈现 AI 编程代理的消息和交付物，支持批注计划、文档和网页，审查代码变更和 PR，并将反馈发回代理。",
+      "ai_tags": [
+        "多代理收件箱",
+        "计划批注",
+        "代码审查",
+        "Claude Code",
+        "Codex"
+      ],
+      "ai_use_when": "当代理提交的代码变更太大、难以逐文件审查时，可以用引导式审查按章节先看核心改动，再看影响范围。"
     },
     {
       "id": 979392131,
@@ -712,7 +948,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "AG-UI 通过双向事件流规范 AI agent 与前端应用的交互，支持流式输出、工具调用和共享状态更新。",
+      "ai_tags": [
+        "AI Agent 前端接入",
+        "双向事件流",
+        "AG-UI",
+        "JSON Schema",
+        "agent-frontend"
+      ],
+      "ai_use_when": "当你要让同一个 AI agent 接入 Web、移动端、终端或 Slack 并统一渲染交互时，可使用它。"
     },
     {
       "id": 1305213943,
@@ -750,7 +995,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "openGym 是可自托管的健身训练平台，用于制定计划、记录训练、追踪进步并同步移动设备数据。",
+      "ai_tags": [
+        "健身训练记录",
+        "训练计划",
+        "自托管",
+        "Apple Watch",
+        "passkeys"
+      ],
+      "ai_use_when": "当你想从 Strong、Hevy 或 FitNotes 导入历史训练并在自有服务器继续记录时可用它。"
     },
     {
       "id": 1331261687,
@@ -770,7 +1024,7 @@
         "self-hosted",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T02:17:35Z",
+      "pushed_at": "2026-11-24T02:44:20Z",
       "archived": false,
       "url": "https://github.com/milind-soni/OpenMausBot",
       "starred_at": "2026-11-22T09:54:00Z",
@@ -778,7 +1032,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在本机聊天界面管理多个 AI 代理，并为每个代理配置模型、电脑和连接应用。",
+      "ai_tags": [
+        "多智能体聊天",
+        "本地运行",
+        "computer-use",
+        "Claude",
+        "Codex"
+      ],
+      "ai_use_when": "当你想把 Claude 或 Codex CLI 代理放进同一聊天应用并审批其文件操作时可用。"
     },
     {
       "id": 543101941,
@@ -807,7 +1070,7 @@
         "workspace",
         "xlsx"
       ],
-      "pushed_at": "2026-11-24T02:15:11Z",
+      "pushed_at": "2026-11-24T02:39:07Z",
       "archived": false,
       "url": "https://github.com/dream-num/univer",
       "starred_at": "2026-11-22T09:53:55Z",
@@ -815,7 +1078,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Univer 是用于在自有产品中嵌入 Sheets、Docs 编辑、计算与文件处理能力的 Office SDK。",
+      "ai_tags": [
+        "在线表格",
+        "文档编辑",
+        "Office SDK",
+        "Facade APIs",
+        "无头处理"
+      ],
+      "ai_use_when": "当应用需要嵌入可编辑表格或在 Node.js 中无界面处理内容时，可用它连接数据并执行计算。"
     },
     {
       "id": 1131202426,
@@ -823,7 +1095,7 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:20:01Z",
+      "pushed_at": "2026-11-24T02:40:56Z",
       "archived": false,
       "url": "https://github.com/meta/astryx",
       "starred_at": "2026-11-22T09:53:49Z",
@@ -832,7 +1104,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Astryx 是一套基于 React 19+ 和 StyleX 的设计系统，提供 150 多个无障碍组件、可定制主题、深色模式和页面模板。",
+      "ai_tags": [
+        "React",
+        "StyleX",
+        "无障碍组件",
+        "品牌主题定制",
+        "深色模式"
+      ],
+      "ai_use_when": "当你想让现有 React 应用的组件匹配品牌风格，又不想修改组件源码时，可以用它通过 CSS 自定义属性覆盖默认主题。"
     },
     {
       "id": 798049841,
@@ -857,7 +1138,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Kazumi 是一款基于自定义规则采集番剧并跨平台在线观看的 Flutter 应用，支持弹幕与实时超分辨率。",
+      "ai_tags": [
+        "番剧在线观看",
+        "自定义规则",
+        "Xpath",
+        "Flutter",
+        "弹幕"
+      ],
+      "ai_use_when": "需要用自定义 Xpath 规则检索并播放不同视频源的番剧时，可以使用 Kazumi。"
     },
     {
       "id": 1132001614,
@@ -874,7 +1164,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "为 AI 代理提供基于 Shell 的浏览器自动化，通过 accessibility tree 读取页面并操作元素。",
+      "ai_tags": [
+        "浏览器自动化",
+        "AI 代理",
+        "Shell",
+        "Rust CLI",
+        "accessibility tree"
+      ],
+      "ai_use_when": "需要让 AI 代理逐步打开网页、读取 snapshot 并按元素引用执行操作时可使用。"
     },
     {
       "id": 1054793726,
@@ -900,7 +1199,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "让编码代理通过 MCP 或 CLI 控制并检查 Chrome，执行自动化、调试与性能分析。",
+      "ai_tags": [
+        "浏览器自动化",
+        "Chrome DevTools",
+        "MCP",
+        "性能分析",
+        "网络调试"
+      ],
+      "ai_use_when": "当你需要代理分析网络请求并定位 Chrome 控制台错误时，可以使用它。"
     },
     {
       "id": 1176011916,
@@ -916,7 +1224,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "CLI-Anything 为现有软件构建命令行接口，并通过 CLI-Hub 提供发现、安装和管理功能，让 AI 智能体能够操作这些软件。",
+      "ai_tags": [
+        "智能体软件自动化",
+        "命令行接口生成",
+        "CLI-Anything",
+        "CLI-Hub",
+        "Claude Code"
+      ],
+      "ai_use_when": "需要让智能体批量将文档转换为 PDF 时，可以安装 LibreOffice CLI，让智能体调用其无界面转换功能。"
     },
     {
       "id": 834369920,
@@ -935,7 +1252,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "MiniMind 用原生 PyTorch 实现小型语言模型从零训练到部署的完整流程，涵盖预训练、监督微调和强化学习。",
+      "ai_tags": [
+        "大模型从零训练",
+        "单卡训练",
+        "PyTorch",
+        "LoRA",
+        "GRPO"
+      ],
+      "ai_use_when": "如果你想用单张 RTX 3090 复现 MiniMind Zero 对话模型，可以用项目提供的精简数据集跑通预训练和监督微调。"
     },
     {
       "id": 1140843380,
@@ -974,7 +1300,15 @@
         "AI与智能体",
         "界面与网页",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "跨平台检索 Reddit、X、YouTube 等来源，按互动信号评分并由 AI 汇总近30天信息。",
+      "ai_tags": [
+        "热点调研",
+        "Reddit",
+        "Polymarket",
+        "AI agent"
+      ],
+      "ai_use_when": "准备销售会议或人物会面，需了解对象近期动态、讨论与公开视频内容时可用。"
     },
     {
       "id": 1131513930,
@@ -998,7 +1332,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "基于大模型聚合多市场行情、新闻和基本面数据，生成股票决策报告并自动推送。",
+      "ai_tags": [
+        "股票分析",
+        "自动推送",
+        "Agent",
+        "FastAPI",
+        "AkShare"
+      ],
+      "ai_use_when": "需要在工作日定时分析自选股并将报告发送到企业微信、飞书或 Telegram 时使用。"
     },
     {
       "id": 1333321333,
@@ -1023,7 +1366,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成为跨平台桌面应用。",
+      "ai_tags": [
+        "桌面客户端",
+        "跨平台安装",
+        "DeepSeek Harness",
+        "插件系统"
+      ],
+      "ai_use_when": "需要免装 Node.js 在 Windows、macOS 或 Linux 上运行 DSH 并管理插件时可用。"
     },
     {
       "id": 1159938129,
@@ -1061,7 +1412,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "OpenPencil 是一款将自然语言生成、编辑并导出 UI 设计的 AI 原生矢量设计工具。",
+      "ai_tags": [
+        "AI界面设计",
+        "矢量设计",
+        "Design-as-Code",
+        "MCP Server",
+        "Agent Teams"
+      ],
+      "ai_use_when": "需要从提示词快速生成页面并导出 React、Vue 或 Flutter 代码时可使用，例如制作产品落地页。"
     },
     {
       "id": 1446725818,
@@ -1089,7 +1449,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "用一句话描述小游戏，即可生成可玩的 2D 或 3D 原型，在 DeepSeek Harness 侧栏预览，替换 AI 美术素材并导出为网页或微信小游戏。",
+      "ai_tags": [
+        "小游戏生成",
+        "自动试玩",
+        "微信小游戏导出",
+        "DeepSeek Harness",
+        "three.js"
+      ],
+      "ai_use_when": "当你想做一款小狐狸收集灯笼、躲避怪物的游戏，并在发布前用自动试玩检查帧率和脚本错误时，可以用它。"
     },
     {
       "id": 1421825221,
@@ -1106,7 +1475,16 @@
       "suggested_categories": [
         "本地大模型",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "DeepInfer 是面向 DeepSeek-V4.1-Flash 的高性能离线推理框架，提供并行、调度与结构化输出等能力。",
+      "ai_tags": [
+        "离线推理",
+        "并行推理",
+        "结构化输出",
+        "Deterministic sampling",
+        "DeepSeek-V4.1-Flash"
+      ],
+      "ai_use_when": "当你要在 NVIDIA SM100 或 Huawei Ascend 950 上进行离线推理，并需要确定性采样或 JSON Schema 输出时，可使用它。"
     },
     {
       "id": 1464966593,
@@ -1129,7 +1507,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "用于借助 AI 分析游戏行为并重建其逻辑、动画、物理与渲染系统。",
+      "ai_tags": [
+        "游戏分析",
+        "游戏重建",
+        "反向工程",
+        "agent-skills",
+        "computer-graphics"
+      ],
+      "ai_use_when": "当你要追踪角色资源到动画、次级运动和渲染的关系时，可参考其角色动画与渲染案例。"
     },
     {
       "id": 1455006582,
@@ -1145,7 +1532,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个通过 DeepSeek API 在浏览器中直接运行的静态聊天演示，无需后端或构建即可本地使用。",
+      "ai_tags": [
+        "聊天对话",
+        "静态网页",
+        "DeepSeek API",
+        "浏览器直连"
+      ],
+      "ai_use_when": "需要快速验证 DeepSeek API 聊天效果，或下载后双击 index.html 在本地试用时可以使用。"
     },
     {
       "id": 1460469810,
@@ -1176,7 +1571,7 @@
         "proactive-agent",
         "proactive-ai"
       ],
-      "pushed_at": "2026-11-24T02:23:51Z",
+      "pushed_at": "2026-11-24T02:35:00Z",
       "archived": false,
       "url": "https://github.com/simplexai-labs/linger",
       "starred_at": "2026-11-19T11:01:42Z",
@@ -1185,7 +1580,15 @@
       "suggested_categories": [
         "本地大模型",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Linger 是运行在个人电脑上的本地个人智能代理，可调用本地大模型、记忆资料并主动处理任务。",
+      "ai_tags": [
+        "本地大模型",
+        "个人代理",
+        "PolyStrata",
+        "proactive-agent"
+      ],
+      "ai_use_when": "当你想在 Mac 或 PC 上运行本地模型、检索个人资料并跟进邮件或日历事项时可用。"
     },
     {
       "id": 1459971684,
@@ -1223,7 +1626,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "将 Node.js、Python、C、Go、Ruby、Java 或 Kotlin 应用逐步重写为 Rust，并用录制行为验证兼容性。",
+      "ai_tags": [
+        "代码迁移",
+        "Rust",
+        "行为等价验证",
+        "napi-rs",
+        "PyO3"
+      ],
+      "ai_use_when": "当你想把现有 Node.js 服务或性能瓶颈迁移到 Rust，并确保输出与原程序一致时可用。"
     },
     {
       "id": 1143633223,
@@ -1231,7 +1643,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T01:05:48Z",
+      "pushed_at": "2026-11-24T02:26:23Z",
       "archived": false,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "starred_at": "2026-11-18T12:35:34Z",
@@ -1240,7 +1652,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "这是 Modern Web Guidance 的源仓库，用于编写、校准和评估向编码代理提供 Web 最佳实践与浏览器兼容性数据的技能。",
+      "ai_tags": [
+        "Modern Web Guidance",
+        "编码代理",
+        "浏览器兼容性",
+        "Web 最佳实践",
+        "技能评估"
+      ],
+      "ai_use_when": "当你想新增一条现代 Web 开发建议，并评估它能否引导编码代理避免过时写法时，可以使用这个仓库。"
     },
     {
       "id": 1235403234,
@@ -1269,7 +1690,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-24T02:24:45Z",
+      "pushed_at": "2026-11-24T02:42:46Z",
       "archived": false,
       "url": "https://github.com/nexu-io/openmotion",
       "starred_at": "2026-11-18T12:23:17Z",
@@ -1277,7 +1698,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "OpenMotion 用 AI 代理将参考视频重制为融入自有品牌素材和文案的可编辑动效，支持调整时序并导出 MP4。",
+      "ai_tags": [
+        "视频复刻",
+        "品牌动效",
+        "HTML 动画",
+        "Motion.md",
+        "MCP"
+      ],
+      "ai_use_when": "已有一段产品发布视频作为参考，想沿用它的镜头节奏和转场来制作自己的产品演示时，可以用它。"
     },
     {
       "id": 1458720005,
@@ -1293,7 +1723,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在自有光猫上提取当前有效凭据、识别固件并提供分家族排障建议，主支持 UNG220Z。",
+      "ai_tags": [
+        "找回管理密码",
+        "宽带配置迁移",
+        "UNG220Z",
+        "ontkit",
+        "Telnet"
+      ],
+      "ai_use_when": "当你维护自有的 UNG220Z 光猫、需要找回管理密码或迁移宽带配置时可使用。"
     },
     {
       "id": 1153190876,
@@ -1331,7 +1770,16 @@
       "suggested_categories": [
         "AI与智能体",
         "知识与效率"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Codex 等 AI 编程代理提供跨平台持久化语义记忆、检索与技能沉淀。",
+      "ai_tags": [
+        "AI编程代理",
+        "持久化记忆",
+        "语义检索",
+        "Milvus",
+        "Claude Code"
+      ],
+      "ai_use_when": "当你需要让不同代理共享历史对话、恢复中断工作或检索旧调试决策时，可用其 Markdown 记忆与 Milvus 索引。"
     },
     {
       "id": 1324949198,
@@ -1339,7 +1787,7 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:16:15Z",
+      "pushed_at": "2026-11-24T02:40:47Z",
       "archived": false,
       "url": "https://github.com/ranxianglei/billion-context",
       "starred_at": "2026-11-18T08:22:11Z",
@@ -1347,7 +1795,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "billion-context 在智能体与模型 API 之间增量压缩对话历史，并支持按需恢复原文，让长会话在有限的上下文窗口内持续运行。",
+      "ai_tags": [
+        "上下文压缩",
+        "长会话",
+        "前缀缓存",
+        "acp-kernel",
+        "Codex"
+      ],
+      "ai_use_when": "用 Codex 连续多天修改同一代码库，既不想因历史过长而重开会话，又需要随时找回早期的修改细节时，可以使用它。"
     },
     {
       "id": 1333961389,
@@ -1370,7 +1827,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "用于在 DeepSeek Harness 中洞察和管理 Agent 上下文生命周期及多 Agent 协作。",
+      "ai_tags": [
+        "上下文管理",
+        "上下文洞察",
+        "DeepSeek Harness",
+        "Multi-Agent",
+        "/context"
+      ],
+      "ai_use_when": "当你需要查看近 7 天 Token、成本、会话组成和 Agent 网络时可使用。"
     },
     {
       "id": 1326893710,
@@ -1395,7 +1861,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "为 DSH 提供可由第三方插件扩展的右侧栏和底部工作台，集成文件编辑与预览、Git、终端、子代理任务和侧边对话。",
+      "ai_tags": [
+        "DSH",
+        "侧边栏扩展",
+        "文件编辑",
+        "Git Graph",
+        "子代理任务"
+      ],
+      "ai_use_when": "当你想在 DSH 会话中查看某个分支的提交历史和差异，又不想切换当前分支时，可以使用它。"
     },
     {
       "id": 1333807290,
@@ -1415,7 +1890,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "为 DeepSeek Harness 提供可浏览、搜索和一键安装更新社区插件及主题的可视化市场。",
+      "ai_tags": [
+        "DeepSeek Harness",
+        "插件市场",
+        "插件安装",
+        "主题切换"
+      ],
+      "ai_use_when": "当你需要在 DeepSeek Harness 中查找社区插件或安装可即时切换的主题时，可以使用它。"
     },
     {
       "id": 1314048518,
@@ -1439,7 +1922,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "将 SRT 字幕转成暖米黄纸底的白板手绘 MP4，按字幕叙事顺序分区绘制，先描线再上色。",
+      "ai_tags": [
+        "SRT",
+        "白板手绘动画",
+        "字幕转视频",
+        "分区遮罩",
+        "流式笔迹"
+      ],
+      "ai_use_when": "当你想把课程讲解字幕做成分幕动画，并在渲染前预览和调整各元素的出场时机时，可以用它。"
     },
     {
       "id": 1302690078,
@@ -1464,7 +1956,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "面向兼容 SKILL.md 的 AI agent，将数据生成可交互 HTML 图表、PPT 演示和整页报告。",
+      "ai_tags": [
+        "数据可视化",
+        "PPT生成",
+        "报告生成",
+        "Claude Code",
+        "ECharts"
+      ],
+      "ai_use_when": "当你在 Claude Code 或 Codex 中需把数据做成周报、PPT 或年报时可使用，例如生成 16:9 HTML 演示。"
     },
     {
       "id": 1305663861,
@@ -1496,7 +1997,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "这是一个面向 Claude Code 和 Codex 的视频制作技能，用 Remotion 将真实产品页面截图和文案制成带节拍同步与音效的可编辑宣传片。",
+      "ai_tags": [
+        "产品宣传片",
+        "节拍同步",
+        "Remotion",
+        "Codex",
+        "JianYing"
+      ],
+      "ai_use_when": "当你要把现有产品页面做成宣传片，并希望在 JianYing 中继续调整镜头、字幕和音轨时，可以用它。"
     },
     {
       "id": 1172781277,
@@ -1512,7 +2022,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "这套 GSAP 官方技能为 AI 编程代理提供动画 API、时间轴、插件及框架集成的用法指导。",
+      "ai_tags": [
+        "GSAP",
+        "ScrollTrigger",
+        "React",
+        "滚动动画",
+        "动画时间轴"
+      ],
+      "ai_use_when": "当你想让 AI 编程代理在 React 页面中用 ScrollTrigger 实现滚动驱动动画，并在组件卸载时清理动画时，可以使用这套技能。"
     },
     {
       "id": 1219042200,
@@ -1540,7 +2059,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Codex 等智能体提供两套视觉风格，用于生成可横向翻页的单文件 HTML PPT、演示配图和多平台封面，并支持排练与演讲者模式。",
+      "ai_tags": [
+        "HTML PPT",
+        "演示配图",
+        "社媒封面",
+        "Claude Code",
+        "Codex"
+      ],
+      "ai_use_when": "准备线下分享时，可以用它把长文章提炼成 6 到 10 页的演示文稿，并配上讲稿备注和每页预计时长。"
     },
     {
       "id": 937970237,
@@ -1565,7 +2093,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "pushed_at": "2026-11-16T10:34:40Z",
+      "pushed_at": "2026-11-24T02:42:52Z",
       "archived": false,
       "url": "https://github.com/yikart/AiToEarn",
       "starred_at": "2026-11-18T04:35:46Z",
@@ -1573,7 +2101,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "AiToEarn 是面向创作者与一人公司的 AI Agent 内容创作、分发、互动和变现平台。",
+      "ai_tags": [
+        "内容营销",
+        "自动发布",
+        "AI Agent",
+        "MCP",
+        "抖音"
+      ],
+      "ai_use_when": "需要把内容统一排期并发布到抖音、小红书、YouTube 等多个平台时可以使用。"
     },
     {
       "id": 1350491629,
@@ -1589,7 +2126,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Motion2MixamoRig 将单人视频中的动作或照片中的姿势重定向到 Adobe Mixamo 绑定的 3D 角色，并导出预览视频和 GLB 文件。",
+      "ai_tags": [
+        "动作重定向",
+        "视频动作捕捉",
+        "照片姿势提取",
+        "Adobe Mixamo",
+        "Blender"
+      ],
+      "ai_use_when": "当你有一段人物全身始终入镜的单人动作视频，想让 Blender 里的 Mixamo 角色复现这段动作时，可以用它。"
     },
     {
       "id": 1310427454,
@@ -1616,7 +2162,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "江山时序是展示公元前403年至今中国疆域、政区、古城与历史事件演变的交互式地图。",
+      "ai_tags": [
+        "中国历史地图",
+        "历史时间轴",
+        "interactive map",
+        "GIS",
+        "Trace Place"
+      ],
+      "ai_use_when": "想按年代查看中国疆域变迁，并追踪长安、建康等古城沿革或历史地名时可以使用。"
     },
     {
       "id": 737509032,
@@ -1632,7 +2187,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Game Cheats Manager 集中搜索、下载并管理多个来源的单机游戏修改器和 Cheat Engine 表格。",
+      "ai_tags": [
+        "单机游戏修改器",
+        "双语搜索",
+        "Cheat Engine",
+        "Fling Trainers",
+        "Windows Defender"
+      ],
+      "ai_use_when": "需要为单机游戏查找最新版修改器并自动解压、分类和去重时可使用它。"
     },
     {
       "id": 928122380,
@@ -1660,7 +2224,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "AgentSociety提供面向社会科学研究的LLM智能体仿真框架，将问题、假设和干预转化为可执行实验。",
+      "ai_tags": [
+        "社会仿真",
+        "社会科学研究",
+        "LLM Agents",
+        "Ray",
+        "MCP"
+      ],
+      "ai_use_when": "当研究者需要模拟Silicon Participants并执行假设验证、实验设计或数据分析时可使用。"
     },
     {
       "id": 1432967563,
@@ -1680,7 +2253,7 @@
         "flutter",
         "llm"
       ],
-      "pushed_at": "2026-11-24T01:58:24Z",
+      "pushed_at": "2026-11-24T02:42:30Z",
       "archived": false,
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "starred_at": "2026-11-16T03:36:47Z",
@@ -1688,7 +2261,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "DSH Go 是 DeepSeek Harness 的第三方手机客户端，可免 Root 在手机上运行引擎，也能连接电脑或服务器上的引擎。",
+      "ai_tags": [
+        "DeepSeek Harness",
+        "Android",
+        "SSH",
+        "手机本地运行",
+        "远程编程"
+      ],
+      "ai_use_when": "当你离开电脑但想继续处理未完成的编程任务时，可以用安卓手机接回电脑上的会话。"
     },
     {
       "id": 1423101235,
@@ -1722,7 +2304,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "通过 Wi-Fi 上的 ADB 为 Android TV 或 Google TV 停用厂商遥测、广告服务和预装应用，并换上可恢复的简洁主屏幕。",
+      "ai_tags": [
+        "电视去广告",
+        "精简预装应用",
+        "ADB",
+        "Android TV",
+        "Google TV"
+      ],
+      "ai_use_when": "当你想去掉 Google TV 首页的推荐内容栏，又希望保留恢复原状的选项时，可以用它。"
     },
     {
       "id": 1407972121,
@@ -1738,7 +2329,16 @@
       "active": true,
       "suggested_categories": [
         "本地大模型"
-      ]
+      ],
+      "ai_summary": "Basalt 是面向 NVIDIA Blackwell GPU 的本地大语言模型推理引擎，支持 OpenAI 与 Anthropic API。",
+      "ai_tags": [
+        "本地推理",
+        "大语言模型",
+        "NVIDIA Blackwell",
+        "OpenAI API",
+        "Anthropic API"
+      ],
+      "ai_use_when": "需要在 Linux 或 Windows x64 上用 Blackwell GPU 部署 Qwen3.8 等模型时可使用。"
     },
     {
       "id": 764164135,
@@ -1754,7 +2354,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "SongComposer是用于歌词与旋律生成、歌曲续写及文本生成歌曲的大语言模型。",
+      "ai_tags": [
+        "歌词生成",
+        "旋律生成",
+        "歌曲续写",
+        "SongComposer",
+        "symbolic song representations"
+      ],
+      "ai_use_when": "当你需要从歌词生成旋律或从旋律生成歌词时，可用其符号化歌曲表示完成创作。"
     },
     {
       "id": 1440956372,
@@ -1770,7 +2379,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "检查网站、应用和游戏的界面与行为，让编码代理按指定技术栈构建新版本，并与原版对比验证差异。",
+      "ai_tags": [
+        "网站复刻",
+        "软件逆向分析",
+        "界面对比",
+        "Rust",
+        "MCP"
+      ],
+      "ai_use_when": "当你想只依据访客可见的页面重建网站，并检查新版在三种屏幕宽度下的布局差异时，可以用它。"
     },
     {
       "id": 162998479,
@@ -1803,7 +2421,16 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "通过用户名在 400 多个社交网络中搜寻对应的社交媒体账号。",
+      "ai_tags": [
+        "用户名搜索",
+        "社交媒体账号",
+        "OSINT",
+        "reconnaissance",
+        "CLI"
+      ],
+      "ai_use_when": "当你需要进行用户名 OSINT 信息收集，核验某个昵称是否出现在多个社交平台时可使用它。"
     },
     {
       "id": 1346499044,
@@ -1835,7 +2462,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Concat 是一款跨 macOS、Windows、Linux、Android 和 iOS 的本地视频编辑器，支持多轨剪辑、自动字幕、配音、特效与最高 4K 导出。",
+      "ai_tags": [
+        "视频剪辑",
+        "自动字幕",
+        "FFmpeg",
+        "JSON-RPC",
+        "MCP"
+      ],
+      "ai_use_when": "需要不上传素材地制作 TikTok、YouTube Shorts 或教程视频，并可用 JSON-RPC 或 MCP 自动剪辑时使用。"
     },
     {
       "id": 897306546,
@@ -1851,7 +2487,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "The Well 汇集16个涵盖多种物理领域的15TB时空数值仿真数据集，用于机器学习与计算科学研究。",
+      "ai_tags": [
+        "物理仿真数据集",
+        "机器学习训练",
+        "时空数据",
+        "benchmark",
+        "The Well"
+      ],
+      "ai_use_when": "当你需要为模型训练或基准测试准备多领域物理仿真数据时，可用它评估流体动力学任务。"
     },
     {
       "id": 141720301,
@@ -1878,7 +2523,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "提供覆盖国家、州省、县、市和邮编的全球地理数据集，支持JSON、SQL、CSV等12种格式。",
+      "ai_tags": [
+        "国家地区数据",
+        "城市邮编",
+        "地理数据",
+        "IANA timezone",
+        "GeoJSON"
+      ],
+      "ai_use_when": "构建地址选择器或区域检索功能，需要按国家、州省、城市和邮编加载数据时可使用。"
     },
     {
       "id": 1432980411,
@@ -1907,7 +2561,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Word Atlas 是一款以插画、英美发音和 FSRS 间隔复习帮助学习雅思词汇的应用。",
+      "ai_tags": [
+        "雅思背词",
+        "英语词汇学习",
+        "FSRS",
+        "WebGL2",
+        "Anki牌组"
+      ],
+      "ai_use_when": "准备学习雅思词汇并希望离线复习时可使用，例如练习其 7,298 个词条。"
     },
     {
       "id": 67186968,
@@ -1930,7 +2593,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "提供以 JSON 分发的中文古典诗词文集数据库，涵盖唐诗、宋诗、宋词及多种典籍。",
+      "ai_tags": [
+        "古诗词数据",
+        "JSON",
+        "唐诗",
+        "宋词",
+        "诗词检索"
+      ],
+      "ai_use_when": "当你要为诗词网站、检索页面或生成项目准备古典诗词数据时，可以使用其 JSON 数据。"
     },
     {
       "id": 307260205,
@@ -1954,7 +2626,16 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "yt-dlp 是支持数千网站的命令行音视频下载器，可选择格式、字幕并进行后处理。",
+      "ai_tags": [
+        "音视频下载",
+        "命令行",
+        "格式选择",
+        "字幕下载",
+        "yt-dlp"
+      ],
+      "ai_use_when": "当你需要从支持的网站下载指定视频格式并保存字幕时，可以使用 yt-dlp。"
     },
     {
       "id": 1403847264,
@@ -1978,7 +2659,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将单张插画制作成可眨眼、说话、转头、呼吸和摇发的动画2D网格虚拟形象，并在本地编辑器中调校。",
+      "ai_tags": [
+        "2D动画",
+        "虚拟形象",
+        "mesh-deformation",
+        "Claude Code",
+        "Codex"
+      ],
+      "ai_use_when": "当你有一张透明背景的正面半身PNG，想生成虚拟主播形象并测试姿态与口型同步时可以使用。"
     },
     {
       "id": 1249070629,
@@ -1994,7 +2684,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将产品开发、调研、写作、视觉视频与发布交付经验整理为可安装复用的26个 Agent 技能工作流。",
+      "ai_tags": [
+        "Codex",
+        "Claude Code",
+        "SKILL.md",
+        "AI工作流",
+        "GitHub发布"
+      ],
+      "ai_use_when": "当你要让 Codex 或 Claude Code 完成项目交付时可用，例如精确提交并核验远端 SHA。"
     },
     {
       "id": 126427031,
@@ -2010,7 +2709,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "VCSL 是一个采用 CC0 许可的通用乐器采样库，提供 WAV 音频和 SFZ 版本，可用于制作轻量级虚拟乐器。",
+      "ai_tags": [
+        "乐器采样",
+        "虚拟乐器制作",
+        "SFZ",
+        "WAV",
+        "CC0"
+      ],
+      "ai_use_when": "当你需要为商业音乐软件制作内置音色，又不想从头录制乐器时，可以用这套采样作为素材。"
     },
     {
       "id": 585146387,
@@ -2045,7 +2753,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供可组合、可访问且可定制的界面组件，帮助开发者构建自己的组件库。",
+      "ai_tags": [
+        "组件库",
+        "可访问性",
+        "React",
+        "tailwindcss",
+        "radix-ui"
+      ],
+      "ai_use_when": "需要在 React 项目中搭建并按源码定制界面组件库时可使用，例如调整组件的默认样式。"
     },
     {
       "id": 1104332987,
@@ -2072,7 +2789,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "MiroFish通过多智能体构建可交互的数字世界，模拟群体演化并生成未来预测报告。",
+      "ai_tags": [
+        "舆情预测",
+        "多智能体模拟",
+        "GraphRAG",
+        "OASIS"
+      ],
+      "ai_use_when": "当你想根据舆情报告推演公众反应时，可用它模拟武汉大学舆情事件并生成预测。"
     },
     {
       "id": 1204004374,
@@ -2094,7 +2819,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于挖掘专利点、编写交底书和申请文件，并支持专利解读、检索、地图分析与审查答复辅助。",
+      "ai_tags": [
+        "专利交底",
+        "专利检索",
+        "审查答复",
+        "Obsidian",
+        "claim chart"
+      ],
+      "ai_use_when": "当你有设计文档或产品图，需要梳理可申请方案并形成可迭代的专利交底书时可以使用。"
     },
     {
       "id": 1289817225,
@@ -2123,7 +2857,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "为 Cursor、Claude Code、Kiro 和 Codex 提供 94 项 Blender 专项技能，通过 MCP 支持从场景粗模搭建到引擎导出的制作流程。",
+      "ai_tags": [
+        "Blender",
+        "MCP",
+        "三维建模",
+        "场景粗模",
+        "引擎导出"
+      ],
+      "ai_use_when": "当你想用 Cursor 协助在 Blender 中搭建场景粗模，并将制作完成的场景导出到引擎时，可以使用它。"
     },
     {
       "id": 1124219907,
@@ -2149,7 +2892,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "DeepTutor 是面向长期个性化学习的 AI 导师平台，结合多智能体、知识库检索与学习记录提供辅导。",
+      "ai_tags": [
+        "个性化学习",
+        "AI导师",
+        "multi-agent",
+        "RAG",
+        "深度研究"
+      ],
+      "ai_use_when": "当你想基于文档或视频建立知识库并进行持续问答、阅读和练习时，可以使用 DeepTutor。"
     },
     {
       "id": 1436883149,
@@ -2165,7 +2917,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于视频音效选材的 Claude Code Skill，可搜索、筛选并下载适合画面的真实音效。",
+      "ai_tags": [
+        "视频音效选材",
+        "音效搜索",
+        "Claude Code Skill",
+        "Freesound"
+      ],
+      "ai_use_when": "需要为转场、按钮点击或碰撞等画面挑选音效时，可用它按评分、时长和许可证筛选下载。"
     },
     {
       "id": 1439372976,
@@ -2190,7 +2950,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "提供244个以代码实现的像素风特效与动画，可用于浏览器游戏或导出Sprite Sheets供其他引擎导入。",
+      "ai_tags": [
+        "像素特效",
+        "游戏动画",
+        "Sprite Sheets",
+        "Canvas",
+        "Claude Code"
+      ],
+      "ai_use_when": "当你要为Canvas、Phaser或Godot游戏加入攻击、火焰、UI等特效，或批量导出精灵表时可用。"
     },
     {
       "id": 765083837,
@@ -2223,7 +2992,16 @@
       "active": true,
       "suggested_categories": [
         "知识与效率"
-      ]
+      ],
+      "ai_summary": "MinerU 将 PDF、Office、图片等复杂文档解析为 Markdown、JSON 等结构化结果，支持 OCR、表格、公式、检索与引用定位。",
+      "ai_tags": [
+        "文档解析",
+        "OCR",
+        "PDF",
+        "layout analysis",
+        "Python SDK"
+      ],
+      "ai_use_when": "需要把扫描 PDF 或跨页表格转换为可供智能体读取、检索并稳定引用的内容时使用。"
     },
     {
       "id": 1141704318,
@@ -2252,7 +3030,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "收集并按类别整理5300多个OpenClaw社区技能，帮助发现和安装可扩展本地AI助手能力。",
+      "ai_tags": [
+        "技能发现",
+        "工作流自动化",
+        "OpenClaw",
+        "ClawHub"
+      ],
+      "ai_use_when": "需要让OpenClaw连接外部服务或自动化特定流程时，可按类别查找合适技能。"
     },
     {
       "id": 1181176553,
@@ -2268,7 +3054,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "面向网页的生成式着色器与视觉特效集合，可直接嵌入 Canvas 动画，无需依赖或构建步骤。",
+      "ai_tags": [
+        "网页动画",
+        "Canvas",
+        "shaders",
+        "视觉特效"
+      ],
+      "ai_use_when": "当你想为网页加入无需构建的 Canvas 生成式动画时，可使用其中的着色器效果。"
     },
     {
       "id": 589831718,
@@ -2292,7 +3086,16 @@
       "suggested_categories": [
         "本地大模型",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "ComfyUI 是一个以可视化节点图搭建工作流的 AI 内容生成与编辑引擎，支持在本地运行图像、视频、音频和三维模型。",
+      "ai_tags": [
+        "AI 图像生成",
+        "节点工作流",
+        "本地推理",
+        "Stable Diffusion",
+        "Flux.1"
+      ],
+      "ai_use_when": "想复现一张由 ComfyUI 生成的图片时，可以把图片拖入画布，恢复原始工作流和随机种子。"
     },
     {
       "id": 1000362065,
@@ -2317,7 +3120,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "汇集可用于 GitHub Copilot 的自定义 agents、instructions、skills、hooks、workflows 和 plugins。",
+      "ai_tags": [
+        "GitHub Copilot定制",
+        "编码规范",
+        "custom agents",
+        "MCP servers",
+        "Copilot CLI"
+      ],
+      "ai_use_when": "当你想在 Copilot CLI 或 VS Code 中按工作流安装插件、复用规范或 MCP agents 时可查阅。"
     },
     {
       "id": 1206425593,
@@ -2333,7 +3145,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 AI 编程代理提供图像、视频生成及完整视觉品牌系统的 Markdown 技能。",
+      "ai_tags": [
+        "图像生成",
+        "视频生成",
+        "视觉品牌系统",
+        "Marketing Studio",
+        "Virality Predictor"
+      ],
+      "ai_use_when": "当你使用 Claude Code、Cursor 或 Codex，需要生成视觉内容并评估视频传播性时可用。"
     },
     {
       "id": 280898258,
@@ -2357,7 +3178,16 @@
       "active": true,
       "suggested_categories": [
         "知识与效率"
-      ]
+      ],
+      "ai_summary": "整理按类别归档的 Markdown 徽章，用于装饰开发者主页、个人资料和项目页面。",
+      "ai_tags": [
+        "Markdown 徽章",
+        "GitHub Profile README",
+        "developer branding",
+        "CI",
+        "DevOps"
+      ],
+      "ai_use_when": "当你为 GitHub Profile README 或项目 README 添加 CI、语言等状态徽章时可以使用。"
     },
     {
       "id": 1053118194,
@@ -2387,7 +3217,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "这是一本讲解 AI Agent 设计原理与工程实践的电子书，提供正文和 109 个配套实验，涵盖上下文工程、工具调用、评估和多 Agent 协作。",
+      "ai_tags": [
+        "AI Agent 教程",
+        "上下文工程",
+        "MCP",
+        "RAG",
+        "Agent 评估"
+      ],
+      "ai_use_when": "当你想为 AI Agent 接入外部知识库时，可以阅读第三章并运行配套的 RAG 实验。"
     },
     {
       "id": 1278186849,
@@ -2403,7 +3242,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "GGD Workflow 为个人和小团队提供 Claude Code 游戏开发流程，通过状态机和 Hook 门禁防止跳步，由分工明确的 Agent 推进需求确认、架构设计和编码。",
+      "ai_tags": [
+        "游戏开发工作流",
+        "跨会话接续",
+        "Claude Code",
+        "Hook 门禁",
+        "Coding Dispatcher"
+      ],
+      "ai_use_when": "当游戏功能的开发需要分多次对话完成时，可在新会话中读取 STATE.md，接着上次的进度继续开发。"
     },
     {
       "id": 598667202,
@@ -2429,7 +3277,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "Lightpanda 是用 Zig 从零构建的轻量无头浏览器，面向 AI 代理和自动化任务。",
+      "ai_tags": [
+        "无头浏览器",
+        "浏览器自动化",
+        "CDP",
+        "Playwright",
+        "Zig"
+      ],
+      "ai_use_when": "需要批量请求真实网页并降低 Chromium 内存与执行开销时，可用它运行自动化脚本。"
     },
     {
       "id": 982517950,
@@ -2444,7 +3301,7 @@
         "windows",
         "windows-automation"
       ],
-      "pushed_at": "2026-11-23T16:36:27Z",
+      "pushed_at": "2026-11-24T02:31:09Z",
       "archived": false,
       "url": "https://github.com/CursorTouch/Windows-MCP",
       "starred_at": "2026-10-29T04:58:01Z",
@@ -2452,7 +3309,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Windows-MCP 为 AI 代理提供 Windows 文件导航、应用控制和界面交互的 MCP 服务器。",
+      "ai_tags": [
+        "Windows自动化",
+        "MCP",
+        "UI自动化",
+        "Claude Desktop"
+      ],
+      "ai_use_when": "当你想让 Claude Desktop 等 AI 代理操作 Windows 应用并进行 UI 测试时可用。"
     },
     {
       "id": 1148788086,
@@ -2468,7 +3333,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Codex 等编码代理提供可组合的工程技能，覆盖需求澄清、文档协作、TDD 与调试。",
+      "ai_tags": [
+        "需求澄清",
+        "TDD",
+        "grill-with-docs",
+        "diagnosing-bugs",
+        "Claude Code"
+      ],
+      "ai_use_when": "当编码代理误解需求或产出不可运行代码时，可用 grill-with-docs、tdd 和 diagnosing-bugs 建立反馈流程。"
     },
     {
       "id": 1134543109,
@@ -2484,7 +3358,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "这是一个用于查找、安装和管理 Claude Code、Codex、Cursor 等编码代理技能的命令行程序。",
+      "ai_tags": [
+        "代理技能管理",
+        "技能安装",
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "ai_use_when": "当你接手一个已有 skills-lock.json 的项目，需要恢复其中记录的代理技能版本时，可以用它按锁文件安装。"
     },
     {
       "id": 1153093670,
@@ -2509,7 +3392,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "汇集社区真实案例，展示如何用 OpenClaw 自动化信息摘要、内容生产、项目协作与日常事务。",
+      "ai_tags": [
+        "OpenClaw",
+        "用例参考",
+        "信息摘要",
+        "多智能体"
+      ],
+      "ai_use_when": "当你想为 OpenClaw 寻找落地用法时，可参考每日 Reddit、YouTube 摘要或多渠道个人助理场景。"
     },
     {
       "id": 1061953414,
@@ -2527,7 +3418,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "提供适用于 Claude 的 Agent Skills 示例、规范与模板，用指令、脚本和资源增强其专业任务处理能力。",
+      "ai_tags": [
+        "Agent Skills",
+        "Claude",
+        "智能体工作流",
+        "文档处理",
+        "SKILL.md"
+      ],
+      "ai_use_when": "当你想让 Claude 按可复用流程处理任务时可用，例如安装 document-skills 后提取 PDF 表单字段。"
     },
     {
       "id": 919835586,
@@ -2554,7 +3454,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Hunyuan3D 2.0通过扩散模型生成高分辨率、带纹理的3D资产，包含形状生成与纹理合成阶段。",
+      "ai_tags": [
+        "图片生成3D",
+        "3D资产生成",
+        "Hunyuan3D-DiT",
+        "Hunyuan3D-Paint",
+        "纹理生成"
+      ],
+      "ai_use_when": "需要根据条件图片生成3D网格并为生成或手工制作的网格合成高分辨率纹理时可以使用它。"
     },
     {
       "id": 1100776768,
@@ -2574,7 +3483,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "汇集并维护 Anthropic 官方及部分第三方 Claude Code 插件，供用户查找和使用。",
+      "ai_tags": [
+        "Claude Code插件",
+        "插件目录",
+        "MCP",
+        "skills"
+      ],
+      "ai_use_when": "当你在 Claude Code 中需要查找插件时，例如配置 MCP 或 skills 功能。"
     },
     {
       "id": 1103012935,
@@ -2590,7 +3507,7 @@
         "own-your-data",
         "personal"
       ],
-      "pushed_at": "2026-11-24T02:25:09Z",
+      "pushed_at": "2026-11-24T02:44:33Z",
       "archived": false,
       "url": "https://github.com/openclaw/openclaw",
       "starred_at": "2026-10-29T04:56:42Z",
@@ -2598,7 +3515,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "在自有设备上运行个人 AI 助手，通过 Discord、Slack、Telegram 等聊天平台提供对话服务。",
+      "ai_tags": [
+        "聊天助手",
+        "多平台消息",
+        "自托管",
+        "Gateway",
+        "Claude"
+      ],
+      "ai_use_when": "当你想把 Claude 或本地模型接入 Telegram、Discord 等日常聊天渠道时可以使用。"
     },
     {
       "id": 937253475,
@@ -2606,7 +3532,7 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:24:38Z",
+      "pushed_at": "2026-11-24T02:31:01Z",
       "archived": false,
       "url": "https://github.com/anthropics/claude-code",
       "starred_at": "2026-10-29T04:56:41Z",
@@ -2614,7 +3540,15 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "Claude Code 是驻留终端的智能编程代理，可理解代码库、执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "ai_tags": [
+        "终端编程",
+        "代码库理解",
+        "Git 工作流",
+        "Claude Code"
+      ],
+      "ai_use_when": "当你在项目目录中需要用自然语言执行日常编码任务或解释复杂代码时，可以运行 claude。"
     },
     {
       "id": 1127982345,
@@ -2630,7 +3564,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "为 Claude Code 提供应用界面设计指导，将间距、颜色和层次等决策保存到 .interface-design/system.md，供后续会话复用。",
+      "ai_tags": [
+        "Claude Code",
+        "界面设计",
+        "设计系统",
+        "组件一致性",
+        ".interface-design/system.md"
+      ],
+      "ai_use_when": "当你分多次会话开发仪表盘，希望新增页面沿用已有按钮高度和卡片内边距时，可以使用它。"
     },
     {
       "id": 1290897156,
@@ -2646,7 +3589,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "本地桌面应用通过实时语音识别、词库匹配和多后端AI分析训练口语表达精准度。",
+      "ai_tags": [
+        "口语训练",
+        "实时语音识别",
+        "Sherpa-ONNX",
+        "填充词检测",
+        "Ollama"
+      ],
+      "ai_use_when": "当你想练习演讲并识别填充词、笼统词等表达问题时，可用它生成分析报告。"
     },
     {
       "id": 1183325896,
@@ -2669,7 +3621,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为设计师和工程师提供界面与动画设计决策参考，帮助更快做出更好的 UI 选择。",
+      "ai_tags": [
+        "界面设计",
+        "动画决策",
+        "agent-skills",
+        "Claude Code",
+        "Cursor"
+      ],
+      "ai_use_when": "当你制作 UI 时难以判断动画是否合适，可参考其中基于 Vercel 和 Linear 经验整理的思路。"
     },
     {
       "id": 1322012299,
@@ -2685,7 +3646,15 @@
       "active": true,
       "suggested_categories": [
         "知识与效率"
-      ]
+      ],
+      "ai_summary": "用 Rust 将 Word、PowerPoint、Excel、PDF 等文档转换为整洁的 GitHub-Flavored Markdown。",
+      "ai_tags": [
+        "文档转Markdown",
+        "PDF解析",
+        "Rust",
+        "WebAssembly"
+      ],
+      "ai_use_when": "当你要在 Node.js、Python 或浏览器中把办公文档统一转换为适合大语言模型处理的 Markdown 时可用。"
     },
     {
       "id": 1097346685,
@@ -2708,7 +3677,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Impeccable 为编码代理提供界面设计指令、UX评审、技术审计和AI设计瑕疵检测能力。",
+      "ai_tags": [
+        "界面设计优化",
+        "coding agent",
+        "UX评审",
+        "accessibility",
+        "slop检测"
+      ],
+      "ai_use_when": "当你要迭代现有页面或组件并检查可用性、无障碍和响应式问题时，可运行critique或audit。"
     },
     {
       "id": 287706896,
@@ -2733,7 +3711,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "PuerTS 为 Unity、Unreal 和 .NET 提供脚本运行时及 C#／C++ 互操作，支持 JavaScript／TypeScript，并在 Unity 中支持 Lua 和 Python。",
+      "ai_tags": [
+        "游戏脚本",
+        "类型声明生成",
+        "TypeScript",
+        "Unity",
+        "Unreal"
+      ],
+      "ai_use_when": "当你想用 TypeScript 编写 Unity 游戏逻辑，并在调用 C# 接口时获得静态类型检查，可以用它生成类型声明。"
     },
     {
       "id": 100140696,
@@ -2749,7 +3736,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "CDLOD提供基于GPU高度图的四叉树地形渲染与连续LOD过渡源码及论文资料。",
+      "ai_tags": [
+        "地形渲染",
+        "高度图",
+        "CDLOD",
+        "Quadtree",
+        "Level of Detail"
+      ],
+      "ai_use_when": "需要在支持Shader Model 3.0的DirectX 9程序中实现平滑地形细节切换时可参考。"
     },
     {
       "id": 1186022884,
@@ -2765,7 +3761,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在 Unity 中演示 AI Agent 通过截屏观察和工具调用自主探索 3D 迷宫。",
+      "ai_tags": [
+        "AI迷宫探索",
+        "Unity",
+        "PuerTS",
+        "MCP",
+        "TypeScript"
+      ],
+      "ai_use_when": "当你要验证 Agent 在随机生成的 Unity 迷宫中规划路径并移动到终点时可使用。"
     },
     {
       "id": 464713272,
@@ -2781,7 +3786,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "YooAsset 是 Unity3D 资源管理系统，用于资源构建、分包、下载、加载与版本更新。",
+      "ai_tags": [
+        "Unity3D",
+        "资源管理",
+        "分包构建",
+        "SBP",
+        "WebGL"
+      ],
+      "ai_use_when": "当游戏需要零资源安装包并在游玩中下载资源时，可用它实现边玩边下载。"
     },
     {
       "id": 17253131,
@@ -2809,7 +3823,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "RenderDoc 是面向自有程序的帧捕获图形调试器，支持 Vulkan、D3D11、D3D12、OpenGL 和 OpenGL ES。",
+      "ai_tags": [
+        "图形调试",
+        "帧捕获",
+        "Vulkan",
+        "D3D12",
+        "OpenGL"
+      ],
+      "ai_use_when": "当你需要定位自有 Vulkan 或 Direct3D 程序的渲染问题时，可用它捕获并调试图形帧。"
     },
     {
       "id": 1268895491,
@@ -2826,7 +3849,15 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "为 Codex 和 Claude Code 提供构建可游玩的 Three.js 浏览器游戏的多专业代理技能包。",
+      "ai_tags": [
+        "Three.js游戏开发",
+        "Codex",
+        "Claude Code",
+        "Playwright"
+      ],
+      "ai_use_when": "当你想让代理从玩法、画面到测试完整制作浏览器游戏，并自动协调各项技能时可用。"
     },
     {
       "id": 1278883735,
@@ -2864,7 +3895,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "为AI编码代理提供覆盖12种游戏引擎的79项技能，并按引擎和开发任务自动路由加载。",
+      "ai_tags": [
+        "游戏开发",
+        "AI coding agent",
+        "Agent Skills",
+        "Godot",
+        "Unity"
+      ],
+      "ai_use_when": "当你用Godot制作游戏并希望代理先加载匹配的引擎与任务技能再写代码时可使用。"
     },
     {
       "id": 1103643573,
@@ -2880,7 +3920,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Codex 汇集可发现、安装和分发的 Agent Skills，帮助代理按重复任务复用指令、脚本与资源。",
+      "ai_tags": [
+        "Codex",
+        "Agent Skills",
+        "技能安装",
+        "重复任务自动化"
+      ],
+      "ai_use_when": "当你要让 Codex 按统一流程处理重复任务时，可安装 curated 或 experimental skill 并重启加载。"
     },
     {
       "id": 1172963839,
@@ -2896,7 +3944,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "收集并展示 Codex 插件示例及其 manifest、技能、MCP 等配套结构，供插件开发参考。",
+      "ai_tags": [
+        "插件开发",
+        "Codex",
+        "plugin.json",
+        "MCP",
+        "Expo"
+      ],
+      "ai_use_when": "当你要为 Codex 设计带技能、命令或 MCP 的插件时，可参考 Figma、Notion 或 Expo 示例。"
     },
     {
       "id": 1080070047,
@@ -2918,7 +3975,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Claude Code 提供覆盖代码梳理、规格管理、票据执行与评审的全栈开发工作流插件。",
+      "ai_tags": [
+        "Claude Code",
+        "需求规格",
+        "测试驱动开发",
+        "Jira",
+        "GitHub Issues"
+      ],
+      "ai_use_when": "需要把 Jira 或 GitHub Issues 票据整理成规格并先写失败测试实现时可用。"
     },
     {
       "id": 1140411856,
@@ -2934,7 +4000,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "提供由文档生成的 Rivet AI 集成技能文件及嵌入示例。",
+      "ai_tags": [
+        "Rivet AI",
+        "技能文件",
+        "AI 集成",
+        "sandbox-agent"
+      ],
+      "ai_use_when": "需要为 Rivet AI 集成接入生成的技能定义时可使用，例如配置 sandbox-agent。"
     },
     {
       "id": 942657306,
@@ -2950,7 +4024,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "基于ET8.1和Unity的帧同步战斗系统，包含技能、AI、放置、不一致检测及自动打包流程。",
+      "ai_tags": [
+        "帧同步战斗",
+        "Unity",
+        "ET8.1",
+        "HybridCLR",
+        "YooAsset"
+      ],
+      "ai_use_when": "需要在Unity中搭建含PVE战斗、技能配置、AI和放置玩法的帧同步项目时可用。"
     },
     {
       "id": 6720403,
@@ -2986,7 +4069,15 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供超过3400个热门品牌的SVG图标，适合制作品牌标识相关的设计素材。",
+      "ai_tags": [
+        "品牌图标",
+        "SVG",
+        "Logo",
+        "品牌素材"
+      ],
+      "ai_use_when": "制作网站或设计稿需要统一使用各品牌Logo的SVG素材时可以使用。"
     },
     {
       "id": 1104510027,
@@ -3002,7 +4093,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "TRELLIS.2 用于从图像生成高保真三维资产，支持复杂拓扑与完整PBR材质。",
+      "ai_tags": [
+        "图像转3D",
+        "三维生成",
+        "O-Voxel",
+        "PBR材质"
+      ],
+      "ai_use_when": "当你要从图片重建含开放表面、非流形结构和透明材质的三维模型时可用。"
     },
     {
       "id": 278335273,
@@ -3024,7 +4123,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 GitHub README 动态生成可自定义的账号统计、常用语言、仓库与 Gist 置顶以及 WakaTime 统计卡片。",
+      "ai_tags": [
+        "GitHub 个人主页",
+        "README 统计卡片",
+        "语言占比",
+        "WakaTime",
+        "GitHub Actions"
+      ],
+      "ai_use_when": "需要在 GitHub 个人主页展示指定年份的提交数时，可用它生成对应的统计卡片。"
     },
     {
       "id": 1368409439,
@@ -3040,7 +4148,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "UniMate用统一模型根据文本生成动作并驱动多种拓扑的骨骼与可绑定角色。",
+      "ai_tags": [
+        "文本生成动作",
+        "骨骼动画",
+        "UniML3D",
+        "glTF",
+        "FBX"
+      ],
+      "ai_use_when": "当你要把自有GLB、glTF或FBX角色接入模型并生成动画时可用。"
     },
     {
       "id": 1144520675,
@@ -3056,7 +4173,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Codex、VS Code Chat 等多种编程代理接入不同模型与 API 提供统一路由。",
+      "ai_tags": [
+        "AI 编程代理",
+        "Claude Code",
+        "Codex",
+        "模型路由",
+        "OpenAI Responses"
+      ],
+      "ai_use_when": "当你想在终端、IDE、手机或浏览器中切换模型并应对供应商故障时可使用它。"
     },
     {
       "id": 1200597263,
@@ -3095,7 +4221,16 @@
         "AI与智能体",
         "开发工具",
         "知识与效率"
-      ]
+      ],
+      "ai_summary": "Graphify 用 tree-sitter 在本地解析代码，并将代码、文档和媒体构建成可查询的知识图谱，用于追踪依赖和理解组件关系。",
+      "ai_tags": [
+        "代码依赖分析",
+        "跨文件调用追踪",
+        "代码知识图谱",
+        "tree-sitter",
+        "Leiden"
+      ],
+      "ai_use_when": "当你准备修改一个共享组件时，可以先查清哪些模块调用它，评估改动可能影响的范围。"
     },
     {
       "id": 1410124849,
@@ -3116,7 +4251,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Anatomy 是一项代理技能，将技术概念转化为可交互的等距机械图解，以 SVG 为主，可加入 WebGL 和 3D 效果。",
+      "ai_tags": [
+        "技术概念可视化",
+        "交互式等距插图",
+        "SVG",
+        "WebGL",
+        "Claude"
+      ],
+      "ai_use_when": "当你想解释缓存键如何在输入不变时跳过重复工作，可以用弹子锁演示只有所有弹子对齐时锁芯才会转动。"
     },
     {
       "id": 1396526702,
@@ -3153,7 +4297,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Filee 是一款离线文件转换器，按住快捷键拖放文件，就能在光标旁选择目标格式，转换文档、图片、音视频等文件。",
+      "ai_tags": [
+        "离线文件转换",
+        "拖放转换",
+        "Word 转 PDF",
+        "HWP/HWPX",
+        "Avalonia"
+      ],
+      "ai_use_when": "电脑没装 Office，又需要把 DOCX 文档转成 PDF 时，可以用 Filee 在本地转换，并把结果保存到原文件所在的文件夹。"
     },
     {
       "id": 1425658028,
@@ -3175,7 +4328,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "为像素艺术精灵、精灵表和动画生成保留分辨率与透明度的法线贴图。",
+      "ai_tags": [
+        "法线贴图",
+        "像素艺术",
+        "sprite sheet",
+        "normal mapping",
+        "Rust"
+      ],
+      "ai_use_when": "制作带动态光照的2D或2.5D游戏时，可用它为精灵动画生成匹配的法线贴图。"
     },
     {
       "id": 872119017,
@@ -3214,7 +4376,16 @@
         "AI与智能体",
         "界面与网页",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "Scrapling 是一个 Python 网页采集框架，支持抓取静态和 JavaScript 渲染的页面、提取数据、并发爬取和导出结果。",
+      "ai_tags": [
+        "网页采集",
+        "并发爬取",
+        "Python",
+        "XPath",
+        "MCP"
+      ],
+      "ai_use_when": "当你需要按站点地图批量采集网页、用 XPath 提取指定字段并导出为 CSV 时，可以使用它。"
     },
     {
       "id": 1388401892,
@@ -3237,7 +4408,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "DockTouchBar 将 macOS Dock 放到 Touch Bar，支持切换、最小化、退出应用并显示 AI agent 状态。",
+      "ai_tags": [
+        "Touch Bar",
+        "应用切换",
+        "窗口最小化",
+        "Swift",
+        "AppKit"
+      ],
+      "ai_use_when": "需要在 Touch Bar 上管理应用或观察 Claude Code、Codex 等 agent 工作状态时可用。"
     },
     {
       "id": 1165277268,
@@ -3272,7 +4452,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "为 AI Agent 提供跨平台互联网搜索、网页阅读及视频字幕转写能力。",
+      "ai_tags": [
+        "AI联网",
+        "网页搜索",
+        "YouTube字幕",
+        "bili-cli",
+        "Jina Reader"
+      ],
+      "ai_use_when": "当 Agent 需要读取小红书、X、GitHub 或 YouTube 内容时可使用。"
     },
     {
       "id": 909213664,
@@ -3294,7 +4483,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "TradingAgents 是一个金融交易研究框架，借助多个 LLM 智能体协同分析基本面、市场情绪、新闻和技术指标，形成经风险评估的交易决策。",
+      "ai_tags": [
+        "交易回测",
+        "多智能体",
+        "基本面分析",
+        "LLM",
+        "SEC EDGAR"
+      ],
+      "ai_use_when": "当你想用各分析日期当时已公开的数据，对一组股票在多个历史日期的交易决策进行回测时，可以使用它。"
     },
     {
       "id": 1206390571,
@@ -3332,7 +4530,16 @@
         "本地大模型",
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "本地运行的 AI 语音工作台，支持语音克隆、语音设计、视频配音、听写转写和有声内容批处理。",
+      "ai_tags": [
+        "视频配音",
+        "语音克隆",
+        "语音转写",
+        "OmniVoice",
+        "MCP"
+      ],
+      "ai_use_when": "需要无账号依托本地模型完成视频翻译配音或批量制作有声书时可用它。"
     },
     {
       "id": 900093817,
@@ -3348,7 +4555,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在 PyTorch 中实现连续与离散 Flow Matching，并提供文本和图像示例。",
+      "ai_tags": [
+        "流匹配",
+        "PyTorch",
+        "Flow Matching",
+        "离散流匹配"
+      ],
+      "ai_use_when": "当你需要参考文本或图像模态的连续、离散 Flow Matching 实现时，可以使用它。"
     },
     {
       "id": 1226205410,
@@ -3375,7 +4590,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "基于倪海厦《天纪》体系的紫微斗数排盘引擎，提供排盘算法、四化系统、格局知识库和古籍数据。",
+      "ai_tags": [
+        "紫微斗数排盘",
+        "四化系统",
+        "zi-wei-dou-shu",
+        "格局知识库",
+        "TypeScript"
+      ],
+      "ai_use_when": "需要按出生日期生成命盘并研究四化或格局时，可用其算法和知识库进行分析。"
     },
     {
       "id": 1351289337,
@@ -3410,7 +4634,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将 Scenario 的图像、视频、3D、PBR 材质、音频和 360 环境生成功能集成到 Blender 中，并支持场景构图与本地 MCP 服务。",
+      "ai_tags": [
+        "Blender扩展",
+        "生成3D资产",
+        "PBR材质",
+        "MCP server",
+        "Scenario"
+      ],
+      "ai_use_when": "需要在 Blender 中依据场景截图、选定网格或文字描述生成素材并搭建灰盒布局时使用。"
     },
     {
       "id": 48576134,
@@ -3435,7 +4668,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "猫抓是用于筛选并列出当前网页资源的浏览器扩展，支持本地处理。",
+      "ai_tags": [
+        "资源嗅探",
+        "视频下载",
+        "m3u8",
+        "Chrome Extension",
+        "Firefox Extension"
+      ],
+      "ai_use_when": "当你浏览网页并需要查看页面资源、下载已获授权的视频流时，可以使用猫抓。"
     },
     {
       "id": 1141782198,
@@ -3461,7 +4703,16 @@
       "suggested_categories": [
         "本地大模型",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "本地运行的 AI 语音工作室，可克隆声音、生成语音并向任意应用听写。",
+      "ai_tags": [
+        "语音克隆",
+        "语音生成",
+        "听写",
+        "Qwen3-TTS",
+        "Whisper"
+      ],
+      "ai_use_when": "当你想用克隆声音生成多语言音频，或用全局快捷键向任意文本框听写时可用。"
     },
     {
       "id": 896924279,
@@ -3489,7 +4740,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "AIRI 是可自托管的 AI 虚拟角色项目，支持实时语音聊天、游戏互动及多平台运行。",
+      "ai_tags": [
+        "AI虚拟陪伴",
+        "实时语音聊天",
+        "Minecraft",
+        "Factorio",
+        "Live2D"
+      ],
+      "ai_use_when": "当你想自托管能聊天并参与 Minecraft 或 Factorio 的虚拟角色时可用。"
     },
     {
       "id": 1305267585,
@@ -3505,7 +4765,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 AI 编码助手提供网站设计审查规则，找出套路化设计、缺失的界面状态和粗糙的代码，并在不重写项目的情况下就地修复。",
+      "ai_tags": [
+        "网站设计审查",
+        "界面状态补全",
+        "Markdown",
+        "Claude Code",
+        "Cursor"
+      ],
+      "ai_use_when": "当现有网站的界面缺少必要状态，而你想让 Cursor 在原有代码上补齐时，可以使用它。"
     },
     {
       "id": 1315788496,
@@ -3521,7 +4790,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Cursor、Codex 等 AI 编程工具提供可安装的设计技能，涵盖落地页构建与 Figma 设计。",
+      "ai_tags": [
+        "落地页设计",
+        "Figma",
+        "Claude Code",
+        "Cursor",
+        "markdown rules"
+      ],
+      "ai_use_when": "需要从零制作含转化文案和视觉系统的落地页，或在 Figma 中建立组件与设计变量时可使用。"
     },
     {
       "id": 1341759590,
@@ -3543,7 +4821,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "ThreeUI Community 是一个提供 React 交互式 UI 组件、变体、控制项及源码的 Three.js 组件库。",
+      "ai_tags": [
+        "React组件",
+        "UI组件",
+        "Three.js",
+        "WebGL",
+        "shaders"
+      ],
+      "ai_use_when": "当你要在 React 页面加入可调参数的交互式 3D 界面并查看组件源码时可以使用它。"
     },
     {
       "id": 1224172037,
@@ -3580,7 +4867,16 @@
         "AI与智能体",
         "界面与网页",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "DBX 是一个约 25 MB 的跨平台数据库与消息中间件管理客户端，支持 100+ 数据源、SQL 编辑、AI 助手和 MCP。",
+      "ai_tags": [
+        "数据库管理",
+        "SQL 查询",
+        "MySQL",
+        "Kafka",
+        "MCP"
+      ],
+      "ai_use_when": "当你需要在同一界面连接 MySQL、Redis 或 Kafka 并借助 AI 编写 SQL 时，可用 DBX。"
     },
     {
       "id": 918949731,
@@ -3617,7 +4913,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "面向C#和.NET 10的高性能Archetype ECS，用于零分配地更新大量实体。",
+      "ai_tags": [
+        "实体组件系统",
+        "Archetype ECS",
+        "C#",
+        "SIMD",
+        "Source Generator"
+      ],
+      "ai_use_when": "需要构建每帧或每tick处理大量实体的游戏服务器、Godot 4游戏或仿真时可用。"
     },
     {
       "id": 1382865521,
@@ -3652,7 +4957,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "nanoMuse 是可部署在手机、桌面和浏览器上的跨设备个人代理，能执行操作、持续工作、记忆用户并在不可撤销操作前确认。",
+      "ai_tags": [
+        "跨设备个人助理",
+        "GUI agent",
+        "computer-use",
+        "OpenMinis",
+        "自托管 relay"
+      ],
+      "ai_use_when": "当你想让同一个代理跨 Android、iPhone、电脑和浏览器执行任务，并通过自托管 relay 保留数据时可用。"
     },
     {
       "id": 1251263546,
@@ -3684,7 +4998,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "面向 Claude Code、Codex 等 Agent，将文章、截图或视频生成小红书图文、Live Photo 和公众号封面对。",
+      "ai_tags": [
+        "小红书图文",
+        "公众号封面",
+        "Live Photo",
+        "Playwright",
+        "Swiss Design"
+      ],
+      "ai_use_when": "需要把长文章、产品测评或用户视频整理成可渲染发布的社交卡片时可用。"
     },
     {
       "id": 1435695423,
@@ -3709,7 +5032,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "提供姿势、服装、人像中文参考图库，支持角色合成工作台和 ComfyUI 自定义节点。",
+      "ai_tags": [
+        "姿势参考图",
+        "角色合成",
+        "ComfyUI",
+        "ControlNet Depth",
+        "中文图库"
+      ],
+      "ai_use_when": "需要组合人像、服装与姿势参考图，并在 ComfyUI 中生成角色图时可用。"
     },
     {
       "id": 1118209243,
@@ -3731,7 +5063,15 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "从网页、文件、YouTube、播客及其他音视频中提取正文并生成摘要，支持 Node.js CLI 和浏览器侧栏。",
+      "ai_tags": [
+        "内容摘要",
+        "网页提取",
+        "YouTube",
+        "Node.js CLI"
+      ],
+      "ai_use_when": "当你想快速了解一篇网页或一段 YouTube 内容而不必完整阅读或观看时可以使用它。"
     },
     {
       "id": 1426636618,
@@ -3747,7 +5087,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Momo Texture Forge 是一款在浏览器中通过节点、公式和生成器制作纹理、图形及动态特效并导出的编辑器。",
+      "ai_tags": [
+        "贴图制作",
+        "动态特效",
+        "GLSL",
+        "WebGL2"
+      ],
+      "ai_use_when": "当需要制作火焰、烟雾或闪电等动态特效纹理，并导出 GIF、序列帧或法线贴图时可使用。"
     },
     {
       "id": 1411986880,
@@ -3763,7 +5111,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Surface Studio 是 Windows 本地材质与 HDR 环境管理器，可管理 PBR、贴图和 HDR，并连接 Blender 与 SketchUp。",
+      "ai_tags": [
+        "材质管理",
+        "HDR环境",
+        "PBR",
+        "Blender",
+        "SketchUp"
+      ],
+      "ai_use_when": "当你要从本地图库整理材质或 HDR，并拖入 Blender 场景作为材质或渲染环境时可使用。"
     },
     {
       "id": 1428922239,
@@ -3779,7 +5136,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "Jeff FX 是一款 Godot 4.7 插件，内置 129 款像素与三维特效，支持调整参数、预览、放入场景和导出透明精灵图。",
+      "ai_tags": [
+        "Godot 4.7",
+        "像素特效",
+        "三维特效",
+        "精灵图导出",
+        "追踪飞弹"
+      ],
+      "ai_use_when": "当你要为 Godot 游戏制作追踪火球，并想先编辑飞行曲线、预览它命中移动目标的效果时，可以用它。"
     },
     {
       "id": 1316470719,
@@ -3816,7 +5182,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Hypit 让 AI 代理用 SVML 编写和渲染视频工作流，可从现有视频、模板或文字描述起步，并按词对齐字幕、补充镜头和特效。",
+      "ai_tags": [
+        "视频复刻",
+        "批量生成视频",
+        "字幕对齐",
+        "SVML",
+        "Claude Code"
+      ],
+      "ai_use_when": "当你想沿用参考视频的剪辑结构，替换台词和补充镜头并批量导出多个版本时，可以使用 Hypit。"
     },
     {
       "id": 76342242,
@@ -3839,7 +5214,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于创建具有手绘、草图风格外观的 Canvas 和 SVG 图形。",
+      "ai_tags": [
+        "手绘图形",
+        "Canvas",
+        "SVG",
+        "svg-path"
+      ],
+      "ai_use_when": "当你需要在 HTML5 Canvas 或 SVG 中绘制带草图效果的图形时可以使用它。"
     },
     {
       "id": 702796244,
@@ -3863,7 +5246,16 @@
       "active": true,
       "suggested_categories": [
         "本地大模型"
-      ]
+      ],
+      "ai_summary": "Fish Speech 是一个用于将文本转换为语音的 TTS 项目，涉及 VITS、VALLE 等语音合成技术。",
+      "ai_tags": [
+        "文本转语音",
+        "语音合成",
+        "TTS",
+        "VITS",
+        "VALLE"
+      ],
+      "ai_use_when": "当你需要把文字内容合成为语音时，例如使用 TTS 流程生成语音，可以使用它。"
     },
     {
       "id": 1091534692,
@@ -3885,7 +5277,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Pixelle-Video根据主题或固定文案，自动生成配图、语音、背景音乐并合成短视频。",
+      "ai_tags": [
+        "短视频生成",
+        "AI文案",
+        "ComfyUI",
+        "TTS",
+        "视频合成"
+      ],
+      "ai_use_when": "当你想把“为什么我们还没有找到外星文明”等主题快速制作成解说视频时可以使用。"
     },
     {
       "id": 771459754,
@@ -3905,7 +5306,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "水墨风中国传统色颜色库，提供中国传统色彩的配色参考。",
+      "ai_tags": [
+        "中国传统色",
+        "配色参考",
+        "chinese-traditional",
+        "color"
+      ],
+      "ai_use_when": "需要查找或参考中国传统色时，可以用它辅助选择水墨风配色。"
     },
     {
       "id": 204681206,
@@ -3927,7 +5336,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Chinese Color 提供中国传统颜色的在线查询、分类、HEX复制、收藏及配色卡片功能。",
+      "ai_tags": [
+        "中国传统色",
+        "配色查询",
+        "HEX",
+        "React",
+        "PWA"
+      ],
+      "ai_use_when": "需要为网页设计查找中国传统色并复制其HEX值时，可用它浏览并收藏颜色。"
     },
     {
       "id": 1257823581,
@@ -3954,7 +5372,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "提供742种中华传统色的检索、配色、场景测试及主题导出工作空间。",
+      "ai_tags": [
+        "中华传统色",
+        "配色生成",
+        "场景测试",
+        "Theme Forge",
+        "shadcn"
+      ],
+      "ai_use_when": "当你要把一个传统色用于网页界面时，可用 Theme Forge 生成明暗 shadcn 主题与 globals.css。"
     },
     {
       "id": 1239461107,
@@ -3980,7 +5407,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供中国传统色参考样本，并导出 CSS、Tailwind、Figma 和 Procreate 资源。",
+      "ai_tags": [
+        "中国传统色",
+        "配色设计",
+        "CSS variables",
+        "Tailwind",
+        "Figma"
+      ],
+      "ai_use_when": "需要为中文审美项目测试色彩令牌时，可用其 CSS 或 Figma 样本验证配色。"
     },
     {
       "id": 326610757,
@@ -4009,7 +5445,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "RapidOCR 将 PaddleOCR 模型转换为 ONNX，提供多语言、多平台的快速离线文字识别。",
+      "ai_tags": [
+        "文字识别",
+        "离线OCR",
+        "ONNX Runtime",
+        "PaddleOCR"
+      ],
+      "ai_use_when": "需要在 Python、C++、Java 或 C# 应用中离线识别中英文文本时，可以使用它。"
     },
     {
       "id": 1307001698,
@@ -4034,7 +5478,16 @@
       "active": true,
       "suggested_categories": [
         "本地大模型"
-      ]
+      ],
+      "ai_summary": "FreeToken 是面向消费级硬件的边缘原生 MoE 推理引擎，可本地运行超大规模开放权重模型。",
+      "ai_tags": [
+        "本地大模型推理",
+        "MoE",
+        "KV cache",
+        "专家缓存",
+        "OpenAI API"
+      ],
+      "ai_use_when": "当你想在游戏电脑上运行 290B 级 MoE 模型并接入 Codex 等工具调用代理时可使用它。"
     },
     {
       "id": 51210673,
@@ -4057,7 +5510,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "OrgChart 是一个原生 JavaScript 组件，可将本地或远程 JSON 数据渲染为可展开、折叠和编辑的树状组织架构图。",
+      "ai_tags": [
+        "组织架构图",
+        "树状图",
+        "拖拽编辑",
+        "JavaScript",
+        "JSON"
+      ],
+      "ai_use_when": "当你需要通过拖拽调整部门节点的上下级关系，并将修改后的层级保存为 JSON 时，可以使用它。"
     },
     {
       "id": 1209154840,
@@ -4073,7 +5535,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "汇集鸟类贴纸数据、Agent Skill、浏览器与Mac原生应用操作等项目及教程。",
+      "ai_tags": [
+        "鸟类数据",
+        "Agent Skill",
+        "Chrome自动化",
+        "Mac原生应用",
+        "观鸟点"
+      ],
+      "ai_use_when": "当你要查鸟类分布，或让Agent操作Chrome、Mac应用时，可以从这里选择相关项目。"
     },
     {
       "id": 1202425084,
@@ -4099,7 +5570,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "在 Unity 编辑器和运行时提供基于 Roslyn 的交互式 C# REPL，可即时执行代码并访问项目状态。",
+      "ai_tags": [
+        "Unity调试",
+        "C# REPL",
+        "Roslyn",
+        "运行时执行",
+        "HybridCLR"
+      ],
+      "ai_use_when": "需要在 Play Mode 暂停时检查瞬时状态，或将代码远程执行到连接的 Player 时使用。"
     },
     {
       "id": 1385946301,
@@ -4115,7 +5595,16 @@
       "active": true,
       "suggested_categories": [
         "本地大模型"
-      ]
+      ],
+      "ai_summary": "在本地电脑运行 AI，支持聊天、编程、图像输入及本机 OpenAI/Anthropic API。",
+      "ai_tags": [
+        "本地AI",
+        "AI编程",
+        "图像输入",
+        "OpenAI API",
+        "Strata"
+      ],
+      "ai_use_when": "当你想无账号在 Windows 或 Linux 上运行模型并接入编码工具时可用，例如调用本机 OpenAI API。"
     },
     {
       "id": 897148306,
@@ -4137,7 +5626,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "TRELLIS 用文本或图像提示生成高质量三维资产，并可输出 Radiance Fields、3D Gaussians 和 mesh 等格式。",
+      "ai_tags": [
+        "图生3D",
+        "文生3D",
+        "3D Gaussians",
+        "Radiance Fields",
+        "GLB网格"
+      ],
+      "ai_use_when": "当你要把图像或文字提示转成可导出的 GLB 网格或 3D Gaussian 资产时可以使用它。"
     },
     {
       "id": 1309249926,
@@ -4153,7 +5651,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "UniMate 是一个根据文本生成动作、统一驱动多种骨骼拓扑角色的动画模型与训练推理代码。",
+      "ai_tags": [
+        "骨骼动画",
+        "文本生成动作",
+        "多骨骼拓扑",
+        "UniML3D",
+        "GLB"
+      ],
+      "ai_use_when": "当你要让四足、鸟类或昆虫等不同骨骼角色按文字描述生成动作时可以使用它。"
     },
     {
       "id": 1209966933,
@@ -4182,7 +5689,7 @@
         "touhou",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T02:25:20Z",
+      "pushed_at": "2026-11-24T02:44:37Z",
       "archived": false,
       "url": "https://github.com/morluto/rea",
       "starred_at": "2026-10-12T03:44:06Z",
@@ -4192,7 +5699,16 @@
         "AI与智能体",
         "界面与网页",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "REA 通过 MCP 连接多种分析工具，逆向检查二进制、应用与运行时行为并呈现证据。",
+      "ai_tags": [
+        "逆向分析",
+        "二进制分析",
+        "MCP",
+        "Electron",
+        "Ghidra"
+      ],
+      "ai_use_when": "当你想在没有源代码时查明应用功能实现，可用它分析原生程序、Electron 应用或网站。"
     },
     {
       "id": 1197515131,
@@ -4218,7 +5734,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "收录从知名网站提炼的 DESIGN.md 设计规范，供 AI 编程助手生成符合参考网站视觉风格的界面。",
+      "ai_tags": [
+        "DESIGN.md",
+        "设计系统",
+        "设计令牌",
+        "AI 界面生成",
+        "网站风格复刻"
+      ],
+      "ai_use_when": "想做一个具有 Vercel 黑白风格的落地页时，可以将对应的 DESIGN.md 放入项目根目录，作为 AI 编程助手的设计参考。"
     },
     {
       "id": 1196897920,
@@ -4234,7 +5759,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "将单张动漫角色插画分解为带语义、绘制顺序和补全内容的可编辑2.5D图层，并输出PSD。",
+      "ai_tags": [
+        "动漫角色分层",
+        "单图层分解",
+        "2.5D模型",
+        "PSD",
+        "LayerDiff"
+      ],
+      "ai_use_when": "需要把一张动漫插画提取为头发、脸部、眼睛和服装等独立图层并进行后续编辑时可用。"
     },
     {
       "id": 990027363,
@@ -4260,7 +5794,8 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary_attempts": 3
     },
     {
       "id": 1246010662,
@@ -4278,7 +5813,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Lore 是面向代码与大型二进制资产的可扩展版本控制系统，支持集中式服务、分支和按需数据获取。",
+      "ai_tags": [
+        "版本控制",
+        "二进制资产管理",
+        "Merkle trees",
+        "稀疏工作区",
+        "content-addressed storage"
+      ],
+      "ai_use_when": "当团队协作管理游戏项目的代码和大型二进制资源，并希望按需下载工作区时可用 Lore。"
     },
     {
       "id": 1359934054,
@@ -4304,7 +5848,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将一句话或参考图自动生成带分层景深、视点流光的3D全息闪卡网页及可编辑Blender工程。",
+      "ai_tags": [
+        "3D闪卡",
+        "全息材质",
+        "Blender",
+        "Three.js",
+        "多模态生成"
+      ],
+      "ai_use_when": "当你想把角色或插画制成可拖拽旋转的网页闪卡，并保留分层素材与源工程时使用。"
     },
     {
       "id": 1333829507,
@@ -4320,7 +5873,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "UnityPerfAgent 是独立于 Unity Editor 的性能分析工具，可连接 Unity 2022 Development Build 采集并诊断 CPU、内存和渲染等数据。",
+      "ai_tags": [
+        "Unity 性能分析",
+        "Profiler",
+        "真机采集",
+        "ACP",
+        "PD3U"
+      ],
+      "ai_use_when": "需要分析 Unity 2022 Development Build 的帧性能并让 LLM 根据实时数据或 .upac 存档生成诊断建议时使用。"
     },
     {
       "id": 944414751,
@@ -4348,7 +5910,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "通过大语言模型辅助控制 Blender，进行 3D 建模、场景创建与场景操作。",
+      "ai_tags": [
+        "3D建模",
+        "场景创建",
+        "Blender",
+        "LLM",
+        "MCP"
+      ],
+      "ai_use_when": "需要用 Claude 等大语言模型在 Blender 中按提示创建或修改 3D 场景时可使用。"
     },
     {
       "id": 1244889080,
@@ -4364,7 +5935,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个收录小型创意实验的项目合集，包含互动海报、趣味小程序和创意演示。",
+      "ai_tags": [
+        "创意编程",
+        "互动海报",
+        "交互设计",
+        "趣味演示"
+      ],
+      "ai_use_when": "想给海报加入互动元素但还没有具体构思时，可以浏览这里的实验找灵感。"
     },
     {
       "id": 650885489,
@@ -4400,7 +5979,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Fantasy 是面向大型多人在线游戏的零反射高性能 C# 游戏服务器框架。",
+      "ai_tags": [
+        "游戏服务器",
+        "C#",
+        "Native AOT",
+        "ECS",
+        "服务发现"
+      ],
+      "ai_use_when": "需要构建支持跨服通信、服务发现和多协议接入的 MMORPG 后端时可使用它。"
     },
     {
       "id": 1226123343,
@@ -4430,7 +6018,15 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "将技术书籍、文档文件夹或资料集合提炼为可供多种代理按需读取的结构化 Agent Skill。",
+      "ai_tags": [
+        "技术书籍转技能",
+        "文档知识库",
+        "Agent Skills",
+        "MCP"
+      ],
+      "ai_use_when": "当你想让 Claude Code 按章节查询一本 PDF 或内部文档，而不必反复加载全文时使用。"
     },
     {
       "id": 848266037,
@@ -4450,7 +6046,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "TileMapDual 为 Godot 提供支持方形、等距和六边形网格的实时双网格自动地形系统。",
+      "ai_tags": [
+        "Godot",
+        "TileMapLayer",
+        "双网格地形",
+        "自动铺砖",
+        "六边形网格"
+      ],
+      "ai_use_when": "在 Godot 中制作方形、等距或六边形地图并希望用 15 张瓦片实现自动铺砖时可使用。"
     },
     {
       "id": 138290022,
@@ -4476,7 +6081,16 @@
       "suggested_categories": [
         "游戏开发",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "在 Unity 的 uGUI 中通过 CanvasRenderer 渲染 ParticleSystem，使粒子特效可与其他 UI 元素一起排序和遮罩，无需额外的摄像机、渲染纹理或画布。",
+      "ai_tags": [
+        "UI 粒子特效",
+        "粒子遮罩",
+        "uGUI",
+        "ParticleSystem",
+        "CanvasRenderer"
+      ],
+      "ai_use_when": "当你想把现有粒子预制体放进滚动列表，并用 RectMask2D 裁掉超出可视区域的粒子时，可以使用它。"
     },
     {
       "id": 959123498,
@@ -4514,7 +6128,16 @@
         "游戏开发",
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "连接 AI 代理与 Unity Editor，用于读写场景、预制体、资源和 C# 代码，并运行测试与截图。",
+      "ai_tags": [
+        "Unity",
+        "MCP",
+        "AI 游戏开发",
+        "场景编辑",
+        "C# 测试"
+      ],
+      "ai_use_when": "当你想让 Claude Code 等 MCP 客户端自动修改 Unity 场景并执行 EditMode 或 PlayMode 测试时可以使用它。"
     },
     {
       "id": 804285487,
@@ -4530,7 +6153,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于在Unity或其他C#引擎中实现无限、确定性且具上下文的分层程序化生成。",
+      "ai_tags": [
+        "无限世界生成",
+        "区块程序化生成",
+        "LayerProcGen",
+        "Unity",
+        "固定点坐标"
+      ],
+      "ai_use_when": "当需要跨区块进行模糊、点松弛或寻路并保持无缝确定性时可用。"
     },
     {
       "id": 801192326,
@@ -4546,7 +6178,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Fluid Frenzy 是一个用于流体模拟项目管理与文档说明的仓库。",
+      "ai_tags": [
+        "流体模拟",
+        "Fluid Frenzy",
+        "数值模拟",
+        "项目文档"
+      ],
+      "ai_use_when": "当你需要查阅 Fluid Frenzy 的流体模拟说明或反馈项目问题时可以使用它。"
     },
     {
       "id": 175062453,
@@ -4568,7 +6208,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "在Unity中利用计算着色器和浅水方程模拟地形的水力侵蚀与热侵蚀。",
+      "ai_tags": [
+        "地形侵蚀",
+        "水力侵蚀",
+        "热侵蚀",
+        "compute shaders",
+        "shallow water equations"
+      ],
+      "ai_use_when": "当你要在Unity中通过鼠标修改地形和水体并观察侵蚀效果时可以使用它。"
     },
     {
       "id": 674803917,
@@ -4592,7 +6241,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "面向 Unity ECS 的程序化体素地形生成系统，支持 GPU/CPU 生成、网格化与全局或局部破坏编辑。",
+      "ai_tags": [
+        "体素地形",
+        "Unity ECS",
+        "Surface Nets",
+        "Compute Shaders",
+        "GPU渲染"
+      ],
+      "ai_use_when": "需要制作可大范围生成、运行时挖掘破坏并支持碰撞烘焙的三维体素世界时可使用。"
     },
     {
       "id": 734533046,
@@ -4608,7 +6266,8 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary_attempts": 3
     },
     {
       "id": 18348651,
@@ -4643,7 +6302,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "OpenRCT2 是 RollerCoaster Tycoon 2 的开源重实现，用于经营游乐园并支持场景、沙盒和合作多人游戏。",
+      "ai_tags": [
+        "游乐园经营模拟",
+        "RollerCoaster Tycoon 2",
+        "C++",
+        "SDL2",
+        "多人联机"
+      ],
+      "ai_use_when": "当你想在现代平台游玩或多人经营游乐园，并使用场景目标或沙盒模式时可以用它。"
     },
     {
       "id": 1146602066,
@@ -4668,7 +6336,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "AgriSim 是一款 2D 农场模拟游戏，玩家可以在实时昼夜与动态天气中耕种、收获并出售农产品。",
+      "ai_tags": [
+        "农场模拟",
+        "作物种植",
+        "动态天气",
+        "Unity",
+        "URP"
+      ],
+      "ai_use_when": "想体验如何利用天气安排农活时，可以在雨天让雨水替你浇灌作物。"
     },
     {
       "id": 613887470,
@@ -4684,7 +6361,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个用 Unity 制作的星露谷物语风格 2D 农场养成游戏，包含四季种植、背包管理、NPC 日程与对话及多存档系统。",
+      "ai_tags": [
+        "2D农场养成",
+        "作物生长系统",
+        "背包拖拽",
+        "Unity",
+        "Tilemap"
+      ],
+      "ai_use_when": "在 Unity 中开发农场游戏，需要参考如何用分层 Tilemap 分别处理耕地、浇水和地图碰撞时，可以使用这个项目。"
     },
     {
       "id": 688687680,
@@ -4700,7 +6386,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "Harvest Haven 是一款用 Unity Engine 开发的在制农场角色扮演游戏，旨在重现 Stardew Valley 的种植、物品管理和季节变化等核心玩法。",
+      "ai_tags": [
+        "农场模拟",
+        "角色扮演",
+        "昼夜循环",
+        "Unity Engine",
+        "Stardew Valley"
+      ],
+      "ai_use_when": "当你想找一个 Unity 农场游戏项目，参考如何让昼夜变化影响场景光照时，可以看看这个项目。"
     },
     {
       "id": 366663429,
@@ -4720,7 +6415,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "这是一个基于Unity的开放源代码武侠RPG框架，用于制作《金庸群侠传》风格游戏、MOD和二次开发。",
+      "ai_tags": [
+        "武侠RPG",
+        "MOD开发",
+        "Unity",
+        "剧情脚本编辑",
+        "回合制战棋"
+      ],
+      "ai_use_when": "当你想制作带剧情脚本编辑、地图与战斗系统并支持多端打包的武侠游戏时可用它。"
     },
     {
       "id": 144857971,
@@ -4739,7 +6443,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "这是一个用于在 Unity 中渲染毛发的着色器，支持调节毛发密度、粗细、受力和边缘光颜色。",
+      "ai_tags": [
+        "Unity",
+        "ShaderLab",
+        "毛发渲染",
+        "边缘光",
+        "毛发受力"
+      ],
+      "ai_use_when": "在 Unity 中为模型制作绒毛效果，并希望用局部力让某一处的毛发偏转时可以使用。"
     },
     {
       "id": 380702396,
@@ -4759,7 +6472,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "这是一个面向 Unity URP 的毛发着色器示例，提供 Shell、Fin 和 Fur Polygon 三种实现，支持光照、无光照和毛发动画。",
+      "ai_tags": [
+        "毛发渲染",
+        "毛发动画",
+        "Unity URP",
+        "Shell",
+        "Fin"
+      ],
+      "ai_use_when": "当你需要为 Unity URP 中的模型选择毛发渲染方案时，可以用它比较 Shell 和 Fin 的视觉效果。"
     },
     {
       "id": 1151667698,
@@ -4791,7 +6513,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "为 Claude Code、Codex 和 Antigravity 提供引擎选择、项目构思、资源生成及截图视频采集技能，用于构建游戏和互动 3D 内容。",
+      "ai_tags": [
+        "游戏开发",
+        "引擎选择",
+        "Godot",
+        "asset-gen",
+        "headless capture"
+      ],
+      "ai_use_when": "当代理需要用 Godot、Bevy 或 Babylon.js 等引擎制作游戏并生成截图或视频时，可以使用它。"
     },
     {
       "id": 1149257427,
@@ -4809,7 +6540,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": ".NET 团队为 AI 编码代理提供可移植的 .NET/C# 技能、定制代理和 Agentic Workflows。",
+      "ai_tags": [
+        "构建诊断",
+        ".NET",
+        "C#",
+        "MSBuild",
+        "Agent Skills"
+      ],
+      "ai_use_when": "当你需要排查 MSBuild 构建失败时，可使用其中的 dotnet-msbuild 技能。"
     },
     {
       "id": 997737944,
@@ -4846,7 +6586,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "RuView 利用 ESP32 采集 WiFi 信道状态信息，无需摄像头即可检测房间占用、人体活动和呼吸等体征信号。",
+      "ai_tags": [
+        "房间占用检测",
+        "无接触呼吸监测",
+        "WiFi CSI",
+        "ESP32",
+        "Home Assistant"
+      ],
+      "ai_use_when": "想在不装摄像头的情况下，让 Home Assistant 根据房间是否有人来控制照明时，可以用 RuView 提供占用状态。"
     },
     {
       "id": 1162099055,
@@ -4875,7 +6624,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "帮助编码代理从单份简报构建专业企业官网，统一设计系统并通过真实浏览器检查。",
+      "ai_tags": [
+        "企业官网",
+        "落地页",
+        "Agent Skill",
+        "design-system",
+        "browser checker"
+      ],
+      "ai_use_when": "当官网需要真实照片、品牌图标和产品界面，并避免通用落地页风格时可用。"
     },
     {
       "id": 976921297,
@@ -4912,7 +6670,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "汇集ChatGPT、Claude、Gemini等聊天机器人及Claude Code、OpenAI Codex的系统提示词版本记录。",
+      "ai_tags": [
+        "系统提示词",
+        "提示词研究",
+        "Claude Code",
+        "OpenAI Codex",
+        "聊天机器人"
+      ],
+      "ai_use_when": "需要对比不同模型或版本的隐藏规则时，可查阅Claude Code与GPT等系统提示词记录。"
     },
     {
       "id": 1158722119,
@@ -4935,7 +6702,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Agent Skills 为 AI 编程代理提供覆盖需求规格、任务规划、增量开发、测试、审查和上线的工程工作流与质量检查。",
+      "ai_tags": [
+        "AI 编程代理",
+        "任务拆解",
+        "测试驱动开发",
+        "代码审查",
+        "Claude Code"
+      ],
+      "ai_use_when": "当需求规格已确定，想让编程代理在你批准计划后逐项开发、测试和提交，并在失败或遇到高风险步骤时暂停，可以使用它。"
     },
     {
       "id": 1234928623,
@@ -4951,7 +6727,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "Box3D 是面向游戏的 3D 物理引擎，提供碰撞检测、刚体求解、关节、查询和多线程 SIMD 支持。",
+      "ai_tags": [
+        "3D物理引擎",
+        "游戏碰撞检测",
+        "刚体动力学",
+        "C17",
+        "Soft Step"
+      ],
+      "ai_use_when": "需要在 C17 游戏项目中实现角色移动、射线检测或复杂刚体堆叠时可以使用它。"
     },
     {
       "id": 132382908,
@@ -4972,7 +6757,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "NodeGraphProcessor 是基于 Unity UIElements、GraphView 和 C# 的节点图编辑框架，用于构建数据处理及条件、依赖等图。",
+      "ai_tags": [
+        "节点图编辑",
+        "数据处理",
+        "Unity UIElements",
+        "GraphView",
+        "C#"
+      ],
+      "ai_use_when": "例如在 Unity 项目中实现依赖关系图并为节点编写自定义 C# API 时可以使用它。"
     },
     {
       "id": 1170548091,
@@ -5003,7 +6797,16 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "用于在 Claude Code、Codex、Gemini CLI 和 OpenCode 中组织多角色分析、交叉质询并生成保留异议的决策结论。",
+      "ai_tags": [
+        "决策分析",
+        "多智能体",
+        "Claude Code",
+        "Codex",
+        "结构化辩论"
+      ],
+      "ai_use_when": "面对证据不完整且难以逆转的架构或产品选择时，可用它比较不同立场并明确否决条件与下一步行动。"
     },
     {
       "id": 1184892122,
@@ -5030,7 +6833,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个包含 1324 个健身动作的 JSON 数据集，提供动作 GIF、缩略图、目标肌群、所需器械和多语言分步说明。",
+      "ai_tags": [
+        "健身动作库",
+        "训练计划",
+        "肌群筛选",
+        "JSON",
+        "GIF"
+      ],
+      "ai_use_when": "开发家庭健身应用时，可以用它按目标肌群筛选无需器械的动作，为用户编排训练计划。"
     },
     {
       "id": 1032808806,
@@ -5067,7 +6879,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Strix 是面向应用的自主 AI 渗透测试项目，可动态运行代码、验证漏洞 PoC 并生成修复建议。",
+      "ai_tags": [
+        "渗透测试",
+        "漏洞验证",
+        "AI pentesting",
+        "OWASP Top 10",
+        "CI/CD"
+      ],
+      "ai_use_when": "当你想在 GitHub Actions 的每个 Pull Request 中扫描漏洞并阻止不安全代码合并时，可以使用它。"
     },
     {
       "id": 344190478,
@@ -5094,7 +6915,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "面向初学者的12周24课人工智能课程，涵盖神经网络、深度学习、视觉、文本、伦理及TensorFlow与PyTorch实践。",
+      "ai_tags": [
+        "人工智能入门",
+        "深度学习",
+        "计算机视觉",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "ai_use_when": "需要系统学习AI基础并通过测验和实验练习时可用，例如从神经网络入门并完成视觉或文本实验。"
     },
     {
       "id": 1075372545,
@@ -5111,7 +6941,16 @@
       "suggested_categories": [
         "AI与智能体",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "提供按专业领域划分的 AI 专家代理角色、工作流与交付规范，并可安装到多种编码助手中。",
+      "ai_tags": [
+        "AI代理",
+        "工作流自动化",
+        "Claude Code",
+        "Cursor",
+        "多工具集成"
+      ],
+      "ai_use_when": "需要为现代网页应用安装前端、后端或 DevOps 专家代理到 Claude Code 或 Cursor 时可用。"
     },
     {
       "id": 158311266,
@@ -5138,7 +6977,16 @@
       "suggested_categories": [
         "游戏开发",
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "为 Unity uGUI 提供支持半透明、柔边和多层嵌套的软遮罩，并可通过形状增减遮罩区域。",
+      "ai_tags": [
+        "UI 柔边遮罩",
+        "反向遮罩",
+        "uGUI",
+        "SoftMask",
+        "MaskingShape"
+      ],
+      "ai_use_when": "制作 Unity 界面操作教程时，如果只想让玩家点击遮罩中可见的控件，可以用它过滤被遮挡区域的点击。"
     },
     {
       "id": 993475914,
@@ -5154,7 +7002,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "container 在搭载 Apple 芯片且运行 macOS 26 或更新版本的 Mac 上，通过轻量级虚拟机创建和运行 Linux 容器，并支持构建、拉取和推送 OCI 镜像。",
+      "ai_tags": [
+        "Linux 容器",
+        "轻量级虚拟机",
+        "OCI 镜像",
+        "Apple silicon",
+        "macOS 26"
+      ],
+      "ai_use_when": "当你想在 Mac 上把一个简单的 Web 服务打包成镜像、在本地验证后发布到容器镜像仓库时，可以用它。"
     },
     {
       "id": 1031912724,
@@ -5190,7 +7047,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "CC Switch 是一款跨平台桌面应用，可为 Claude Code、Codex 等 AI 客户端一键切换 API 供应商，并集中管理 MCP、Skills 和提示词。",
+      "ai_tags": [
+        "API 供应商切换",
+        "提示词管理",
+        "Claude Code",
+        "Codex",
+        "MCP"
+      ],
+      "ai_use_when": "当你想给 Claude Code 换一个 API 供应商，又不想手动编辑配置文件时，可以用它一键切换。"
     },
     {
       "id": 493121691,
@@ -5222,7 +7088,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "TEngine 是面向 Unity 全平台项目的模块化开发框架，集成热更新、资源管理、配置表和 UI 流程。",
+      "ai_tags": [
+        "Unity开发",
+        "热更新",
+        "HybridCLR",
+        "YooAsset",
+        "Luban"
+      ],
+      "ai_use_when": "当你要用 Unity 构建支持 Android、iOS、WebGL 等平台并需要 HybridCLR 热更新时，可用它快速搭建项目。"
     },
     {
       "id": 1166530102,
@@ -5260,7 +7135,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "通过 Model Context Protocol 连接 AI 助手与 Unity Editor、Unity Hub，支持场景制作、游戏运行、多人测试、构建和性能分析。",
+      "ai_tags": [
+        "Unity场景编辑",
+        "Unity构建",
+        "Model Context Protocol",
+        "MPPM多人测试",
+        "Unity Hub"
+      ],
+      "ai_use_when": "当你需要让 AI 选择 Unity 项目、检查场景编译错误并创建平台后供你复核时，可以使用它。"
     },
     {
       "id": 890668799,
@@ -5276,7 +7160,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是 Model Context Protocol（MCP）服务器的参考实现集合，展示如何让大语言模型通过 MCP 访问文件、网页、Git 仓库等资源。",
+      "ai_tags": [
+        "Model Context Protocol",
+        "MCP 服务器开发",
+        "文件访问控制",
+        "Git 仓库操作",
+        "Streamable HTTP"
+      ],
+      "ai_use_when": "当你要为 MCP 客户端接入本地文件，并将访问限制在指定目录时，可参考 Filesystem 服务器。"
     },
     {
       "id": 812044182,
@@ -5313,7 +7206,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "为 AI 代理、IDE 和应用提供连接企业数据库的 MCP 服务器，并支持配置查询与语义搜索工具。",
+      "ai_tags": [
+        "数据库接入",
+        "MCP",
+        "NL2SQL",
+        "Semantic Search",
+        "BigQuery"
+      ],
+      "ai_use_when": "当你想让 Gemini CLI 或 Claude Code 通过 MCP 查询 PostgreSQL、BigQuery 等数据库时可以使用它。"
     },
     {
       "id": 956283541,
@@ -5336,7 +7238,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "Browser MCP 通过本地 MCP 服务和 Chrome 扩展，让 AI 应用在独立标签页中操作你已登录的网站。",
+      "ai_tags": [
+        "浏览器自动化",
+        "已登录网站操作",
+        "Chrome 扩展",
+        "MCP",
+        "Playwright"
+      ],
+      "ai_use_when": "当你想让 Claude Code 在不打扰当前标签页的情况下，打开并查看需要登录的网页时，可以用它。"
     },
     {
       "id": 950564038,
@@ -5370,7 +7281,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "通过 Model Context Protocol 连接 AI 助手与 Unity Editor，管理资源、场景、脚本、测试并执行构建。",
+      "ai_tags": [
+        "Unity",
+        "MCP",
+        "Unity Editor",
+        "场景管理",
+        "自动化测试"
+      ],
+      "ai_use_when": "需要让 Claude 等 LLM 在 Unity 中创建 GameObject、编辑 C# 脚本并运行测试时可以使用。"
     },
     {
       "id": 933716245,
@@ -5386,7 +7306,16 @@
       "active": true,
       "suggested_categories": [
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "通过 Model Context Protocol 读取和写入 Excel 工作簿数据，支持文本、公式和新建工作表。",
+      "ai_tags": [
+        "Excel读写",
+        "MCP",
+        "公式处理",
+        "工作表管理",
+        "xlsx"
+      ],
+      "ai_use_when": "需要让 MCP 客户端修改 xlsx、xlsm 或模板文件中的单元格和公式时可以使用。"
     },
     {
       "id": 931365873,
@@ -5424,7 +7353,16 @@
       "suggested_categories": [
         "AI与智能体",
         "开发工具"
-      ]
+      ],
+      "ai_summary": "这是一个无需安装 Excel 的 MCP 服务器，让 AI 客户端创建、读取和编辑工作簿，并处理公式、图表和数据透视表。",
+      "ai_tags": [
+        "Excel 自动化",
+        "数据透视表",
+        "公式计算",
+        "MCP",
+        "openpyxl"
+      ],
+      "ai_use_when": "当你要核查某个汇总数为何不对时，可以让 AI 跨工作表追踪公式引用，并逐步查看计算结果。"
     },
     {
       "id": 1195962828,
@@ -5440,7 +7378,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这套 Claude Code 配置用 48 个专业代理和 37 个工作流组织独立游戏开发，覆盖设计、编程、质量审查和发布。",
+      "ai_tags": [
+        "独立游戏开发",
+        "多代理协作",
+        "游戏代码审查",
+        "Claude Code",
+        "Godot 4"
+      ],
+      "ai_use_when": "当你独立开发 Godot 4 游戏，需要在一次冲刺中安排开发任务、审查代码并检查功能是否符合设计目标时，可以用它。"
     },
     {
       "id": 1155965274,
@@ -5470,7 +7417,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "这是一个把 Claude Code 组织成游戏开发工作室的模板，协助从创意简报到浏览器原型及后续迭代。",
+      "ai_tags": [
+        "AI辅助游戏开发",
+        "Claude Code",
+        "游戏原型",
+        "Godot",
+        "Unity"
+      ],
+      "ai_use_when": "当你只有模糊的赛车游戏想法时，可用它提问、生成设计简报并构建可玩的浏览器原型。"
     },
     {
       "id": 124523395,
@@ -5490,7 +7446,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "Voxelman 是一个 Unity DOTS/ECS 示例，将场景中的每个体素实例化为实体，并通过组件系统管理它们。",
+      "ai_tags": [
+        "体素实体管理",
+        "Unity DOTS",
+        "ECS",
+        "C# Job System",
+        "Burst Compiler"
+      ],
+      "ai_use_when": "当你想在 Unity 2022 LTS 中了解如何结合 C# Job System、Burst Compiler 和异步射线检测来利用多核处理器时，可以参考这个项目。"
     },
     {
       "id": 406930975,
@@ -5510,7 +7475,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "按类型整理开源游戏及商业游戏开源重制项目的发现清单。",
+      "ai_tags": [
+        "开源游戏",
+        "游戏推荐",
+        "游戏源码",
+        "source ports",
+        "Godot"
+      ],
+      "ai_use_when": "想寻找城市建造、第一人称射击或角色扮演等开源游戏项目时可用此清单。"
     },
     {
       "id": 613697580,
@@ -5544,7 +7518,16 @@
       "suggested_categories": [
         "游戏开发",
         "AI与智能体"
-      ]
+      ],
+      "ai_summary": "DotRecast 是面向 .NET 的 C# Recast & Detour 移植版，用于生成导航网格、寻路、动态导航网格和人群模拟。",
+      "ai_tags": [
+        "导航网格",
+        "寻路",
+        "Recast",
+        "Detour",
+        "crowd-simulation"
+      ],
+      "ai_use_when": "需要在大型或开放世界关卡中构建可流式加载的导航网格并实现路径规划时，可使用其 TileCache 模块。"
     },
     {
       "id": 167955567,
@@ -5560,7 +7543,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个用 C# 编写的 AOI 库，以跳跃表和十字链实现区域查询，可用于服务器 AOI 和简单碰撞检测。",
+      "ai_tags": [
+        "AOI",
+        "碰撞检测",
+        "跳跃表",
+        "十字链",
+        "C#"
+      ],
+      "ai_use_when": "当服务器上的对象移动后需要查找其周围范围内的其他对象时，可以使用这个库。"
     },
     {
       "id": 42920477,
@@ -5584,7 +7576,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "Layui 是采用原生 HTML、CSS、JavaScript 开发的 Web UI 组件库，用于构建现代网页界面。",
+      "ai_tags": [
+        "Web界面",
+        "UI组件库",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "ai_use_when": "需要面向浏览器快速搭建复杂网页界面，且希望降低前端开发门槛时可以使用。"
     },
     {
       "id": 510313729,
@@ -5612,7 +7613,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "HybridCLR 将 Unity 的 IL2CPP 扩展为 AOT 与解释器混合运行时，让 Unity 支持的平台能够动态加载 C# 程序集并进行代码热更新。",
+      "ai_tags": [
+        "C# 热更新",
+        "运行时热修复",
+        "Unity",
+        "IL2CPP",
+        "Differential Hybrid Execution"
+      ],
+      "ai_use_when": "当你需要为已上线的 Unity 游戏修复 C# 逻辑缺陷，又不想让玩家重启游戏时，可以用它实现热修复。"
     },
     {
       "id": 167980942,
@@ -5628,7 +7638,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "VoxBlend 是一个兼容 Unity Timeline 的插件，通过可复用的 BlendShapeControlMap 资产，用一条一维动画曲线控制多个 BlendShape。",
+      "ai_tags": [
+        "混合形状联动",
+        "动画曲线",
+        "Unity",
+        "Timeline",
+        "BlendShapeControlMap"
+      ],
+      "ai_use_when": "当你在 Unity Timeline 中制作动画，想让一条曲线联动多个 BlendShape，而不必逐个设置关键帧时，可以使用它。"
     },
     {
       "id": 306021051,
@@ -5665,7 +7684,16 @@
       "active": true,
       "suggested_categories": [
         "游戏开发"
-      ]
+      ],
+      "ai_summary": "Luban用于将Excel、JSON、XML、YAML等游戏配置转换为多语言代码和多种数据格式。",
+      "ai_tags": [
+        "游戏配置",
+        "Excel转数据",
+        "protobuf",
+        "Unity",
+        "AI Agent"
+      ],
+      "ai_use_when": "当Unity项目需要校验表格引用并生成C#、JSON或二进制配置时可使用。"
     },
     {
       "id": 51835216,
@@ -5681,7 +7709,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "用于用 Python 通过平均哈希、直方图、DCT、dHash及 OpenCV 人脸检测与聚类判断图片相似性并分类。",
+      "ai_tags": [
+        "相似图片识别",
+        "图像分类",
+        "Average Hash",
+        "OpenCV",
+        "图像聚类"
+      ],
+      "ai_use_when": "当你需要比较图片相似度或按相似内容分类图片时，可参考其人脸判断和图像聚类脚本。"
     },
     {
       "id": 177736533,
@@ -5697,7 +7734,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "996.ICU 是反对 996 工作制的劳动权益倡议仓库，汇集加班情况与相关报道，并提供 Anti-996 License。",
+      "ai_tags": [
+        "996工作制",
+        "劳动权益",
+        "加班举证",
+        "996.ICU",
+        "Anti-996 License"
+      ],
+      "ai_use_when": "当你掌握某家公司推行 996 工作制的证据，想补充到公开名单供其他求职者参考时，可以使用这个仓库。"
     },
     {
       "id": 93260302,
@@ -5713,7 +7759,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "这是一个简单的商务购票软件，使用Java实现仿网易云音乐的界面。",
+      "ai_tags": [
+        "商务购票",
+        "购票软件",
+        "java",
+        "网易云音乐",
+        "UI"
+      ],
+      "ai_use_when": "需要办理商务购票，并希望使用类似网易云音乐的操作界面时，可以使用它。"
     },
     {
       "id": 92126829,
@@ -5729,7 +7784,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个提供景点查询、门票购买和订单管理的简易网站。",
+      "ai_tags": [
+        "景点购票",
+        "门票销售",
+        "订单管理",
+        "SALETICKET",
+        "SCENIC"
+      ],
+      "ai_use_when": "当你需要搭建一个让游客登录后购买景点门票并查看订单的网站时，可以使用这个项目。"
     },
     {
       "id": 85170796,
@@ -5745,7 +7809,15 @@
       "active": true,
       "suggested_categories": [
         "开发工具"
-      ]
+      ],
+      "ai_summary": "用于快速开发的简单 webpack CLI，支持 Koa 服务器与热重载。",
+      "ai_tags": [
+        "Webpack构建",
+        "开发脚手架",
+        "Koa服务器",
+        "热重载"
+      ],
+      "ai_use_when": "当你需要用 Koa 服务器配合 webpack 开发并实时刷新页面时可以使用。"
     },
     {
       "id": 84404789,
@@ -5761,7 +7833,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个基于 Node.js 的图片爬取与展示项目，提供向下滚动时自动加载更多图片的瀑布流页面。",
+      "ai_tags": [
+        "图片爬取",
+        "瀑布流",
+        "滚动加载",
+        "Node.js",
+        "async/await"
+      ],
+      "ai_use_when": "当你想在本地浏览爬取的图片，又不想逐页点击翻页时，可以用它边滚动边看。"
     },
     {
       "id": 83536006,
@@ -5777,7 +7858,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个用 Gulp 搭建的 ES6 和 Stylus 开发环境，默认使用 Koa 配置 API，也可以改用 Express。",
+      "ai_tags": [
+        "前端开发环境",
+        "API配置",
+        "Gulp",
+        "Stylus",
+        "ES6"
+      ],
+      "ai_use_when": "当你要为使用 ES6 和 Stylus 的前端项目搭建本地环境，并用 Koa 配置开发用的 API 时，可以使用它。"
     },
     {
       "id": 83539785,
@@ -5793,7 +7883,15 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "一个以 eleme 为主题、基于 Vue.js 构建的前端项目。",
+      "ai_tags": [
+        "Vue.js",
+        "eleme",
+        "vueSell",
+        "前端项目开发"
+      ],
+      "ai_use_when": "需要参考 Vue.js 项目结构并制作 eleme 主题页面时可以使用。"
     },
     {
       "id": 83526086,
@@ -5813,7 +7911,16 @@
       "active": true,
       "suggested_categories": [
         "其他"
-      ]
+      ],
+      "ai_summary": "这是一个个人电影博客网站，访客可注册、登录、查看电影详情和发表评论，管理员可在后台新增、编辑和删除电影条目。",
+      "ai_tags": [
+        "电影博客",
+        "评论回复",
+        "电影条目管理",
+        "Express",
+        "Node.js"
+      ],
+      "ai_use_when": "当你想搭建一个由自己发布电影资料、读者可以在评论区互相回复的影迷博客时，可以使用这个项目。"
     },
     {
       "id": 83537678,
@@ -5829,7 +7936,16 @@
       "active": true,
       "suggested_categories": [
         "界面与网页"
-      ]
+      ],
+      "ai_summary": "这是一个简易移动端书城，提供图书榜单浏览，并在打开详情页时按书名从全书网获取图书信息。",
+      "ai_tags": [
+        "移动书城",
+        "图书排行",
+        "Vue",
+        "Koa",
+        "MongoDB"
+      ],
+      "ai_use_when": "需要搭建一个从 MongoDB 读取排行榜、用模拟数据填充其他榜单的移动书城时，可以使用这个项目。"
     }
   ]
 }
