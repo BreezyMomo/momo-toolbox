@@ -1,7 +1,7 @@
 # 📚 Momo 收藏工具箱
 
 
-公开 GitHub 收藏索引。每天自动收集 Star，给新收藏写一句中文介绍，你的电脑可以关机。
+公开 GitHub 收藏索引。每天自动收集 Star，为收藏生成中文简介、搜索关键词和使用场景，你的电脑可以关机。
 
 
 ## 从这里开始
@@ -20,15 +20,17 @@
 
 每天北京时间 **09:23**（UTC 01:23）同步一次。GitHub 定时任务可能延迟，不保证准点。也可随时手动运行。
 第一版读取 `BreezyMomo` **公开可访问的 Star 项目**，不会读取私有仓库收藏。若 GitHub 个人资料被设为私有，可能需要另行配置有适当权限的认证，当前不创建个人令牌。
-同步保存项目元数据。首次发现公开仓库时，同步脚本会把仓库名和默认分支的 README 摘录发到 `https://relay.tuyoo.com/v1/chat/completions`，由 `gpt-6.2-sol` 写一句中文介绍。每次同步最多处理 10 个待生成条目，每条输入最多 6,000 个 README 字符，输出上限为 512 tokens。
+同步脚本把公开仓库名、README 摘录、GitHub 原简介和 topics 发到 `https://relay.tuyoo.com/v1/chat/completions`。由 `gpt-6.2-sol` 在同一次请求中给出一句中文简介、3～5 个具体关键词和一个有资料依据的使用场景。每条最多取 6,000 个 README 字符，输出上限为 512 tokens。在线和离线搜索均支持关键词、技术名和场景中的文字，多个搜索词可用空格组合。
 
-索引优先展示 `notes.json` 中的手写简介，其次是 `stars.json` 中的 `ai_summary`，最后是 GitHub 原简介。AI 简介按仓库 ID 保存。后续同步直接复用，仓库改名、更新 README 或取消后重新 Star 都不会触发重新生成。启用前已收录的收藏维持原样。取消 Star、项目删除或不再可见时保留历史记录和笔记，搜索选择“全部”可找到。
+每个字段优先展示 `notes.json` 中的手写内容。AI 结果按仓库 ID 保存在 `stars.json` 的 `ai_summary`、`ai_tags` 和 `ai_use_when`，已保存字段在补齐其他字段时保留。三项齐全后直接复用，改名或更新 README 也不会重新调用模型。取消 Star 的项目保留历史记录，搜索选择“全部”可找到。
+
+每日同步最多处理 10 项。需要一次性补齐当前收藏时，在 Actions 的 **Run workflow** 勾选 **Fill missing descriptions, keywords and use cases for all current stars**。这个选项只处理缺少字段的当前收藏。
 
 ## 配置 AI 密钥
 
-在仓库的 **Settings → Secrets and variables → Actions → New repository secret** 添加名为 `AI_API_KEY` 的密钥，值填写中转服务提供的 Key。密钥仅注入只读同步任务中的 API 调用步骤。请求正文只包含生成指令、公开仓库名和 README 摘录。提交任务在另一台运行机上校验简介并生成页面。
+在仓库的 **Settings → Secrets and variables → Actions → New repository secret** 添加名为 `AI_API_KEY` 的密钥，值填写中转服务提供的 Key。密钥仅注入只读同步任务中的 API 调用步骤。请求正文只包含生成指令和公开的仓库资料，个人笔记仅用于本地合并显示。提交任务在另一台运行机上校验简介并生成页面。
 
-缺少密钥或中转服务返回鉴权、限流等 HTTP 错误时，未完成的简介留到后续同步，当天的收藏照常发布。单个项目遇到连接超时或返回内容不合格时，累计尝试最多三次；缺少 README 的项目沿用 GitHub 原简介。
+缺少密钥或服务暂不可用时，收藏照常发布，缺少的字段留到后续同步。单个项目遇到超时或返回内容不合格时，累计尝试最多三次。没有 README 时使用 GitHub 公开简介和 topics；三者都缺失时跳过生成。
 
 
 ## 如何整理

@@ -58,11 +58,9 @@ def merge(previous, fetched, now):
         old = records.get(r['id'], {})
         records[r['id']] = {k:r.get(k) for k in ['id','full_name','description','language','topics','pushed_at','archived']}
         records[r['id']].update(url='https://github.com/'+r['full_name'], starred_at=item.get('starred_at'), first_seen=old.get('first_seen',now), active=True, suggested_categories=classify(r))
-        # Only newly discovered IDs enter the queue. Legacy records have no ai_summary field.
-        if not old or 'ai_summary' in old:
-            records[r['id']]['ai_summary'] = old.get('ai_summary')
-        if 'ai_summary_attempts' in old:
-            records[r['id']]['ai_summary_attempts'] = old['ai_summary_attempts']
+        for field in ('ai_summary', 'ai_tags', 'ai_use_when', 'ai_summary_attempts', 'ai_no_evidence'):
+            if field in old:
+                records[r['id']][field] = old[field]
     return sorted(records.values(), key=lambda r:r.get('starred_at') or r['first_seen'], reverse=True)
 
 def note_for(record, notes):
@@ -81,6 +79,21 @@ def validate_summary(text):
         raise ValueError('expected one short Chinese sentence')
     return sentence + '。'
 
+def validate_keywords(tags):
+    if not isinstance(tags, list):
+        raise ValueError('expected a list of keywords')
+    result = {}
+    for tag in tags:
+        if not isinstance(tag, str):
+            raise ValueError('invalid keyword')
+        tag = tag.strip()
+        if not re.fullmatch(r'[\w .+#/&()·-]{1,32}', tag) or '//' in tag or not re.search(r'\w', tag):
+            raise ValueError('invalid keyword')
+        result.setdefault(tag.casefold(), tag)
+    if not 3 <= len(result) <= 5:
+        raise ValueError('expected 3 to 5 distinct keywords')
+    return list(result.values())
+
 def enrich(records, notes):
     out=[]
     for r in records:
@@ -90,7 +103,10 @@ def enrich(records, notes):
             raise ValueError('categories must be a list of strings')
         generated = r.get('ai_summary')
         summary = n.get('summary') or (validate_summary(generated) if generated else '')
-        out.append(dict(r, categories=cats, summary=summary, use_when=n.get('use_when',''), tags=n.get('tags',[]), note=n.get('note',''), reviewed=n.get('reviewed',False)))
+        tags = n.get('tags') or (validate_keywords(r['ai_tags']) if r.get('ai_tags') else [])
+        use_when = n.get('use_when') or (validate_summary(r['ai_use_when']) if r.get('ai_use_when') else '')
+        out.append(dict(r, categories=cats, summary=summary, use_when=use_when, tags=tags,
+                        note=n.get('note',''), reviewed=n.get('reviewed',False)))
     return out
 
 def md(s):
@@ -101,7 +117,13 @@ def render(records, now, owner):
     active=[r for r in rows if r['active']]
     inbox=[r for r in active if not r['reviewed']]
     def table(items):
-        return '\n'.join(['| 项目 | 简介 / 使用场景 | 分类 |','|---|---|---|']+[f"| [{md(r['full_name'])}]({r['url']}) | {md(r['summary'] or r['description'])} {md(r['use_when'])} | {md(' / '.join(r['categories']))} |" for r in items])
+        lines = ['| 项目 | 简介 / 使用场景 | 关键词 | 分类 |', '|---|---|---|---|']
+        for r in items:
+            details = md(r['summary'] or r['description'])
+            if r['use_when']:
+                details += '<br>使用场景：' + md(r['use_when'])
+            lines.append(f"| [{md(r['full_name'])}]({r['url']}) | {details} | {md('、'.join(r['tags']))} | {md(' / '.join(r['categories']))} |")
+        return '\n'.join(lines)
     write(ROOT/'INBOX.md', f'# 待整理清单\n\n最后成功同步：{now}。共 {len(inbox)} 项。分类为关键词建议，不是 AI 结论。\n\n'+table(inbox)+'\n')
     sections=['# 分类索引', f'最后成功同步：{now}。当前 Star：{len(active)}。', '[待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)']
     for cat in sorted({c for r in active for c in r['categories']}):
@@ -111,7 +133,8 @@ def render(records, now, owner):
     page='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Momo 收藏工具箱</title><style>body{font:16px system-ui;margin:36px auto;max-width:1000px;padding:0 20px;background:#f5f7fb;color:#192638}h1{margin-bottom:8px}input,select{font:inherit;padding:10px;margin:8px 8px 8px 0;border:1px solid #bdc7d4;border-radius:8px}input{width:min(90%,430px)}article{background:white;padding:20px;border-radius:12px;margin:14px 0;border:1px solid #e0e5ed}a{color:#215db0}small{color:#526279}p{white-space:pre-wrap}button{font:inherit;padding:10px;cursor:pointer}</style><h1>📚 Momo 收藏工具箱</h1><p>按你要解决的问题找工具。纯本地搜索，不上传数据。</p><input id="q" aria-label="搜索" placeholder="搜索名称、简介、标签、用途…"><select id="cat" aria-label="分类"><option value="">全部分类</option></select><select id="status" aria-label="状态"><option value="active">当前收藏</option><option value="inbox">待整理</option><option value="all">全部（含已取消或不可见）</option></select><button id="reset">重置</button><p id="count"></p><main id="results"></main><script id="data" type="application/json">PAYLOAD</script><script>
 const rows=JSON.parse(document.getElementById('data').textContent), q=document.getElementById('q'), cat=document.getElementById('cat'), status=document.getElementById('status'), results=document.getElementById('results');
 [...new Set(rows.flatMap(r=>r.categories))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;cat.append(o)});
-function draw(){const words=q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);const found=rows.filter(r=>(status.value==='all'||r.active)&&(status.value!=='inbox'||!r.reviewed)&&(!cat.value||r.categories.includes(cat.value))&&words.every(w=>JSON.stringify(r).toLowerCase().includes(w)));results.replaceChildren();document.getElementById('count').textContent=found.length+' 个结果 · 最后同步 SYNC_TIME';found.forEach(r=>{const a=document.createElement('article'),link=document.createElement('a'),p=document.createElement('p'),small=document.createElement('small');link.href=r.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=r.full_name;p.textContent=[r.summary||r.description||'暂无简介',r.use_when&&'使用场景：'+r.use_when,r.note&&'笔记：'+r.note].filter(Boolean).join('\\n');small.textContent=r.categories.join(' / ')+' · '+(r.reviewed?'已整理':'待整理')+(!r.active?' · 已取消 Star 或当前不可见':'')+(r.archived?' · 上游已归档':'');a.append(link,p,small);results.append(a)});if(!found.length)results.textContent='没有匹配结果，试试更短的关键词。'}
+function searchText(r){return [r.full_name,r.description,r.summary,r.use_when,r.note,r.language,r.url,...r.tags,...(r.topics||[]),...r.categories].join(" ").toLowerCase()}
+function draw(){const words=q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);const found=rows.filter(r=>(status.value==='all'||r.active)&&(status.value!=='inbox'||!r.reviewed)&&(!cat.value||r.categories.includes(cat.value))&&words.every(w=>searchText(r).includes(w)));results.replaceChildren();document.getElementById('count').textContent=found.length+' 个结果 · 最后同步 SYNC_TIME';found.forEach(r=>{const a=document.createElement('article'),link=document.createElement('a'),p=document.createElement('p'),small=document.createElement('small');link.href=r.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=r.full_name;p.textContent=[r.summary||r.description||'暂无简介',r.use_when&&'使用场景：'+r.use_when,r.tags.length&&'关键词：'+r.tags.join('、'),r.note&&'笔记：'+r.note].filter(Boolean).join('\\n');small.textContent=r.categories.join(' / ')+' · '+(r.reviewed?'已整理':'待整理')+(!r.active?' · 已取消 Star 或当前不可见':'')+(r.archived?' · 上游已归档':'');a.append(link,p,small);results.append(a)});if(!found.length)results.textContent='没有匹配结果，试试更短的关键词。'}
 q.addEventListener('input',draw);cat.addEventListener('change',draw);status.addEventListener('change',draw);document.getElementById('reset').onclick=()=>{q.value='';cat.value='';status.value='active';draw()};draw();</script></html>'''
     write(ROOT/'search.html',page.replace('PAYLOAD',payload).replace('SYNC_TIME',now))
 
