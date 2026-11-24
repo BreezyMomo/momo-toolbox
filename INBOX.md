@@ -1,6 +1,6 @@
 # 待整理清单
 
-最后成功同步：2026-11-24T02:44:52+00:00。共 241 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-24T03:10:48+00:00。共 241 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 关键词 | 分类 |
 |---|---|---|---|
@@ -178,7 +178,7 @@
 | [morluto/rea](https://github.com/morluto/rea) | REA 通过 MCP 连接多种分析工具，逆向检查二进制、应用与运行时行为并呈现证据。<br>使用场景：当你想在没有源代码时查明应用功能实现，可用它分析原生程序、Electron 应用或网站。 | 逆向分析、二进制分析、MCP、Electron、Ghidra | AI与智能体 / 界面与网页 / 开发工具 |
 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 收录从知名网站提炼的 DESIGN.md 设计规范，供 AI 编程助手生成符合参考网站视觉风格的界面。<br>使用场景：想做一个具有 Vercel 黑白风格的落地页时，可以将对应的 DESIGN.md 放入项目根目录，作为 AI 编程助手的设计参考。 | DESIGN.md、设计系统、设计令牌、AI 界面生成、网站风格复刻 | 界面与网页 |
 | [shitagaki-lab/see-through](https://github.com/shitagaki-lab/see-through) | 将单张动漫角色插画分解为带语义、绘制顺序和补全内容的可编辑2.5D图层，并输出PSD。<br>使用场景：需要把一张动漫插画提取为头发、脸部、眼睛和服装等独立图层并进行后续编辑时可用。 | 动漫角色分层、单图层分解、2.5D模型、PSD、LayerDiff | 其他 |
-| [focus-creative-games/zlua](https://github.com/focus-creative-games/zlua) | zlua is a high-performance, rock-solid, and elegantly designed modern Lua solution for Unity, ​​aggressively optimized​​ for IL2CPP and .NET.  zlua是一个高效、稳定、优雅的针为il2cpp和.net 极致优化 的现代Unity lua脚本方案。 |  | 游戏开发 |
+| [focus-creative-games/zlua](https://github.com/focus-creative-games/zlua) | ZLua 是面向 Unity IL2CPP 的现代 Lua 脚本方案，提供零配置 C#↔Lua 交互与低 GC 桥接。<br>使用场景：当你要在 Unity IL2CPP 项目中接入 Lua，并兼容 HybridCLR 热更新代码时可使用。 | Unity Lua脚本、IL2CPP、C#↔Lua、HybridCLR、LuaJIT | 游戏开发 |
 | [EpicGames/lore](https://github.com/EpicGames/lore) | Lore 是面向代码与大型二进制资产的可扩展版本控制系统，支持集中式服务、分支和按需数据获取。<br>使用场景：当团队协作管理游戏项目的代码和大型二进制资源，并希望按需下载工作区时可用 Lore。 | 版本控制、二进制资产管理、Merkle trees、稀疏工作区、content-addressed storage | 其他 |
 | [HRuiCcc/RuiC-card-skill](https://github.com/HRuiCcc/RuiC-card-skill) | 将一句话或参考图自动生成带分层景深、视点流光的3D全息闪卡网页及可编辑Blender工程。<br>使用场景：当你想把角色或插画制成可拖拽旋转的网页闪卡，并保留分层素材与源工程时使用。 | 3D闪卡、全息材质、Blender、Three.js、多模态生成 | AI与智能体 |
 | [librashuai/UnityPerfAgent](https://github.com/librashuai/UnityPerfAgent) | UnityPerfAgent 是独立于 Unity Editor 的性能分析工具，可连接 Unity 2022 Development Build 采集并诊断 CPU、内存和渲染等数据。<br>使用场景：需要分析 Unity 2022 Development Build 的帧性能并让 LLM 根据实时数据或 .upac 存档生成诊断建议时使用。 | Unity 性能分析、Profiler、真机采集、ACP、PD3U | 其他 |
@@ -193,7 +193,7 @@
 | [FrenzyByte/fluidfrenzy](https://github.com/FrenzyByte/fluidfrenzy) | Fluid Frenzy 是一个用于流体模拟项目管理与文档说明的仓库。<br>使用场景：当你需要查阅 Fluid Frenzy 的流体模拟说明或反馈项目问题时可以使用它。 | 流体模拟、Fluid Frenzy、数值模拟、项目文档 | 其他 |
 | [bshishov/UnityTerrainErosionGPU](https://github.com/bshishov/UnityTerrainErosionGPU) | 在Unity中利用计算着色器和浅水方程模拟地形的水力侵蚀与热侵蚀。<br>使用场景：当你要在Unity中通过鼠标修改地形和水体并观察侵蚀效果时可以使用它。 | 地形侵蚀、水力侵蚀、热侵蚀、compute shaders、shallow water equations | 游戏开发 |
 | [jedjoud10/VoxelTerrain](https://github.com/jedjoud10/VoxelTerrain) | 面向 Unity ECS 的程序化体素地形生成系统，支持 GPU/CPU 生成、网格化与全局或局部破坏编辑。<br>使用场景：需要制作可大范围生成、运行时挖掘破坏并支持碰撞烘焙的三维体素世界时可使用。 | 体素地形、Unity ECS、Surface Nets、Compute Shaders、GPU渲染 | 游戏开发 |
-| [p-svacha/BlockMaps](https://github.com/p-svacha/BlockMaps) | Unity framework to create detailed, 3D, grid-based worlds with real-time navmesh generation and integrated pathfinding, vision and movement systems. |  | 游戏开发 |
+| [p-svacha/BlockMaps](https://github.com/p-svacha/BlockMaps) | 用于在 Unity 中构建基于网格的三维世界，并提供实时导航网格、A*寻路和视野系统。<br>使用场景：当角色需要在多层地形、墙体和障碍间按自身能力行走、攀爬或游泳时可使用。 | 三维网格世界、实时导航网格、A*寻路、Vision system | 游戏开发 |
 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | OpenRCT2 是 RollerCoaster Tycoon 2 的开源重实现，用于经营游乐园并支持场景、沙盒和合作多人游戏。<br>使用场景：当你想在现代平台游玩或多人经营游乐园，并使用场景目标或沙盒模式时可以用它。 | 游乐园经营模拟、RollerCoaster Tycoon 2、C++、SDL2、多人联机 | 其他 |
 | [ArshVermaGit/AgriSim](https://github.com/ArshVermaGit/AgriSim) | AgriSim 是一款 2D 农场模拟游戏，玩家可以在实时昼夜与动态天气中耕种、收获并出售农产品。<br>使用场景：想体验如何利用天气安排农活时，可以在雨天让雨水替你浇灌作物。 | 农场模拟、作物种植、动态天气、Unity、URP | 游戏开发 |
 | [zhang12c/UnityFarm](https://github.com/zhang12c/UnityFarm) | 这是一个用 Unity 制作的星露谷物语风格 2D 农场养成游戏，包含四季种植、背包管理、NPC 日程与对话及多存档系统。<br>使用场景：在 Unity 中开发农场游戏，需要参考如何用分层 Tilemap 分别处理耕地、浇水和地图碰撞时，可以使用这个项目。 | 2D农场养成、作物生长系统、背包拖拽、Unity、Tilemap | 其他 |

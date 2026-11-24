@@ -1,6 +1,6 @@
 {
   "username": "BreezyMomo",
-  "last_sync": "2026-11-24T02:44:52+00:00",
+  "last_sync": "2026-11-24T03:10:48+00:00",
   "records": [
     {
       "id": 1438623288,
@@ -492,7 +492,7 @@
         "webgpu",
         "webxr"
       ],
-      "pushed_at": "2026-11-24T02:10:24Z",
+      "pushed_at": "2026-11-24T02:47:50Z",
       "archived": false,
       "url": "https://github.com/mrdoob/three.js",
       "starred_at": "2026-11-22T17:02:09Z",
@@ -689,7 +689,7 @@
       "description": "AI RPG maker",
       "language": "Python",
       "topics": [],
-      "pushed_at": "2026-11-23T17:48:47Z",
+      "pushed_at": "2026-11-24T03:03:49Z",
       "archived": false,
       "url": "https://github.com/RachelForster/Shinsekai",
       "starred_at": "2026-11-22T09:54:52Z",
@@ -802,7 +802,7 @@
         "workflow-automation",
         "workflow-engine"
       ],
-      "pushed_at": "2026-11-24T02:33:08Z",
+      "pushed_at": "2026-11-24T03:03:03Z",
       "archived": false,
       "url": "https://github.com/Tencent/LoopForge",
       "starred_at": "2026-11-22T09:54:37Z",
@@ -909,7 +909,7 @@
         "plan-mode",
         "skills"
       ],
-      "pushed_at": "2026-11-24T02:43:36Z",
+      "pushed_at": "2026-11-24T03:10:37Z",
       "archived": false,
       "url": "https://github.com/backnotprop/plannotator",
       "starred_at": "2026-11-22T09:54:20Z",
@@ -1024,7 +1024,7 @@
         "self-hosted",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T02:44:20Z",
+      "pushed_at": "2026-11-24T02:46:26Z",
       "archived": false,
       "url": "https://github.com/milind-soni/OpenMausBot",
       "starred_at": "2026-11-22T09:54:00Z",
@@ -1070,7 +1070,7 @@
         "workspace",
         "xlsx"
       ],
-      "pushed_at": "2026-11-24T02:39:07Z",
+      "pushed_at": "2026-11-24T02:56:15Z",
       "archived": false,
       "url": "https://github.com/dream-num/univer",
       "starred_at": "2026-11-22T09:53:55Z",
@@ -1095,7 +1095,7 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:40:56Z",
+      "pushed_at": "2026-11-24T03:07:53Z",
       "archived": false,
       "url": "https://github.com/meta/astryx",
       "starred_at": "2026-11-22T09:53:49Z",
@@ -1290,7 +1290,7 @@
         "twitter",
         "youtube"
       ],
-      "pushed_at": "2026-11-24T02:16:17Z",
+      "pushed_at": "2026-11-24T03:07:34Z",
       "archived": false,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "starred_at": "2026-11-22T09:53:16Z",
@@ -1524,7 +1524,7 @@
       "description": "Chat Demo",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-23T10:14:13Z",
+      "pushed_at": "2026-11-24T02:46:12Z",
       "archived": false,
       "url": "https://github.com/deepseek-ai/chat-demo",
       "starred_at": "2026-11-20T02:04:24Z",
@@ -1571,7 +1571,7 @@
         "proactive-agent",
         "proactive-ai"
       ],
-      "pushed_at": "2026-11-24T02:35:00Z",
+      "pushed_at": "2026-11-24T03:09:18Z",
       "archived": false,
       "url": "https://github.com/simplexai-labs/linger",
       "starred_at": "2026-11-19T11:01:42Z",
@@ -1643,7 +1643,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:26:23Z",
+      "pushed_at": "2026-11-24T02:57:45Z",
       "archived": false,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "starred_at": "2026-11-18T12:35:34Z",
@@ -1690,7 +1690,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-24T02:42:46Z",
+      "pushed_at": "2026-11-24T03:08:11Z",
       "archived": false,
       "url": "https://github.com/nexu-io/openmotion",
       "starred_at": "2026-11-18T12:23:17Z",
@@ -1787,7 +1787,7 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:40:47Z",
+      "pushed_at": "2026-11-24T03:06:27Z",
       "archived": false,
       "url": "https://github.com/ranxianglei/billion-context",
       "starred_at": "2026-11-18T08:22:11Z",
@@ -1988,7 +1988,7 @@
         "video-generation",
         "video-production"
       ],
-      "pushed_at": "2026-11-23T14:00:28Z",
+      "pushed_at": "2026-11-24T03:08:43Z",
       "archived": false,
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "starred_at": "2026-11-18T08:09:08Z",
@@ -2154,7 +2154,7 @@
         "historical-map",
         "interactive-map"
       ],
-      "pushed_at": "2026-11-24T01:18:49Z",
+      "pushed_at": "2026-11-24T03:07:59Z",
       "archived": false,
       "url": "https://github.com/DeanChensj/jiangshan-map",
       "starred_at": "2026-11-17T08:15:09Z",
@@ -2253,7 +2253,7 @@
         "flutter",
         "llm"
       ],
-      "pushed_at": "2026-11-24T02:42:30Z",
+      "pushed_at": "2026-11-24T03:03:46Z",
       "archived": false,
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "starred_at": "2026-11-16T03:36:47Z",
@@ -3507,7 +3507,7 @@
         "own-your-data",
         "personal"
       ],
-      "pushed_at": "2026-11-24T02:44:33Z",
+      "pushed_at": "2026-11-24T03:10:41Z",
       "archived": false,
       "url": "https://github.com/openclaw/openclaw",
       "starred_at": "2026-10-29T04:56:42Z",
@@ -3532,7 +3532,7 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:31:01Z",
+      "pushed_at": "2026-11-24T03:02:09Z",
       "archived": false,
       "url": "https://github.com/anthropics/claude-code",
       "starred_at": "2026-10-29T04:56:41Z",
@@ -4857,7 +4857,7 @@
         "tauri",
         "vue"
       ],
-      "pushed_at": "2026-11-24T02:10:49Z",
+      "pushed_at": "2026-11-24T03:02:34Z",
       "archived": false,
       "url": "https://github.com/t8y2/dbx",
       "starred_at": "2026-10-29T04:46:11Z",
@@ -5689,7 +5689,7 @@
         "touhou",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T02:44:37Z",
+      "pushed_at": "2026-11-24T03:10:26Z",
       "archived": false,
       "url": "https://github.com/morluto/rea",
       "starred_at": "2026-10-12T03:44:06Z",
@@ -5795,7 +5795,15 @@
       "suggested_categories": [
         "游戏开发"
       ],
-      "ai_summary_attempts": 3
+      "ai_summary": "ZLua 是面向 Unity IL2CPP 的现代 Lua 脚本方案，提供零配置 C#↔Lua 交互与低 GC 桥接。",
+      "ai_tags": [
+        "Unity Lua脚本",
+        "IL2CPP",
+        "C#↔Lua",
+        "HybridCLR",
+        "LuaJIT"
+      ],
+      "ai_use_when": "当你要在 Unity IL2CPP 项目中接入 Lua，并兼容 HybridCLR 热更新代码时可使用。"
     },
     {
       "id": 1246010662,
@@ -6267,7 +6275,14 @@
       "suggested_categories": [
         "游戏开发"
       ],
-      "ai_summary_attempts": 3
+      "ai_summary": "用于在 Unity 中构建基于网格的三维世界，并提供实时导航网格、A*寻路和视野系统。",
+      "ai_tags": [
+        "三维网格世界",
+        "实时导航网格",
+        "A*寻路",
+        "Vision system"
+      ],
+      "ai_use_when": "当角色需要在多层地形、墙体和障碍间按自身能力行走、攀爬或游泳时可使用。"
     },
     {
       "id": 18348651,
@@ -6532,7 +6547,7 @@
       "topics": [
         "agent-skills"
       ],
-      "pushed_at": "2026-11-24T01:44:50Z",
+      "pushed_at": "2026-11-24T03:01:28Z",
       "archived": false,
       "url": "https://github.com/dotnet/skills",
       "starred_at": "2026-07-08T02:30:11Z",

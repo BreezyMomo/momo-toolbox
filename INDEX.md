@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-24T02:44:52+00:00。当前 Star：241。
+最后成功同步：2026-11-24T03:10:48+00:00。当前 Star：241。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -254,14 +254,14 @@
 | [JasonXuDeveloper/EasyEcs](https://github.com/JasonXuDeveloper/EasyEcs) | 面向C#和.NET 10的高性能Archetype ECS，用于零分配地更新大量实体。<br>使用场景：需要构建每帧或每tick处理大量实体的游戏服务器、Godot 4游戏或仿真时可用。 | 实体组件系统、Archetype ECS、C#、SIMD、Source Generator | 游戏开发 |
 | [jeffstudio-dev/Jeff-FX-forge](https://github.com/jeffstudio-dev/Jeff-FX-forge) | Jeff FX 是一款 Godot 4.7 插件，内置 129 款像素与三维特效，支持调整参数、预览、放入场景和导出透明精灵图。<br>使用场景：当你要为 Godot 游戏制作追踪火球，并想先编辑飞行曲线、预览它命中移动目标的效果时，可以用它。 | Godot 4.7、像素特效、三维特效、精灵图导出、追踪飞弹 | 游戏开发 |
 | [niqibiao/unity-csharpconsole](https://github.com/niqibiao/unity-csharpconsole) | 在 Unity 编辑器和运行时提供基于 Roslyn 的交互式 C# REPL，可即时执行代码并访问项目状态。<br>使用场景：需要在 Play Mode 暂停时检查瞬时状态，或将代码远程执行到连接的 Player 时使用。 | Unity调试、C# REPL、Roslyn、运行时执行、HybridCLR | 游戏开发 |
-| [focus-creative-games/zlua](https://github.com/focus-creative-games/zlua) | zlua is a high-performance, rock-solid, and elegantly designed modern Lua solution for Unity, ​​aggressively optimized​​ for IL2CPP and .NET.  zlua是一个高效、稳定、优雅的针为il2cpp和.net 极致优化 的现代Unity lua脚本方案。 |  | 游戏开发 |
+| [focus-creative-games/zlua](https://github.com/focus-creative-games/zlua) | ZLua 是面向 Unity IL2CPP 的现代 Lua 脚本方案，提供零配置 C#↔Lua 交互与低 GC 桥接。<br>使用场景：当你要在 Unity IL2CPP 项目中接入 Lua，并兼容 HybridCLR 热更新代码时可使用。 | Unity Lua脚本、IL2CPP、C#↔Lua、HybridCLR、LuaJIT | 游戏开发 |
 | [qq362946/Fantasy](https://github.com/qq362946/Fantasy) | Fantasy 是面向大型多人在线游戏的零反射高性能 C# 游戏服务器框架。<br>使用场景：需要构建支持跨服通信、服务发现和多协议接入的 MMORPG 后端时可使用它。 | 游戏服务器、C#、Native AOT、ECS、服务发现 | 游戏开发 / AI与智能体 |
 | [pablogila/TileMapDual](https://github.com/pablogila/TileMapDual) | TileMapDual 为 Godot 提供支持方形、等距和六边形网格的实时双网格自动地形系统。<br>使用场景：在 Godot 中制作方形、等距或六边形地图并希望用 15 张瓦片实现自动铺砖时可使用。 | Godot、TileMapLayer、双网格地形、自动铺砖、六边形网格 | 游戏开发 |
 | [mob-sakai/ParticleEffectForUGUI](https://github.com/mob-sakai/ParticleEffectForUGUI) | 在 Unity 的 uGUI 中通过 CanvasRenderer 渲染 ParticleSystem，使粒子特效可与其他 UI 元素一起排序和遮罩，无需额外的摄像机、渲染纹理或画布。<br>使用场景：当你想把现有粒子预制体放进滚动列表，并用 RectMask2D 裁掉超出可视区域的粒子时，可以使用它。 | UI 粒子特效、粒子遮罩、uGUI、ParticleSystem、CanvasRenderer | 游戏开发 / 界面与网页 |
 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 连接 AI 代理与 Unity Editor，用于读写场景、预制体、资源和 C# 代码，并运行测试与截图。<br>使用场景：当你想让 Claude Code 等 MCP 客户端自动修改 Unity 场景并执行 EditMode 或 PlayMode 测试时可以使用它。 | Unity、MCP、AI 游戏开发、场景编辑、C# 测试 | 游戏开发 / AI与智能体 / 开发工具 |
 | [bshishov/UnityTerrainErosionGPU](https://github.com/bshishov/UnityTerrainErosionGPU) | 在Unity中利用计算着色器和浅水方程模拟地形的水力侵蚀与热侵蚀。<br>使用场景：当你要在Unity中通过鼠标修改地形和水体并观察侵蚀效果时可以使用它。 | 地形侵蚀、水力侵蚀、热侵蚀、compute shaders、shallow water equations | 游戏开发 |
 | [jedjoud10/VoxelTerrain](https://github.com/jedjoud10/VoxelTerrain) | 面向 Unity ECS 的程序化体素地形生成系统，支持 GPU/CPU 生成、网格化与全局或局部破坏编辑。<br>使用场景：需要制作可大范围生成、运行时挖掘破坏并支持碰撞烘焙的三维体素世界时可使用。 | 体素地形、Unity ECS、Surface Nets、Compute Shaders、GPU渲染 | 游戏开发 |
-| [p-svacha/BlockMaps](https://github.com/p-svacha/BlockMaps) | Unity framework to create detailed, 3D, grid-based worlds with real-time navmesh generation and integrated pathfinding, vision and movement systems. |  | 游戏开发 |
+| [p-svacha/BlockMaps](https://github.com/p-svacha/BlockMaps) | 用于在 Unity 中构建基于网格的三维世界，并提供实时导航网格、A*寻路和视野系统。<br>使用场景：当角色需要在多层地形、墙体和障碍间按自身能力行走、攀爬或游泳时可使用。 | 三维网格世界、实时导航网格、A*寻路、Vision system | 游戏开发 |
 | [ArshVermaGit/AgriSim](https://github.com/ArshVermaGit/AgriSim) | AgriSim 是一款 2D 农场模拟游戏，玩家可以在实时昼夜与动态天气中耕种、收获并出售农产品。<br>使用场景：想体验如何利用天气安排农活时，可以在雨天让雨水替你浇灌作物。 | 农场模拟、作物种植、动态天气、Unity、URP | 游戏开发 |
 | [gabrield67/Harvest-Haven](https://github.com/gabrield67/Harvest-Haven) | Harvest Haven 是一款用 Unity Engine 开发的在制农场角色扮演游戏，旨在重现 Stardew Valley 的种植、物品管理和季节变化等核心玩法。<br>使用场景：当你想找一个 Unity 农场游戏项目，参考如何让昼夜变化影响场景光照时，可以看看这个项目。 | 农场模拟、角色扮演、昼夜循环、Unity Engine、Stardew Valley | 游戏开发 |
 | [jynew/jynew](https://github.com/jynew/jynew) | 这是一个基于Unity的开放源代码武侠RPG框架，用于制作《金庸群侠传》风格游戏、MOD和二次开发。<br>使用场景：当你想制作带剧情脚本编辑、地图与战斗系统并支持多端打包的武侠游戏时可用它。 | 武侠RPG、MOD开发、Unity、剧情脚本编辑、回合制战棋 | 游戏开发 |
