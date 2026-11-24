@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Momo 收藏工具箱</title>
+  <style>
+    :root{
+      color-scheme:light; --ink:#222522; --muted:#59615b; --line:#dce0d8; --paper:#fff;
+      --ground:#f5f6f2; --soft:#eef0eb; --accent:#225a97;
+      font-family:Inter,"Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+      color:var(--ink); background:var(--ground); line-height:1.6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0}
+    button,input,select{font:inherit;color:inherit}
+    button,select,summary{cursor:pointer}
+    button{background:none;border:0}
+    a{color:inherit;text-underline-offset:.2em}
+    :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    [hidden]{display:none!important}
+    .wrap{width:min(calc(100% - 72px),1192px);margin-inline:auto}
+    .mast{background:var(--paper);border-bottom:1px solid var(--line)}
+    .mast .wrap{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:inline-flex;align-items:center;gap:11px;font-size:20px;font-weight:700;letter-spacing:-.035em}
+    .books{display:inline-flex;align-items:flex-end;gap:3px;height:24px;width:26px;border-bottom:2px solid currentColor;padding:0 1px 2px}
+    .books i{display:block;width:4px;height:15px;background:currentColor;border-radius:1px}
+    .books i:nth-child(2){height:19px}.books i:last-child{transform:rotate(-14deg);margin-left:2px}
+    .source{font-size:13px;color:var(--muted);text-decoration:none}
+    .source:hover,.repo-link:hover{color:var(--accent);text-decoration:underline}
+    .layout{display:grid;grid-template-columns:190px minmax(0,1fr);grid-template-rows:auto 1fr;
+      column-gap:48px;padding-block:38px 64px;align-items:start}
+    .intro{grid-column:2;grid-row:1;min-width:0}
+    h1{font-size:32px;line-height:1.2;letter-spacing:-.045em;margin:0 0 18px}
+    .toolbar{display:flex;gap:8px}
+    .searchbox{display:flex;align-items:center;gap:13px;min-width:0;flex:1;
+      border:1px solid #b8c0b7;background:var(--paper);border-radius:8px;padding:0 14px}
+    .searchbox:focus-within{outline:2px solid var(--accent);outline-offset:1px}
+    .lens{width:15px;height:15px;flex:none;border:1.7px solid var(--muted);border-radius:50%;position:relative}
+    .lens:after{content:"";position:absolute;right:-5px;bottom:-3px;width:7px;height:2px;background:var(--muted);transform:rotate(46deg)}
+    #q{border:0;background:transparent;outline:0;width:100%;min-width:0;height:46px;font-size:16px}
+    #q::placeholder{color:#6b736b}
+    #clear{font-size:21px;line-height:1;width:30px;height:36px;flex:none}
+    .filter-trigger,.filter-done{display:none}
+    .rail{grid-column:1;grid-row:1 / span 2;position:sticky;top:22px}
+    .rail h2,.rail label{display:block;margin:0 0 10px;font-size:14px;font-weight:650;color:var(--muted)}
+    #categories{display:grid;gap:2px}
+    .category{display:flex;align-items:center;justify-content:space-between;gap:10px;
+      min-height:38px;text-align:left;padding:6px 11px;font-size:15px;border-radius:5px}
+    .category:hover{background:#ebece7}.category[aria-pressed="true"]{background:#e1e5de;font-weight:650}
+    .category span:last-child{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+    .scope{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+    #status{width:100%;background:#fff;border:1px solid #c8cdc5;border-radius:6px;padding:8px;font-size:14px}
+    .filter-actions{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
+    .reset{font-size:14px;text-decoration:underline;text-underline-offset:3px;color:var(--muted);padding:4px 0}
+    .list-section{grid-column:2;grid-row:2;min-width:0}
+    .list-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:18px 0 9px}
+    #count{font-size:15px;font-weight:650}
+    #updated{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+    #results{background:var(--paper);border:1px solid var(--line);border-radius:8px}
+    .entry + .entry{border-top:1px solid var(--line)}
+    .entry summary{display:block;list-style:none;position:relative;padding:16px 49px 16px 22px;overflow-wrap:anywhere}
+    summary::-webkit-details-marker{display:none}
+    .entry:first-child summary{border-radius:8px 8px 0 0}.entry:last-child:not([open]) summary{border-radius:0 0 8px 8px}
+    .entry summary:hover,.entry[open] summary{background:#f7f8f5}
+    .entry summary::after{content:"";position:absolute;right:23px;top:25px;width:7px;height:7px;
+      border-right:1.6px solid #657065;border-bottom:1.6px solid #657065;transform:rotate(45deg)}
+    .entry[open] summary::after{transform:translateY(3px) rotate(225deg)}
+    .entry[open] summary .hit,.entry[open] summary .tags{display:none}
+    .row-title{display:block;font-size:16px;line-height:1.5}
+    .repo-name{font-size:19px;font-weight:700;letter-spacing:-.025em}
+    .purpose{font-weight:500}
+    .purpose::before{content:" · ";color:#9da59b;white-space:pre}
+    .tags{display:flex;gap:5px 7px;flex-wrap:wrap;margin-top:8px}
+    .tag{background:var(--soft);color:#475148;font-size:12px;line-height:1.55;padding:1px 7px;border-radius:4px}
+    .state{color:var(--muted);font-size:12px}
+    .hit{display:block;color:#36423c;line-height:1.6;margin-top:6px;font-size:15px;max-width:75ch}
+    mark{background:#dceaf9;color:#143d66;font-weight:650;border-radius:2px}
+    .detail{border-top:1px solid var(--line);margin:0 22px;padding:16px 0 20px;font-size:16px;line-height:1.65}
+    .detail dl{margin:0;display:grid;grid-template-columns:5em minmax(0,1fr);gap:10px 12px;max-width:52em}
+    .detail dt{font-size:13px;font-weight:600;color:var(--muted);padding-top:3px}
+    .detail dd{margin:0;max-width:40em;overflow-wrap:anywhere;white-space:pre-line}
+    .repo-link{display:inline-block;color:var(--accent);margin-top:14px;font-size:14px}
+    .empty{padding:30px 22px}.empty p{margin:0 0 10px}
+    @media(max-width:950px){
+      .wrap{width:calc(100% - 40px)}.layout{grid-template-columns:152px minmax(0,1fr);column-gap:24px}
+    }
+    @media(max-width:700px){
+      .wrap{width:calc(100% - 28px)}.mast .wrap{min-height:52px}.brand{font-size:18px}
+      .layout{display:flex;flex-direction:column;gap:0;padding-block:14px 28px}.layout>*{width:100%}
+      .intro h1{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%)}
+      .searchbox{gap:11px;padding:0 10px}#q{height:43px}
+      .filter-trigger,.filter-done{display:block;min-height:44px;padding:0 13px;border-radius:6px;font-size:14px;font-weight:600}
+      .filter-trigger{border:1px solid #b8c0b7;background:white}.filter-trigger[aria-expanded="true"],.filter-done{background:#28302a;color:#fff}
+      .rail{display:none;position:static}.rail.shown{display:block;background:#fff;border:1px solid var(--line);padding:16px;margin-top:10px;border-radius:7px}
+      #categories{grid-template-columns:1fr 1fr;gap:3px 8px}.category{min-height:40px}
+      .scope{margin-top:10px;padding-top:12px}.scope label{margin-bottom:5px}.filter-actions{margin-top:10px}
+      .list-head{margin:12px 0 8px}
+      .entry summary{padding:12px 32px 12px 13px}.entry summary::after{right:14px;top:21px}
+      .repo-name{font-size:17px}.row-title{font-size:15px}.tags{margin-top:6px;gap:4px 5px}
+      .detail{margin-inline:13px}.detail dl{display:block}.detail dt{padding:0;margin-top:12px}.detail dt:first-child{margin-top:0}
+      .detail dd{margin-top:3px}.hit{font-size:14px}
+    }
+  </style>
+</head>
+<body>
+  <header class="mast"><div class="wrap">
+    <span class="brand"><span class="books" aria-hidden="true"><i></i><i></i><i></i></span>Momo 收藏工具箱</span>
+    <a class="source" href="https://github.com/BreezyMomo/momo-toolbox" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </div></header>
+  <main class="wrap layout">
+    <div class="intro">
+      <h1>收藏目录</h1>
+      <div class="toolbar">
+        <div class="searchbox"><span class="lens" aria-hidden="true"></span>
+          <input id="q" type="text" inputmode="search" autocomplete="off" aria-label="搜索收藏" placeholder="搜索工具、关键词或使用场景">
+          <button id="clear" type="button" aria-label="清除搜索词" hidden>×</button>
+        </div>
+        <button class="filter-trigger" id="filter-toggle" type="button" aria-expanded="false" aria-controls="filters">筛选</button>
+      </div>
+    </div>
+    <aside class="rail" id="filters" aria-label="筛选收藏">
+      <h2>分类</h2><div id="categories"></div>
+      <div class="scope"><label for="status">收藏范围</label>
+        <select id="status"><option value="active">当前收藏</option><option value="inbox">待整理</option><option value="all">全部（含历史）</option></select>
+      </div>
+      <div class="filter-actions">
+        <button class="reset" id="reset" type="button">重置条件</button>
+        <button class="filter-done" id="filter-done" type="button">完成</button>
+      </div>
+    </aside>
+    <section class="list-section" aria-label="收藏结果">
+      <div class="list-head"><span id="count" role="status"></span><time id="updated" datetime="__LAST_SYNC__"></time></div>
+      <div id="results"></div>
+    </section>
+  </main>
+  <script id="data" type="application/json">__STAR_DATA__</script>
+  <script>
+  'use strict';
+  const byId = id => document.getElementById(id);
+  const q = byId('q'), scope = byId('status'), filters = byId('filters');
+  const toggle = byId('filter-toggle'), results = byId('results');
+  const mobile = window.matchMedia('(max-width:700px)');
+  const entries = JSON.parse(byId('data').textContent).map(record => {
+    // A hand-written note may omit fields. Index the same public fields as the offline search.
+    const tags = Array.isArray(record.tags) ? record.tags : [];
+    const topics = record.topics || [], categories = record.categories || [];
+    const summary = record.summary || record.description || '';
+    const fields = [
+      record.use_when, summary, record.note, tags.join('、'), record.description,
+      record.full_name, topics.join('、'), categories.join('、'), record.language, record.url
+    ].filter(Boolean);
+    const name = record.full_name.split('/').pop();
+    let displayName = name, purpose = summary;
+    if (purpose.slice(0, name.length).toLowerCase() === name.toLowerCase() &&
+        !/^[a-z0-9_.-]/i.test(purpose.slice(name.length))) {
+      displayName = purpose.slice(0, name.length);
+      purpose = purpose.slice(name.length).trim().replace(/^(?:是一(?:个|款|套|种)|是)\s*/, '');
+    } else {
+      const alias = purpose.match(/^([\w.+#-]+)\s+是\s*(?:一[个款套种]\s*)?/);
+      const initials = name.split(/[-_]/).map(part => part[0]).join('').toLowerCase();
+      if (alias && (name.toLowerCase().startsWith(alias[1].toLowerCase() + '-') ||
+                    initials === alias[1].toLowerCase())) purpose = purpose.slice(alias[0].length);
+    }
+    // Prefer an explicit purpose clause. Keep the complete source sentence in the details.
+    const purposeClause = purpose.match(/，(?:可)?用于([^，。；]+)/);
+    purpose = purposeClause ? purposeClause[1] : purpose.split(/[，。；]/, 1)[0];
+    if (purpose.startsWith('用于')) {
+      purpose = purpose.slice(2).replace(/的(?:通用\s*)?(?:[a-z][\w.+#-]*\s*)?(?:库|框架|平台|插件|工具)$/i, '');
+    }
+    if (!purpose.trim()) purpose = tags[0] || record.description || '';
+    return {record, tags, topics, categories, summary, displayName, purpose,
+            fields, text: fields.join(' ').toLowerCase()};
+  });
+  const categoryNames = [...new Set(entries.flatMap(entry => entry.categories))].sort(
+    (a,b) => a === b ? 0 : a === '其他' ? 1 : b === '其他' ? -1 : a.localeCompare(b, 'zh-CN'));
+  let category = '';
+
+  function node(tag, className, text) {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    if (text != null) element.textContent = text;
+    return element;
+  }
+  function setFiltersOpen(open) {
+    filters.classList.toggle('shown', open);
+    toggle.setAttribute('aria-expanded', String(open));
+  }
+  function closeFilters() {
+    setFiltersOpen(false);
+    toggle.focus();
+  }
+  const categoryButtons = new Map();
+  for (const name of ['', ...categoryNames]) {
+    const button = node('button', 'category');
+    button.type = 'button';
+    button.append(node('span', '', name || '全部分类'), node('span'));
+    button.addEventListener('click', () => { category = name; draw(); });
+    byId('categories').append(button);
+    categoryButtons.set(name, button);
+  }
+
+  function searchTerms() {
+    const words = [...new Set(q.value.trim().toLowerCase().split(/\s+/).filter(Boolean))];
+    const patterns = words.slice().sort((a,b) => b.length - a.length)
+      .map(word => word.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\$&'));
+    return {words, pattern: patterns.length ? new RegExp(patterns.join('|'), 'gi') : null};
+  }
+  function highlighted(parent, text, terms) {
+    if (!terms.pattern) { parent.append(text); return; }
+    let end = 0;
+    for (const match of text.matchAll(terms.pattern)) {
+      parent.append(text.slice(end, match.index), node('mark', '', match[0]));
+      end = match.index + match[0].length;
+    }
+    parent.append(text.slice(end));
+  }
+  function matchExcerpts(entry, words) {
+    // Show the sentence that explains the most terms. A use case wins ties.
+    const remaining = new Set(words), excerpts = [];
+    while (remaining.size) {
+      let best = '', hits = [];
+      for (const field of entry.fields) {
+        const lower = field.toLowerCase();
+        const found = [...remaining].filter(word => lower.includes(word));
+        if (found.length > hits.length) { best = field; hits = found; }
+      }
+      if (!hits.length) break;
+      excerpts.push(best);
+      hits.forEach(word => remaining.delete(word));
+    }
+    return excerpts;
+  }
+  function detailsFor(entry, terms) {
+    const {record, tags, categories} = entry;
+    const body = node('div', 'detail'), dl = node('dl');
+    const fields = [
+      ['简介', entry.summary], ['使用场景', record.use_when], ['关键词', tags.join('、')],
+      ['个人笔记', record.note], ['分类', categories.join(' / ')],
+      ['状态', [record.reviewed ? '已整理' : '待整理', !record.active && '历史收藏', record.archived && '上游已归档'].filter(Boolean).join(' · ')]
+    ];
+    for (const [label, value] of fields) {
+      if (!value) continue;
+      const dd = node('dd');
+      highlighted(dd, value, terms);
+      dl.append(node('dt', '', label), dd);
+    }
+    const link = node('a', 'repo-link', record.full_name + ' ↗');
+    link.href = record.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    body.append(dl, link);
+    return body;
+  }
+  function resultRow(entry, terms) {
+    const {record, displayName, purpose, tags} = entry;
+    const item = node('details', 'entry'), head = node('summary');
+    const title = node('span', 'row-title'), name = node('span', 'repo-name');
+    highlighted(name, displayName, terms);
+    title.append(name);
+    if (purpose) {
+      const text = node('span', 'purpose');
+      highlighted(text, purpose, terms);
+      title.append(text);
+    }
+    head.append(title);
+    for (const excerpt of matchExcerpts(entry, terms.words)) {
+      const line = node('span', 'hit');
+      highlighted(line, excerpt, terms);
+      head.append(line);
+    }
+    const strip = node('span', 'tags');
+    const matchingTags = tags.filter(tag => terms.words.some(word => tag.toLowerCase().includes(word)));
+    for (const tag of [...new Set([...matchingTags, ...tags])].slice(0, 3)) {
+      const chip = node('span', 'tag');
+      highlighted(chip, tag, terms);
+      strip.append(chip);
+    }
+    if (!record.active) strip.append(node('span', 'state', '历史收藏'));
+    if (record.archived) strip.append(node('span', 'state', '上游已归档'));
+    if (strip.childElementCount) head.append(strip);
+    item.append(head);
+    item.addEventListener('toggle', () => {
+      if (item.open && item.children.length === 1) item.append(detailsFor(entry, terms));
+    });
+    return item;
+  }
+  function updateTime() {
+    const time = byId('updated'), date = new Date(time.dateTime);
+    if (!Number.isFinite(date.getTime())) return;
+    const options = {timeZone:'Asia/Shanghai'};
+    const day = new Intl.DateTimeFormat('zh-CN', {...options, year:'numeric', month:'numeric', day:'numeric'});
+    const clock = new Intl.DateTimeFormat('zh-CN', {...options, hour:'2-digit', minute:'2-digit', hourCycle:'h23'});
+    const now = new Date(), stamp = clock.format(date);
+    const prefix = day.format(date) === day.format(now) ? '今天' : day.format(date);
+    time.textContent = prefix + ' ' + stamp + ' 更新';
+    time.title = '北京时间 ' + day.format(date) + ' ' + stamp;
+  }
+  function readFragment() {
+    const params = new URLSearchParams(location.hash.slice(1));
+    q.value = params.get('q') || '';
+    category = categoryButtons.has(params.get('cat')) ? params.get('cat') : '';
+    scope.value = ['inbox','all'].includes(params.get('status')) ? params.get('status') : 'active';
+  }
+  function writeFragment() {
+    const params = new URLSearchParams();
+    if (q.value.trim()) params.set('q', q.value.trim());
+    if (category) params.set('cat', category);
+    if (scope.value !== 'active') params.set('status', scope.value);
+    const hash = params.size ? '#' + params.toString() : '';
+    if (hash !== location.hash && location.protocol !== 'file:')
+      history.replaceState(null, '', location.pathname + location.search + hash);
+  }
+  function reset() {
+    q.value = ''; category = ''; scope.value = 'active';
+    setFiltersOpen(false); draw(); q.focus();
+  }
+  function draw() {
+    const terms = searchTerms();
+    const scoped = entries.filter(({record}) => scope.value === 'all' ||
+      (record.active && (scope.value !== 'inbox' || !record.reviewed)));
+    const matches = scoped.filter(e => terms.words.every(word => e.text.includes(word)));
+    const counts = new Map();
+    matches.forEach(e => e.categories.forEach(c => counts.set(c, (counts.get(c) || 0) + 1)));
+    for (const [name, button] of categoryButtons) {
+      button.setAttribute('aria-pressed', String(name === category));
+      button.lastChild.textContent = name ? counts.get(name) || 0 : matches.length;
+    }
+    const found = matches.filter(e => !category || e.categories.includes(category));
+    byId('count').textContent = found.length + (terms.words.length || category ? ' 个结果' : ' 个收藏');
+    byId('clear').hidden = !q.value;
+    toggle.textContent = (category || scope.value !== 'active') ? '已筛选' : '筛选';
+    const fragment = document.createDocumentFragment();
+    found.forEach(entry => fragment.append(resultRow(entry, terms)));
+    if (!found.length) {
+      const empty = node('div', 'empty'), clear = node('button', 'reset', '重置条件');
+      clear.type = 'button'; clear.addEventListener('click', reset);
+      empty.append(node('p', '', '没有找到符合条件的收藏。'), clear);
+      fragment.append(empty);
+    }
+    results.replaceChildren(fragment);
+    writeFragment();
+  }
+  q.addEventListener('input', draw);
+  byId('clear').addEventListener('click', () => { q.value = ''; draw(); q.focus(); });
+  scope.addEventListener('change', draw);
+  byId('reset').addEventListener('click', reset);
+  toggle.addEventListener('click', () => setFiltersOpen(!filters.classList.contains('shown')));
+  byId('filter-done').addEventListener('click', closeFilters);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && mobile.matches && filters.classList.contains('shown')) closeFilters();
+  });
+  mobile.addEventListener('change', () => setFiltersOpen(false));
+  window.addEventListener('hashchange', () => { readFragment(); draw(); });
+  updateTime(); readFragment(); draw();
+  </script>
+</body>
+</html>

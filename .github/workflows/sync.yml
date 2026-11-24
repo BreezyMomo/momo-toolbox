@@ -10,7 +10,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: [notes.json, config.json, sync_stars.py, summarize_stars.py, test_sync.py, .github/workflows/sync.yml]
+    paths: [notes.json, config.json, sync_stars.py, summarize_stars.py, search.template.html, test_sync.py, .github/workflows/sync.yml]
 permissions:
   contents: read
 concurrency:

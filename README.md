@@ -9,7 +9,7 @@
 
 - [待整理清单](INBOX.md)：尚未写个人笔记的收藏。
 - [分类索引](INDEX.md)：按用途浏览；初始分类是关键词规则建议，不是 AI 总结。
-- [在线搜索](https://breezymomo.github.io/momo-toolbox/)：直接打开，搜索关键词、筛选分类和待整理状态。每日同步后自动更新，无需下载。
+- [在线搜索](https://breezymomo.github.io/momo-toolbox/)：按用途浏览收藏，点开一条可读完整简介、使用场景和笔记。搜索会高亮命中的原文，手机上的分类和收藏范围在“筛选”里。
 - [离线搜索文件](search.html)：仍可 Download raw file 后用浏览器打开。
 - [立即同步 / 查看结果](../../actions/workflows/sync.yml)：点击 **Run workflow**。失败可在运行日志查看原因。
 - [个人笔记](notes.json)：你自己的中文说明、使用场景和分类，自动任务不会覆盖。
