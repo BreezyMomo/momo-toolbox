@@ -23,6 +23,9 @@ class RelayError(Exception):
         self.status = status
         super().__init__(f'relay HTTP {status}')
 
+class MetadataError(ValueError):
+    """Only fixed, local validation messages may be logged."""
+
 
 def pending_records(records, notes):
     pending = []
@@ -61,7 +64,7 @@ def generate_metadata(api_key, record, excerpt):
                 'description': (record.get('description') or '')[:350], 'topics': (record.get('topics') or [])[:20]}
     payload = {
         'model': MODEL,
-        'max_completion_tokens': 512,
+        'max_completion_tokens': 1024 if record.get('ai_summary_attempts') else 512,
         'messages': [
             {'role': 'system', 'content': '你是软件目录编辑，帮助用户按任务找到工具。只根据公开仓库资料写 JSON 对象，'
              '含三个字段：summary 是一句简体中文，介绍整个项目的具体用途；tags 是 3 到 5 个互不重复的搜索关键词，'
@@ -90,14 +93,22 @@ def generate_metadata(api_key, record, excerpt):
     try:
         choice = json.loads(raw)['choices'][0]
         content = choice['message']['content']
+        if choice['finish_reason'] == 'length':
+            raise MetadataError('response exceeded token limit')
         if choice['finish_reason'] != 'stop' or not isinstance(content, str) or api_key in content:
-            raise ValueError('unusable relay response')
-        entry = json.loads(content)
-        return {'ai_summary': sync.validate_summary(entry['summary']),
-                'ai_tags': sync.validate_keywords(entry['tags']),
-                'ai_use_when': sync.validate_summary(entry['use_when'])}
+            raise MetadataError('unusable response')
+        try:
+            entry = json.loads(content)
+        except json.JSONDecodeError:
+            raise MetadataError('invalid JSON') from None
+        try:
+            return {'ai_summary': sync.validate_summary(entry['summary']),
+                    'ai_tags': sync.validate_keywords(entry['tags']),
+                    'ai_use_when': sync.validate_summary(entry['use_when'])}
+        except ValueError as error:
+            raise MetadataError(str(error)) from None
     except (KeyError, IndexError, TypeError) as error:
-        raise ValueError('unexpected relay response') from error
+        raise MetadataError('unexpected response structure') from error
 
 
 def describe_record(record, api_key):
@@ -133,7 +144,8 @@ def summarize(state, path, pending, api_key, *, backfill=False):
                 except (OSError, HTTPException, ValueError) as error:
                     attempts = record.get('ai_summary_attempts', 0) + 1
                     record['ai_summary_attempts'] = attempts
-                    print(f"::warning::No metadata for {record['full_name']} on attempt {attempts}/{MAX_ATTEMPTS} ({type(error).__name__}).")
+                    reason = str(error) if isinstance(error, MetadataError) else type(error).__name__
+                    print(f"::warning::No metadata for {record['full_name']} on attempt {attempts}/{MAX_ATTEMPTS} ({reason}).")
                 changed = True
             if changed:
                 sync.write(path, json.dumps(state, ensure_ascii=False, indent=2) + '\n')
@@ -149,6 +161,11 @@ def main():
     path = sync.ROOT / 'stars.json'
     state = sync.read_json(path, {'records': []})
     notes = sync.read_json(sync.ROOT / 'notes.json', {})
+    # An explicit manual backfill may retry exhausted entries. Daily runs still respect the cap.
+    if args.backfill and not args.check:
+        for r in state['records']:
+            if r['active'] and r.get('ai_summary_attempts', 0) >= MAX_ATTEMPTS:
+                r['ai_summary_attempts'] = MAX_ATTEMPTS - 1
     pending = pending_records(state['records'], notes)
     if args.check:
         print('true' if pending else 'false')

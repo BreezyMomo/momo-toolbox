@@ -20,11 +20,11 @@
 
 每天北京时间 **09:23**（UTC 01:23）同步一次。GitHub 定时任务可能延迟，不保证准点。也可随时手动运行。
 第一版读取 `BreezyMomo` **公开可访问的 Star 项目**，不会读取私有仓库收藏。若 GitHub 个人资料被设为私有，可能需要另行配置有适当权限的认证，当前不创建个人令牌。
-同步脚本把公开仓库名、README 摘录、GitHub 原简介和 topics 发到 `https://relay.tuyoo.com/v1/chat/completions`。由 `gpt-6.2-sol` 在同一次请求中给出一句中文简介、3～5 个具体关键词和一个有资料依据的使用场景。每条最多取 6,000 个 README 字符，输出上限为 512 tokens。在线和离线搜索均支持关键词、技术名和场景中的文字，多个搜索词可用空格组合。
+同步脚本把公开仓库名、README 摘录、GitHub 原简介和 topics 发到 `https://relay.tuyoo.com/v1/chat/completions`。由 `gpt-6.2-sol` 在同一次请求中给出一句中文简介、3～5 个具体关键词和一个有资料依据的使用场景。每条最多取 6,000 个 README 字符，首次输出上限为 512 tokens，格式错误等情况重试时上限为 1,024 tokens。在线和离线搜索均支持关键词、技术名和场景中的文字，多个搜索词可用空格组合。
 
 每个字段优先展示 `notes.json` 中的手写内容。AI 结果按仓库 ID 保存在 `stars.json` 的 `ai_summary`、`ai_tags` 和 `ai_use_when`，已保存字段在补齐其他字段时保留。三项齐全后直接复用，改名或更新 README 也不会重新调用模型。取消 Star 的项目保留历史记录，搜索选择“全部”可找到。
 
-每日同步最多处理 10 项。需要一次性补齐当前收藏时，在 Actions 的 **Run workflow** 勾选 **Fill missing descriptions, keywords and use cases for all current stars**。这个选项只处理缺少字段的当前收藏。
+每日同步最多处理 10 项。需要一次性补齐当前收藏时，在 Actions 的 **Run workflow** 勾选 **Fill missing descriptions, keywords and use cases for all current stars**。这个选项只处理缺少字段的当前收藏，并允许已用完重试次数的条目再尝试一次。
 
 ## 配置 AI 密钥
 

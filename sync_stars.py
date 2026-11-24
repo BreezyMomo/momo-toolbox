@@ -72,7 +72,7 @@ def note_for(record, notes):
 def validate_summary(text):
     if not isinstance(text, str):
         raise ValueError('expected a Chinese summary')
-    sentence = text.removesuffix('。').strip()
+    sentence = ' '.join(text.replace('\u200b', '').split()).removesuffix('。').strip()
     if (not 4 <= len(sentence) <= 100 or not re.search(r'[\u4e00-\u9fff]', sentence)
             or sentence.startswith('资料不足') or not sentence.isprintable()
             or re.search(r'https?://|[。！？<>\[\]]', sentence, re.I)):
@@ -87,7 +87,8 @@ def validate_keywords(tags):
         if not isinstance(tag, str):
             raise ValueError('invalid keyword')
         tag = tag.strip()
-        if not re.fullmatch(r'[\w .+#/&()·-]{1,32}', tag) or '//' in tag or not re.search(r'\w', tag):
+        if (not 1 <= len(tag) <= 32 or not tag.isprintable() or not re.search(r'\w', tag)
+                or re.search(r'//|[<>\[\]|\x60]', tag)):
             raise ValueError('invalid keyword')
         result.setdefault(tag.casefold(), tag)
     if not 3 <= len(result) <= 5:

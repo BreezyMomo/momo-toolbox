@@ -179,6 +179,8 @@ class Tests(unittest.TestCase):
 
     def test_keyword_validation(self):
         self.assertEqual(s.validate_keywords(['Git', 'git', 'C++', '版本控制']), ['Git', 'C++', '版本控制'])
+        self.assertEqual(s.validate_keywords(['C#↔Lua', '导航网格（NavMesh）', '实时寻路']),
+                         ['C#↔Lua', '导航网格（NavMesh）', '实时寻路'])
         for invalid in ('a,b,c', ['x'], ['one','two','<script>'], ['Git','git','GIT']):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):
                 s.validate_keywords(invalid)
