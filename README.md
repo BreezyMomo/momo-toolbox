@@ -1,7 +1,7 @@
 # 📚 Momo 收藏工具箱
 
 
-公开 GitHub 收藏索引。你继续点 Star，这里每天自动收集，不需要开启电脑，也不调用 AI 模型。
+公开 GitHub 收藏索引。每天自动收集 Star，给新收藏写一句中文介绍，你的电脑可以关机。
 
 
 ## 从这里开始
@@ -20,7 +20,15 @@
 
 每天北京时间 **09:23**（UTC 01:23）同步一次。GitHub 定时任务可能延迟，不保证准点。也可随时手动运行。
 第一版读取 `BreezyMomo` **公开可访问的 Star 项目**，不会读取私有仓库收藏。若 GitHub 个人资料被设为私有，可能需要另行配置有适当权限的认证，当前不创建个人令牌。
-只保存项目元数据，不下载代码，不运行收藏项目的代码。取消 Star、项目删除或不再可见时保留历史记录和笔记，但从当前收藏隐藏；搜索选择“全部”可找到。
+同步保存项目元数据。首次发现公开仓库时，同步脚本会把仓库名和默认分支的 README 摘录发到 `https://relay.tuyoo.com/v1/chat/completions`，由 `gpt-6.2-sol` 写一句中文介绍。每次同步最多处理 10 个待生成条目，每条输入最多 6,000 个 README 字符，输出上限为 512 tokens。
+
+索引优先展示 `notes.json` 中的手写简介，其次是 `stars.json` 中的 `ai_summary`，最后是 GitHub 原简介。AI 简介按仓库 ID 保存。后续同步直接复用，仓库改名、更新 README 或取消后重新 Star 都不会触发重新生成。启用前已收录的收藏维持原样。取消 Star、项目删除或不再可见时保留历史记录和笔记，搜索选择“全部”可找到。
+
+## 配置 AI 密钥
+
+在仓库的 **Settings → Secrets and variables → Actions → New repository secret** 添加名为 `AI_API_KEY` 的密钥，值填写中转服务提供的 Key。密钥仅注入只读同步任务中的 API 调用步骤。请求正文只包含生成指令、公开仓库名和 README 摘录。提交任务在另一台运行机上校验简介并生成页面。
+
+缺少密钥或中转服务返回鉴权、限流等 HTTP 错误时，未完成的简介留到后续同步，当天的收藏照常发布。单个项目遇到连接超时或返回内容不合格时，累计尝试最多三次；缺少 README 的项目沿用 GitHub 原简介。
 
 
 ## 如何整理
@@ -55,13 +63,13 @@
 | config.json | GitHub 用户名 | 可以 |
 | stars.json | 自动同步元数据及历史 | 不建议 |
 | INBOX.md / INDEX.md / search.html | 自动生成视图 | 不要，任务会重建 |
-| sync_stars.py / test_sync.py | 同步实现和测试 | 开发时修改 |
+| sync_stars.py / summarize_stars.py / test_sync.py | 同步、README 简介和测试 | 开发时修改 |
 
 
 ## 本地使用
 
 
-Python 3.11+，无需额外依赖：
+基础同步和索引渲染只需 Python 3.11+：
 
 
 ```sh
@@ -70,11 +78,13 @@ python sync_stars.py
 python sync_stars.py --render-only
 ```
 
+本地生成中文简介时，通过环境变量提供 `AI_API_KEY`，运行 `python summarize_stars.py`，然后运行 `python sync_stars.py --render-only`。运行 `python summarize_stars.py --check` 可查看有无待生成条目。
 
-同步失败会使 Actions 标红，`stars.json` 中的 `last_sync` 保留上次成功时间。GitHub Actions 使用仓库自带的临时 GITHUB_TOKEN，同步任务只给本仓库内容写权限，发布任务仅给 Pages 与临时身份令牌权限，不保存个人密钥。并发任务串行执行，推送若与人工编辑冲突则停止，绝不强制推送。
+
+收藏抓取失败会使 Actions 标红，`stars.json` 中的 `last_sync` 保留上次成功时间。GitHub Actions 使用仓库自带的临时 GITHUB_TOKEN，抓取和生成简介的任务拥有仓库只读权限，提交任务拥有仓库内容写权限，Pages 部署任务仅拥有 Pages 与临时身份令牌权限。并发任务串行执行，推送若与人工编辑冲突则停止，绝不强制推送。
 
 
 本仓库和 GitHub Pages 均已公开。这里只放愿意公开的资料，notes.json 中新增的笔记也会公开，请勿填写私人资料、密钥或敏感链接。Pages 仅部署 search.html 的副本 index.html，不打包整个仓库。
 
-同步、生成和部署在同一工作流内完成，不依赖机器人提交触发第二条工作流。公开仓库长期无活动时 GitHub 可能停用定时任务，请查看 Actions 并按提示重新启用。Actions 受 GitHub 账户额度限制，不设置付费预算。Chrome 收藏导入、AI 中文总结和语义搜索留作后续，不包含在本版。
+同步、生成和部署在同一工作流内完成，不依赖机器人提交触发第二条工作流。公开仓库长期无活动时 GitHub 可能停用定时任务，请查看 Actions 并按提示重新启用。Actions 受 GitHub 账户额度限制，不设置付费预算。Chrome 收藏导入和语义搜索留作后续，不包含在本版。
 

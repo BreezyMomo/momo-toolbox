@@ -26,13 +26,17 @@ def write(path, text):
         tmp = Path(f.name)
     tmp.replace(path)
 
-def fetch_stars(username):
-    if not re.fullmatch(r'[A-Za-z0-9-]+', username):
-        raise ValueError('Invalid GitHub username')
-    headers = {'Accept': 'application/vnd.github.star+json', 'User-Agent': 'momo-toolbox', 'X-GitHub-Api-Version': '2022-11-28'}
+def github_headers(media_type):
+    headers = {'Accept': media_type, 'User-Agent': 'momo-toolbox', 'X-GitHub-Api-Version': '2022-11-28'}
     token = os.getenv('GH_TOKEN') or os.getenv('GITHUB_TOKEN')
     if token:
         headers['Authorization'] = 'Bearer '+token
+    return headers
+
+def fetch_stars(username):
+    if not re.fullmatch(r'[A-Za-z0-9-]+', username):
+        raise ValueError('Invalid GitHub username')
+    headers = github_headers('application/vnd.github.star+json')
     result = []
     for page in range(1, 1001):
         url = f'https://api.github.com/users/{username}/starred?per_page=100&page={page}&sort=created&direction=desc'
@@ -54,18 +58,39 @@ def merge(previous, fetched, now):
         old = records.get(r['id'], {})
         records[r['id']] = {k:r.get(k) for k in ['id','full_name','description','language','topics','pushed_at','archived']}
         records[r['id']].update(url='https://github.com/'+r['full_name'], starred_at=item.get('starred_at'), first_seen=old.get('first_seen',now), active=True, suggested_categories=classify(r))
+        # Only newly discovered IDs enter the queue. Legacy records have no ai_summary field.
+        if not old or 'ai_summary' in old:
+            records[r['id']]['ai_summary'] = old.get('ai_summary')
+        if 'ai_summary_attempts' in old:
+            records[r['id']]['ai_summary_attempts'] = old['ai_summary_attempts']
     return sorted(records.values(), key=lambda r:r.get('starred_at') or r['first_seen'], reverse=True)
+
+def note_for(record, notes):
+    note = notes.get(str(record['id']), notes.get(record['full_name'], {}))
+    if not isinstance(note, dict):
+        raise ValueError('Each note must be an object')
+    return note
+
+def validate_summary(text):
+    if not isinstance(text, str):
+        raise ValueError('expected a Chinese summary')
+    sentence = text.removesuffix('。').strip()
+    if (not 4 <= len(sentence) <= 100 or not re.search(r'[\u4e00-\u9fff]', sentence)
+            or sentence.startswith('资料不足') or not sentence.isprintable()
+            or re.search(r'https?://|[。！？<>\[\]]', sentence, re.I)):
+        raise ValueError('expected one short Chinese sentence')
+    return sentence + '。'
 
 def enrich(records, notes):
     out=[]
     for r in records:
-        n=notes.get(str(r['id']), notes.get(r['full_name'], {}))
-        if not isinstance(n,dict):
-            raise ValueError('Each note must be an object')
+        n=note_for(r, notes)
         cats=n.get('categories') or r['suggested_categories']
         if not isinstance(cats,list) or not all(isinstance(c,str) for c in cats):
             raise ValueError('categories must be a list of strings')
-        out.append(dict(r, categories=cats, summary=n.get('summary',''), use_when=n.get('use_when',''), tags=n.get('tags',[]), note=n.get('note',''), reviewed=n.get('reviewed',False)))
+        generated = r.get('ai_summary')
+        summary = n.get('summary') or (validate_summary(generated) if generated else '')
+        out.append(dict(r, categories=cats, summary=summary, use_when=n.get('use_when',''), tags=n.get('tags',[]), note=n.get('note',''), reviewed=n.get('reviewed',False)))
     return out
 
 def md(s):
