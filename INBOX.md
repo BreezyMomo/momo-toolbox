@@ -1,9 +1,12 @@
 # 待整理清单
 
-最后成功同步：2026-11-23T09:12:36+00:00。共 239 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-24T02:25:26+00:00。共 241 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 分类 |
 |---|---|---|
+| [heydamir/unslop](https://github.com/heydamir/unslop) | A Claude skill that turns vibecoded, AI-looking UI into a designed interface  | 界面与网页 |
+| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | Towards a More Autonomous Agent System  | AI与智能体 |
+| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | Open-source plugin for designing and reviewing software with agents  | AI与智能体 / 开发工具 |
 | [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.  | AI与智能体 |
 | [Vanilagy/mediabunny](https://github.com/Vanilagy/mediabunny) | Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser.  | 其他 |
 | [pmndrs/drei](https://github.com/pmndrs/drei) | 🥉 useful helpers for react-three-fiber  | 界面与网页 |
@@ -29,7 +32,6 @@
 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.  | AI与智能体 / 开发工具 |
 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.   | 其他 |
 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.  | 界面与网页 |
-| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | Open-source plugin for designing and reviewing software with agents  | AI与智能体 / 开发工具 |
 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | Open-source gym &amp; body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.  | AI与智能体 / 界面与网页 |
 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Open-source Grok Bot alternative with a virtual machine that bots can use  | 其他 |
 | [dream-num/univer](https://github.com/dream-num/univer) | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.  | AI与智能体 |
@@ -54,7 +56,7 @@
 | [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。  | 其他 |
 | [zilliztech/memsearch](https://github.com/zilliztech/memsearch) | A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.  | AI与智能体 / 知识与效率 |
 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .  | 其他 |
-| [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | A context insight plugin officially recommended by DeepSeek Harness, for context composition, evolution and Multi-Agent details. DeepSeek Harness官方推荐的上下文洞察插件，透视上下文组成与演进，以及多Agent 协作与通讯。  | AI与智能体 |
+| [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | DeepSeek Harness officially recommended - a context insight plugin, for context composition, evolution and Multi-Agent details. DeepSeek Harness官方推荐的上下文洞察插件，透视上下文组成与演进，以及多Agent 协作与通讯。  | AI与智能体 |
 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to register new sidebar pages. Built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.  | AI与智能体 / 开发工具 |
 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场  | AI与智能体 |
 | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。  | 其他 |
@@ -122,7 +124,7 @@
 | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.  | 游戏开发 / AI与智能体 |
 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex  | 其他 |
 | [openai/plugins](https://github.com/openai/plugins) | OpenAI Plugins  | 其他 |
-| [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | 67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.  | 其他 |
+| [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | 71 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.  | 其他 |
 | [rivet-dev/skills](https://github.com/rivet-dev/skills) | Generated skill files for Rivet AI integrations  | AI与智能体 |
 | [alsostone/com.stone.et8](https://github.com/alsostone/com.stone.et8) | 基于ET框架的帧同步战斗系统，已实现技能、AI、放置等核心系统，内含不一致检测工具。  | AI与智能体 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | SVG icons for popular brands  | 界面与网页 |
