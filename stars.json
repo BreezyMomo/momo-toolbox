@@ -1,6 +1,6 @@
 {
   "username": "BreezyMomo",
-  "last_sync": "2026-11-24T03:10:48+00:00",
+  "last_sync": "2026-11-24T10:02:53+00:00",
   "records": [
     {
       "id": 1438623288,
@@ -120,7 +120,7 @@
         "prompts-chat",
         "typescript"
       ],
-      "pushed_at": "2026-11-23T18:33:50Z",
+      "pushed_at": "2026-11-24T07:22:34Z",
       "archived": false,
       "url": "https://github.com/f/prompts.chat",
       "starred_at": "2026-11-23T06:07:35Z",
@@ -162,7 +162,7 @@
         "webcodecs",
         "webm"
       ],
-      "pushed_at": "2026-11-23T20:24:29Z",
+      "pushed_at": "2026-11-24T10:00:32Z",
       "archived": false,
       "url": "https://github.com/Vanilagy/mediabunny",
       "starred_at": "2026-11-22T17:03:45Z",
@@ -291,7 +291,7 @@
         "video",
         "webm"
       ],
-      "pushed_at": "2026-11-24T02:41:26Z",
+      "pushed_at": "2026-11-24T08:05:57Z",
       "archived": false,
       "url": "https://github.com/FFmpeg/FFmpeg",
       "starred_at": "2026-11-22T17:03:07Z",
@@ -320,7 +320,7 @@
         "react",
         "video"
       ],
-      "pushed_at": "2026-11-23T17:40:18Z",
+      "pushed_at": "2026-11-24T10:02:33Z",
       "archived": false,
       "url": "https://github.com/remotion-dev/remotion",
       "starred_at": "2026-11-22T17:02:53Z",
@@ -361,7 +361,7 @@
         "supercollider",
         "synthesis"
       ],
-      "pushed_at": "2026-11-23T04:00:11Z",
+      "pushed_at": "2026-11-24T08:54:36Z",
       "archived": false,
       "url": "https://github.com/supercollider/supercollider",
       "starred_at": "2026-11-22T17:02:48Z",
@@ -492,7 +492,7 @@
         "webgpu",
         "webxr"
       ],
-      "pushed_at": "2026-11-24T02:47:50Z",
+      "pushed_at": "2026-11-24T09:49:51Z",
       "archived": false,
       "url": "https://github.com/mrdoob/three.js",
       "starred_at": "2026-11-22T17:02:09Z",
@@ -689,7 +689,7 @@
       "description": "AI RPG maker",
       "language": "Python",
       "topics": [],
-      "pushed_at": "2026-11-24T03:03:49Z",
+      "pushed_at": "2026-11-24T04:01:38Z",
       "archived": false,
       "url": "https://github.com/RachelForster/Shinsekai",
       "starred_at": "2026-11-22T09:54:52Z",
@@ -711,7 +711,7 @@
     {
       "id": 1442373084,
       "full_name": "lucas-martinic/polyfork-catalog",
-      "description": "Free low-poly 3D models for three.js and the web: 3,529 GLB models and 37 themed kits, CC BY 4.0. The public index of polyfork.dev.",
+      "description": "Free low-poly 3D models for three.js and the web: 3,561 GLB models and 37 themed kits, CC BY 4.0. The public index of polyfork.dev.",
       "language": null,
       "topics": [
         "3d-assets",
@@ -725,7 +725,7 @@
         "threejs",
         "webgl"
       ],
-      "pushed_at": "2026-11-23T05:23:03Z",
+      "pushed_at": "2026-11-24T05:23:03Z",
       "archived": false,
       "url": "https://github.com/lucas-martinic/polyfork-catalog",
       "starred_at": "2026-11-22T09:54:47Z",
@@ -802,7 +802,7 @@
         "workflow-automation",
         "workflow-engine"
       ],
-      "pushed_at": "2026-11-24T03:03:03Z",
+      "pushed_at": "2026-11-24T09:54:49Z",
       "archived": false,
       "url": "https://github.com/Tencent/LoopForge",
       "starred_at": "2026-11-22T09:54:37Z",
@@ -849,7 +849,7 @@
         "video-editing",
         "whisper"
       ],
-      "pushed_at": "2026-11-23T21:27:06Z",
+      "pushed_at": "2026-11-24T09:13:58Z",
       "archived": false,
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "starred_at": "2026-11-22T09:54:31Z",
@@ -909,7 +909,7 @@
         "plan-mode",
         "skills"
       ],
-      "pushed_at": "2026-11-24T03:10:37Z",
+      "pushed_at": "2026-11-24T09:55:09Z",
       "archived": false,
       "url": "https://github.com/backnotprop/plannotator",
       "starred_at": "2026-11-22T09:54:20Z",
@@ -940,7 +940,7 @@
         "agentic-workflow",
         "ai-agents"
       ],
-      "pushed_at": "2026-11-22T21:50:14Z",
+      "pushed_at": "2026-11-24T05:55:51Z",
       "archived": false,
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "starred_at": "2026-11-22T09:54:15Z",
@@ -986,7 +986,7 @@
         "weightlifting",
         "workout-tracker"
       ],
-      "pushed_at": "2026-11-23T21:43:26Z",
+      "pushed_at": "2026-11-24T10:00:47Z",
       "archived": false,
       "url": "https://github.com/DuarteSantos8/openGym",
       "starred_at": "2026-11-22T09:54:05Z",
@@ -1024,7 +1024,7 @@
         "self-hosted",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T02:46:26Z",
+      "pushed_at": "2026-11-24T09:52:40Z",
       "archived": false,
       "url": "https://github.com/milind-soni/OpenMausBot",
       "starred_at": "2026-11-22T09:54:00Z",
@@ -1070,7 +1070,7 @@
         "workspace",
         "xlsx"
       ],
-      "pushed_at": "2026-11-24T02:56:15Z",
+      "pushed_at": "2026-11-24T10:02:24Z",
       "archived": false,
       "url": "https://github.com/dream-num/univer",
       "starred_at": "2026-11-22T09:53:55Z",
@@ -1095,7 +1095,7 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T03:07:53Z",
+      "pushed_at": "2026-11-24T10:01:27Z",
       "archived": false,
       "url": "https://github.com/meta/astryx",
       "starred_at": "2026-11-22T09:53:49Z",
@@ -1130,7 +1130,7 @@
         "macos",
         "windows"
       ],
-      "pushed_at": "2026-11-23T06:18:25Z",
+      "pushed_at": "2026-11-24T04:54:02Z",
       "archived": false,
       "url": "https://github.com/Predidit/Kazumi",
       "starred_at": "2026-11-22T09:53:41Z",
@@ -1155,7 +1155,7 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "topics": [],
-      "pushed_at": "2026-11-23T22:44:33Z",
+      "pushed_at": "2026-11-24T08:43:01Z",
       "archived": false,
       "url": "https://github.com/vercel-labs/agent-browser",
       "starred_at": "2026-11-22T09:53:36Z",
@@ -1190,7 +1190,7 @@
         "mcp-server",
         "puppeteer"
       ],
-      "pushed_at": "2026-11-23T20:41:31Z",
+      "pushed_at": "2026-11-24T10:02:46Z",
       "archived": false,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "starred_at": "2026-11-22T09:53:32Z",
@@ -1290,7 +1290,7 @@
         "twitter",
         "youtube"
       ],
-      "pushed_at": "2026-11-24T03:07:34Z",
+      "pushed_at": "2026-11-24T09:31:50Z",
       "archived": false,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "starred_at": "2026-11-22T09:53:16Z",
@@ -1324,7 +1324,7 @@
         "quantitative-finance",
         "quantitative-trading"
       ],
-      "pushed_at": "2026-11-23T15:05:29Z",
+      "pushed_at": "2026-11-24T05:41:00Z",
       "archived": false,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "starred_at": "2026-11-22T09:53:10Z",
@@ -1358,7 +1358,7 @@
         "dsh-plugin",
         "dsh-plugin-desktop"
       ],
-      "pushed_at": "2026-11-23T00:53:02Z",
+      "pushed_at": "2026-11-24T09:21:56Z",
       "archived": false,
       "url": "https://github.com/anywhere-labs/dsh-desktop",
       "starred_at": "2026-11-22T03:26:59Z",
@@ -1524,7 +1524,7 @@
       "description": "Chat Demo",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:46:12Z",
+      "pushed_at": "2026-11-24T06:12:27Z",
       "archived": false,
       "url": "https://github.com/deepseek-ai/chat-demo",
       "starred_at": "2026-11-20T02:04:24Z",
@@ -1571,7 +1571,7 @@
         "proactive-agent",
         "proactive-ai"
       ],
-      "pushed_at": "2026-11-24T03:09:18Z",
+      "pushed_at": "2026-11-24T09:55:44Z",
       "archived": false,
       "url": "https://github.com/simplexai-labs/linger",
       "starred_at": "2026-11-19T11:01:42Z",
@@ -1617,7 +1617,7 @@
         "rust",
         "typescript"
       ],
-      "pushed_at": "2026-11-23T21:17:51Z",
+      "pushed_at": "2026-11-24T07:32:08Z",
       "archived": false,
       "url": "https://github.com/erkamyaman/rust-anything",
       "starred_at": "2026-11-19T01:51:07Z",
@@ -1643,7 +1643,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T02:57:45Z",
+      "pushed_at": "2026-11-24T03:42:19Z",
       "archived": false,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "starred_at": "2026-11-18T12:35:34Z",
@@ -1690,7 +1690,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-24T03:08:11Z",
+      "pushed_at": "2026-11-24T09:59:10Z",
       "archived": false,
       "url": "https://github.com/nexu-io/openmotion",
       "starred_at": "2026-11-18T12:23:17Z",
@@ -1761,7 +1761,7 @@
         "semantic-search",
         "skills"
       ],
-      "pushed_at": "2026-11-19T07:05:58Z",
+      "pushed_at": "2026-11-24T09:55:41Z",
       "archived": false,
       "url": "https://github.com/zilliztech/memsearch",
       "starred_at": "2026-11-18T08:22:35Z",
@@ -1787,7 +1787,7 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T03:06:27Z",
+      "pushed_at": "2026-11-24T09:52:25Z",
       "archived": false,
       "url": "https://github.com/ranxianglei/billion-context",
       "starred_at": "2026-11-18T08:22:11Z",
@@ -1852,7 +1852,7 @@
         "dsh-plugins",
         "sidebar"
       ],
-      "pushed_at": "2026-11-21T12:47:27Z",
+      "pushed_at": "2026-11-24T09:20:40Z",
       "archived": false,
       "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
       "starred_at": "2026-11-18T08:21:50Z",
@@ -1882,7 +1882,7 @@
         "dsh-plugin",
         "marketplace"
       ],
-      "pushed_at": "2026-11-23T16:45:03Z",
+      "pushed_at": "2026-11-24T09:45:22Z",
       "archived": false,
       "url": "https://github.com/dsh-market/dsh-market",
       "starred_at": "2026-11-18T08:21:42Z",
@@ -1988,7 +1988,7 @@
         "video-generation",
         "video-production"
       ],
-      "pushed_at": "2026-11-24T03:08:43Z",
+      "pushed_at": "2026-11-24T08:09:03Z",
       "archived": false,
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "starred_at": "2026-11-18T08:09:08Z",
@@ -2093,7 +2093,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "pushed_at": "2026-11-24T02:42:52Z",
+      "pushed_at": "2026-11-24T04:11:53Z",
       "archived": false,
       "url": "https://github.com/yikart/AiToEarn",
       "starred_at": "2026-11-18T04:35:46Z",
@@ -2154,7 +2154,7 @@
         "historical-map",
         "interactive-map"
       ],
-      "pushed_at": "2026-11-24T03:07:59Z",
+      "pushed_at": "2026-11-24T08:56:58Z",
       "archived": false,
       "url": "https://github.com/DeanChensj/jiangshan-map",
       "starred_at": "2026-11-17T08:15:09Z",
@@ -2215,7 +2215,7 @@
         "simulation",
         "social-simulation"
       ],
-      "pushed_at": "2026-11-17T16:55:06Z",
+      "pushed_at": "2026-11-24T04:56:07Z",
       "archived": false,
       "url": "https://github.com/tsinghua-fib-lab/AgentSociety",
       "starred_at": "2026-11-16T07:36:01Z",
@@ -2253,7 +2253,7 @@
         "flutter",
         "llm"
       ],
-      "pushed_at": "2026-11-24T03:03:46Z",
+      "pushed_at": "2026-11-24T10:01:07Z",
       "archived": false,
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "starred_at": "2026-11-16T03:36:47Z",
@@ -2296,7 +2296,7 @@
         "vibe-coding",
         "xiaomi"
       ],
-      "pushed_at": "2026-11-22T16:26:03Z",
+      "pushed_at": "2026-11-24T04:56:57Z",
       "archived": false,
       "url": "https://github.com/Gathin23/cleanyourtv",
       "starred_at": "2026-11-16T03:35:27Z",
@@ -2321,7 +2321,7 @@
       "description": "Local inference engine optimized for NVIDIA Blackwell",
       "language": "C++",
       "topics": [],
-      "pushed_at": "2026-11-24T02:23:08Z",
+      "pushed_at": "2026-11-24T03:23:37Z",
       "archived": false,
       "url": "https://github.com/jesdga95/basalt",
       "starred_at": "2026-11-10T12:53:24Z",
@@ -2371,7 +2371,7 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "topics": [],
-      "pushed_at": "2026-11-23T14:33:28Z",
+      "pushed_at": "2026-11-24T06:58:05Z",
       "archived": false,
       "url": "https://github.com/storytold/craft-anything",
       "starred_at": "2026-11-07T09:38:01Z",
@@ -2413,7 +2413,7 @@
         "sherlock",
         "tools"
       ],
-      "pushed_at": "2026-11-23T05:15:35Z",
+      "pushed_at": "2026-11-24T05:14:19Z",
       "archived": false,
       "url": "https://github.com/sherlock-project/sherlock",
       "starred_at": "2026-11-07T09:37:59Z",
@@ -2454,7 +2454,7 @@
         "youtube-automation",
         "youtube-shorts"
       ],
-      "pushed_at": "2026-11-24T01:36:05Z",
+      "pushed_at": "2026-11-24T09:55:22Z",
       "archived": false,
       "url": "https://github.com/jub0t/Concat",
       "starred_at": "2026-11-07T09:37:01Z",
@@ -2515,7 +2515,7 @@
         "states",
         "world"
       ],
-      "pushed_at": "2026-11-23T10:11:18Z",
+      "pushed_at": "2026-11-24T09:42:28Z",
       "archived": false,
       "url": "https://github.com/dr5hn/countries-states-cities-database",
       "starred_at": "2026-11-07T09:35:53Z",
@@ -2811,7 +2811,7 @@
         "patent",
         "skill"
       ],
-      "pushed_at": "2026-11-23T03:59:08Z",
+      "pushed_at": "2026-11-24T03:59:16Z",
       "archived": false,
       "url": "https://github.com/handsomestWei/patent-disclosure-skill",
       "starred_at": "2026-11-05T02:08:39Z",
@@ -2884,7 +2884,7 @@
         "multi-agent-systems",
         "rag"
       ],
-      "pushed_at": "2026-11-23T11:58:10Z",
+      "pushed_at": "2026-11-24T06:57:44Z",
       "archived": false,
       "url": "https://github.com/HKUDS/DeepTutor",
       "starred_at": "2026-11-04T11:30:28Z",
@@ -3077,7 +3077,7 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "pushed_at": "2026-11-24T01:05:38Z",
+      "pushed_at": "2026-11-24T09:28:53Z",
       "archived": false,
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "starred_at": "2026-10-29T05:01:28Z",
@@ -3209,7 +3209,7 @@
         "rag",
         "reinforcement-learning"
       ],
-      "pushed_at": "2026-11-24T01:24:34Z",
+      "pushed_at": "2026-11-24T08:02:52Z",
       "archived": false,
       "url": "https://github.com/bojieli/ai-agent-book",
       "starred_at": "2026-10-29T05:00:33Z",
@@ -3268,7 +3268,7 @@
         "puppeteer",
         "zig"
       ],
-      "pushed_at": "2026-11-24T02:02:00Z",
+      "pushed_at": "2026-11-24T08:26:33Z",
       "archived": false,
       "url": "https://github.com/lightpanda-io/browser",
       "starred_at": "2026-10-29T04:59:08Z",
@@ -3301,7 +3301,7 @@
         "windows",
         "windows-automation"
       ],
-      "pushed_at": "2026-11-24T02:31:09Z",
+      "pushed_at": "2026-11-24T08:24:16Z",
       "archived": false,
       "url": "https://github.com/CursorTouch/Windows-MCP",
       "starred_at": "2026-10-29T04:58:01Z",
@@ -3507,7 +3507,7 @@
         "own-your-data",
         "personal"
       ],
-      "pushed_at": "2026-11-24T03:10:41Z",
+      "pushed_at": "2026-11-24T10:02:28Z",
       "archived": false,
       "url": "https://github.com/openclaw/openclaw",
       "starred_at": "2026-10-29T04:56:42Z",
@@ -3532,7 +3532,7 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-24T03:02:09Z",
+      "pushed_at": "2026-11-24T07:32:23Z",
       "archived": false,
       "url": "https://github.com/anthropics/claude-code",
       "starred_at": "2026-10-29T04:56:41Z",
@@ -3668,7 +3668,7 @@
         "design",
         "slop"
       ],
-      "pushed_at": "2026-11-23T21:33:58Z",
+      "pushed_at": "2026-11-24T09:20:08Z",
       "archived": false,
       "url": "https://github.com/pbakaus/impeccable",
       "starred_at": "2026-10-29T04:56:01Z",
@@ -3815,7 +3815,7 @@
         "vulkan",
         "vulkan-api"
       ],
-      "pushed_at": "2026-11-13T15:15:12Z",
+      "pushed_at": "2026-11-24T10:01:47Z",
       "archived": false,
       "url": "https://github.com/baldurk/renderdoc",
       "starred_at": "2026-10-29T04:54:27Z",
@@ -4061,7 +4061,7 @@
         "svg-icons",
         "svg-images"
       ],
-      "pushed_at": "2026-11-22T18:37:22Z",
+      "pushed_at": "2026-11-24T09:44:09Z",
       "archived": false,
       "url": "https://github.com/simple-icons/simple-icons",
       "starred_at": "2026-10-29T04:53:09Z",
@@ -4165,7 +4165,7 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "topics": [],
-      "pushed_at": "2026-11-23T19:39:10Z",
+      "pushed_at": "2026-11-24T09:16:45Z",
       "archived": false,
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "starred_at": "2026-10-29T04:52:47Z",
@@ -4289,7 +4289,7 @@
         "video-converter",
         "windows"
       ],
-      "pushed_at": "2026-11-23T00:12:26Z",
+      "pushed_at": "2026-11-24T07:09:21Z",
       "archived": false,
       "url": "https://github.com/KnifeLemon/Filee",
       "starred_at": "2026-10-29T04:51:51Z",
@@ -4466,7 +4466,7 @@
     {
       "id": 909213664,
       "full_name": "TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "description": "TradingAgents: Towards Agentic Finance Research",
       "language": "Python",
       "topics": [
         "agent",
@@ -4694,7 +4694,7 @@
         "voice-clone",
         "whisper"
       ],
-      "pushed_at": "2026-11-21T10:31:13Z",
+      "pushed_at": "2026-11-24T09:56:59Z",
       "archived": false,
       "url": "https://github.com/jamiepine/voicebox",
       "starred_at": "2026-10-29T04:47:02Z",
@@ -4732,7 +4732,7 @@
         "vrm",
         "vtuber"
       ],
-      "pushed_at": "2026-11-24T01:14:05Z",
+      "pushed_at": "2026-11-24T09:21:17Z",
       "archived": false,
       "url": "https://github.com/moeru-ai/airi",
       "starred_at": "2026-10-29T04:46:54Z",
@@ -4857,7 +4857,7 @@
         "tauri",
         "vue"
       ],
-      "pushed_at": "2026-11-24T03:02:34Z",
+      "pushed_at": "2026-11-24T09:10:08Z",
       "archived": false,
       "url": "https://github.com/t8y2/dbx",
       "starred_at": "2026-10-29T04:46:11Z",
@@ -4949,7 +4949,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "pushed_at": "2026-11-23T03:25:47Z",
+      "pushed_at": "2026-11-24T03:24:17Z",
       "archived": false,
       "url": "https://github.com/nano-muse/nanoMuse",
       "starred_at": "2026-10-29T04:44:32Z",
@@ -5174,7 +5174,7 @@
         "video-editing",
         "video-generation"
       ],
-      "pushed_at": "2026-11-23T12:51:22Z",
+      "pushed_at": "2026-11-24T06:32:36Z",
       "archived": false,
       "url": "https://github.com/hypit-ai/hypit",
       "starred_at": "2026-10-24T14:10:27Z",
@@ -5437,7 +5437,7 @@
         "rapidocr",
         "tensorrt"
       ],
-      "pushed_at": "2026-11-23T14:56:11Z",
+      "pushed_at": "2026-11-24T07:38:40Z",
       "archived": false,
       "url": "https://github.com/RapidAI/RapidOCR",
       "starred_at": "2026-10-20T08:50:26Z",
@@ -5527,7 +5527,7 @@
       "description": "GitHub Profile README",
       "language": null,
       "topics": [],
-      "pushed_at": "2026-11-23T20:09:35Z",
+      "pushed_at": "2026-11-24T04:45:14Z",
       "archived": false,
       "url": "https://github.com/alchaincyf/alchaincyf",
       "starred_at": "2026-10-14T09:54:38Z",
@@ -5587,7 +5587,7 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "language": "C++",
       "topics": [],
-      "pushed_at": "2026-11-23T18:42:50Z",
+      "pushed_at": "2026-11-24T09:22:35Z",
       "archived": false,
       "url": "https://github.com/Niko1221/Strata",
       "starred_at": "2026-10-13T06:54:27Z",
@@ -5689,7 +5689,7 @@
         "touhou",
         "typescript"
       ],
-      "pushed_at": "2026-11-24T03:10:26Z",
+      "pushed_at": "2026-11-24T10:02:00Z",
       "archived": false,
       "url": "https://github.com/morluto/rea",
       "starred_at": "2026-10-12T03:44:06Z",
@@ -5813,7 +5813,7 @@
       "topics": [
         "open-source"
       ],
-      "pushed_at": "2026-11-23T21:11:46Z",
+      "pushed_at": "2026-11-24T08:09:15Z",
       "archived": false,
       "url": "https://github.com/EpicGames/lore",
       "starred_at": "2026-09-17T10:06:59Z",
@@ -6126,7 +6126,7 @@
         "unity",
         "windsurf"
       ],
-      "pushed_at": "2026-11-23T11:32:13Z",
+      "pushed_at": "2026-11-24T10:00:20Z",
       "archived": false,
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "starred_at": "2026-07-22T03:00:11Z",
@@ -6547,7 +6547,7 @@
       "topics": [
         "agent-skills"
       ],
-      "pushed_at": "2026-11-24T03:01:28Z",
+      "pushed_at": "2026-11-24T09:50:46Z",
       "archived": false,
       "url": "https://github.com/dotnet/skills",
       "starred_at": "2026-07-08T02:30:11Z",
@@ -6592,7 +6592,7 @@
         "wifi",
         "wifi-security"
       ],
-      "pushed_at": "2026-11-24T00:23:51Z",
+      "pushed_at": "2026-11-24T09:45:37Z",
       "archived": false,
       "url": "https://github.com/ruvnet/RuView",
       "starred_at": "2026-07-08T02:28:16Z",
@@ -6630,7 +6630,7 @@
         "ui-design",
         "web-design"
       ],
-      "pushed_at": "2026-11-22T20:10:07Z",
+      "pushed_at": "2026-11-24T06:29:53Z",
       "archived": false,
       "url": "https://github.com/Leonxlnx/taste-skill",
       "starred_at": "2026-07-08T02:27:22Z",
@@ -6677,7 +6677,7 @@
         "system-prompt",
         "system-prompts"
       ],
-      "pushed_at": "2026-11-24T00:52:22Z",
+      "pushed_at": "2026-11-24T07:10:50Z",
       "archived": false,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "starred_at": "2026-07-08T02:27:10Z",
@@ -6709,7 +6709,7 @@
         "cursor",
         "skills"
       ],
-      "pushed_at": "2026-11-18T20:06:38Z",
+      "pushed_at": "2026-11-24T07:11:17Z",
       "archived": false,
       "url": "https://github.com/addyosmani/agent-skills",
       "starred_at": "2026-07-08T02:26:41Z",
@@ -6734,7 +6734,7 @@
       "description": "Box3D is a 3D physics engine for games",
       "language": "C",
       "topics": [],
-      "pushed_at": "2026-11-23T16:35:59Z",
+      "pushed_at": "2026-11-24T06:04:26Z",
       "archived": false,
       "url": "https://github.com/erincatto/box3d",
       "starred_at": "2026-07-07T12:39:45Z",
@@ -6886,7 +6886,7 @@
         "security",
         "security-automation"
       ],
-      "pushed_at": "2026-11-24T00:28:26Z",
+      "pushed_at": "2026-11-24T06:58:42Z",
       "archived": false,
       "url": "https://github.com/usestrix/strix",
       "starred_at": "2026-07-02T02:04:20Z",
@@ -7054,7 +7054,7 @@
         "tauri",
         "wsl-support"
       ],
-      "pushed_at": "2026-11-24T00:54:53Z",
+      "pushed_at": "2026-11-24T08:11:02Z",
       "archived": false,
       "url": "https://github.com/farion1231/cc-switch",
       "starred_at": "2026-06-08T07:34:16Z",
@@ -7167,7 +7167,7 @@
       "description": "Model Context Protocol Reference Servers",
       "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-19T16:41:29Z",
+      "pushed_at": "2026-11-24T06:14:45Z",
       "archived": false,
       "url": "https://github.com/modelcontextprotocol/servers",
       "starred_at": "2026-04-24T02:40:08Z",
@@ -7213,7 +7213,7 @@
         "spanner",
         "tidb"
       ],
-      "pushed_at": "2026-11-23T23:48:45Z",
+      "pushed_at": "2026-11-24T06:29:31Z",
       "archived": false,
       "url": "https://github.com/googleapis/mcp-toolbox",
       "starred_at": "2026-04-24T02:39:25Z",
@@ -7359,7 +7359,7 @@
         "vba",
         "xlsx"
       ],
-      "pushed_at": "2026-11-23T21:16:58Z",
+      "pushed_at": "2026-11-24T09:45:16Z",
       "archived": false,
       "url": "https://github.com/haris-musa/excel-mcp-server",
       "starred_at": "2026-04-24T02:32:22Z",
@@ -7583,7 +7583,7 @@
         "ui-kit",
         "ui-library"
       ],
-      "pushed_at": "2026-11-18T16:24:03Z",
+      "pushed_at": "2026-11-24T09:31:02Z",
       "archived": false,
       "url": "https://github.com/layui/layui",
       "starred_at": "2023-04-24T11:30:06Z",
