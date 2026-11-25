@@ -1,9 +1,11 @@
 # 待整理清单
 
-最后成功同步：2026-11-24T11:06:01+00:00。共 241 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-25T09:55:37+00:00。共 243 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 关键词 | 分类 |
 |---|---|---|---|
+| [schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop) | PairDrop 是一个基于浏览器的跨平台点对点文件与文本传输服务，支持局域网及互联网设备互传。<br>使用场景：需要在手机、电脑或不同系统间免安装传输照片、文档或文本时，可用它通过配对设备或公共房间完成传送。 | 跨设备传文件、局域网文件共享、WebRTC、PWA、临时公共房间 | 其他 |
+| [localsend/localsend](https://github.com/localsend/localsend) | LocalSend 通过局域网、REST API 与 HTTPS 加密，在无互联网或第三方服务器时向附近设备安全分享文件和消息。<br>使用场景：当你要在同一局域网的手机、电脑间传文件或消息，且不想依赖互联网服务时可以使用它。 | 局域网传文件、消息分享、REST API、HTTPS | 其他 |
 | [heydamir/unslop](https://github.com/heydamir/unslop) | unslop 是面向 Claude Code、Codex 和 Google Antigravity 的技能，用于识别 AI 生成界面的常见设计问题，并按产品定位分轮改进。<br>使用场景：当上线的落地页有突兀的发光效果和不一致的间距，而你手头只有网址时，可以用它审查页面并找出改进点。 | AI 界面改版、UI 设计审查、Claude Code、Codex、Google Antigravity | 界面与网页 |
 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | dsh-superagent 是面向单个 GitHub 仓库的主动编码代理，可接收请求、执行任务并反馈结果。<br>使用场景：当获授权者在 GitHub 提出开发任务并希望代理自动处理、提交 Pull Request 时可用。 | GitHub代码协作、编码代理、DeepSeek Harness、Feishu、Pull Request | AI与智能体 |
 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | EGM 是用于软件规格设计与评审的 AI 助手插件，由 Elephant 管理项目上下文并起草规范，Goldfish 独立审查草案及源码资料。<br>使用场景：当需要为代码库起草软件规范并减少上下文偏见时，可用其让独立审查者发现未声明的假设与盲点。 | 软件规格设计、文档评审、AI agents、Claude Code、multi-agent | AI与智能体 / 开发工具 |
@@ -75,7 +77,7 @@
 | [pjlab-songcomposer/songcomposer](https://github.com/pjlab-songcomposer/songcomposer) | SongComposer是用于歌词与旋律生成、歌曲续写及文本生成歌曲的大语言模型。<br>使用场景：当你需要从歌词生成旋律或从旋律生成歌词时，可用其符号化歌曲表示完成创作。 | 歌词生成、旋律生成、歌曲续写、SongComposer、symbolic song representations | 其他 |
 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 检查网站、应用和游戏的界面与行为，让编码代理按指定技术栈构建新版本，并与原版对比验证差异。<br>使用场景：当你想只依据访客可见的页面重建网站，并检查新版在三种屏幕宽度下的布局差异时，可以用它。 | 网站复刻、软件逆向分析、界面对比、Rust、MCP | 其他 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 通过用户名在 400 多个社交网络中搜寻对应的社交媒体账号。<br>使用场景：当你需要进行用户名 OSINT 信息收集，核验某个昵称是否出现在多个社交平台时可使用它。 | 用户名搜索、社交媒体账号、OSINT、reconnaissance、CLI | 开发工具 |
-| [jub0t/Concat](https://github.com/jub0t/Concat) | Concat 是一款跨 macOS、Windows、Linux、Android 和 iOS 的本地视频编辑器，支持多轨剪辑、自动字幕、配音、特效与最高 4K 导出。<br>使用场景：需要不上传素材地制作 TikTok、YouTube Shorts 或教程视频，并可用 JSON-RPC 或 MCP 自动剪辑时使用。 | 视频剪辑、自动字幕、FFmpeg、JSON-RPC、MCP | AI与智能体 |
+| [jub0t/Concat](https://github.com/jub0t/Concat) | Concat 是一款跨 macOS、Windows、Linux、Android 和 iOS 的本地视频编辑器，支持多轨剪辑、自动字幕、配音、特效与最高 4K 导出。<br>使用场景：需要不上传素材地制作 TikTok、YouTube Shorts 或教程视频，并可用 JSON-RPC 或 MCP 自动剪辑时使用。 | 视频剪辑、自动字幕、FFmpeg、JSON-RPC、MCP | 其他 |
 | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | The Well 汇集16个涵盖多种物理领域的15TB时空数值仿真数据集，用于机器学习与计算科学研究。<br>使用场景：当你需要为模型训练或基准测试准备多领域物理仿真数据时，可用它评估流体动力学任务。 | 物理仿真数据集、机器学习训练、时空数据、benchmark、The Well | 其他 |
 | [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) | 提供覆盖国家、州省、县、市和邮编的全球地理数据集，支持JSON、SQL、CSV等12种格式。<br>使用场景：构建地址选择器或区域检索功能，需要按国家、州省、城市和邮编加载数据时可使用。 | 国家地区数据、城市邮编、地理数据、IANA timezone、GeoJSON | 其他 |
 | [designfuchen/word-atlas](https://github.com/designfuchen/word-atlas) | Word Atlas 是一款以插画、英美发音和 FSRS 间隔复习帮助学习雅思词汇的应用。<br>使用场景：准备学习雅思词汇并希望离线复习时可使用，例如练习其 7,298 个词条。 | 雅思背词、英语词汇学习、FSRS、WebGL2、Anki牌组 | 界面与网页 |

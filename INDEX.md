@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-24T11:06:01+00:00。当前 Star：241。
+最后成功同步：2026-11-25T09:55:37+00:00。当前 Star：243。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -43,7 +43,6 @@
 | [yikart/AiToEarn](https://github.com/yikart/AiToEarn) | AiToEarn 是面向创作者与一人公司的 AI Agent 内容创作、分发、互动和变现平台。<br>使用场景：需要把内容统一排期并发布到抖音、小红书、YouTube 等多个平台时可以使用。 | 内容营销、自动发布、AI Agent、MCP、抖音 | AI与智能体 |
 | [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | AgentSociety提供面向社会科学研究的LLM智能体仿真框架，将问题、假设和干预转化为可执行实验。<br>使用场景：当研究者需要模拟Silicon Participants并执行假设验证、实验设计或数据分析时可使用。 | 社会仿真、社会科学研究、LLM Agents、Ray、MCP | AI与智能体 / 界面与网页 |
 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | DSH Go 是 DeepSeek Harness 的第三方手机客户端，可免 Root 在手机上运行引擎，也能连接电脑或服务器上的引擎。<br>使用场景：当你离开电脑但想继续处理未完成的编程任务时，可以用安卓手机接回电脑上的会话。 | DeepSeek Harness、Android、SSH、手机本地运行、远程编程 | AI与智能体 |
-| [jub0t/Concat](https://github.com/jub0t/Concat) | Concat 是一款跨 macOS、Windows、Linux、Android 和 iOS 的本地视频编辑器，支持多轨剪辑、自动字幕、配音、特效与最高 4K 导出。<br>使用场景：需要不上传素材地制作 TikTok、YouTube Shorts 或教程视频，并可用 JSON-RPC 或 MCP 自动剪辑时使用。 | 视频剪辑、自动字幕、FFmpeg、JSON-RPC、MCP | AI与智能体 |
 | [shinshin86/mesh-avatar-studio](https://github.com/shinshin86/mesh-avatar-studio) | 将单张插画制作成可眨眼、说话、转头、呼吸和摇发的动画2D网格虚拟形象，并在本地编辑器中调校。<br>使用场景：当你有一张透明背景的正面半身PNG，想生成虚拟主播形象并测试姿态与口型同步时可以使用。 | 2D动画、虚拟形象、mesh-deformation、Claude Code、Codex | AI与智能体 |
 | [ChenShuo2004/cs-skills](https://github.com/ChenShuo2004/cs-skills) | 将产品开发、调研、写作、视觉视频与发布交付经验整理为可安装复用的26个 Agent 技能工作流。<br>使用场景：当你要让 Codex 或 Claude Code 完成项目交付时可用，例如精确提交并核验远端 SHA。 | Codex、Claude Code、SKILL.md、AI工作流、GitHub发布 | AI与智能体 |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 提供可组合、可访问且可定制的界面组件，帮助开发者构建自己的组件库。<br>使用场景：需要在 React 项目中搭建并按源码定制界面组件库时可使用，例如调整组件的默认样式。 | 组件库、可访问性、React、tailwindcss、radix-ui | AI与智能体 / 界面与网页 |
@@ -107,6 +106,8 @@
 
 | 项目 | 简介 / 使用场景 | 关键词 | 分类 |
 |---|---|---|---|
+| [schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop) | PairDrop 是一个基于浏览器的跨平台点对点文件与文本传输服务，支持局域网及互联网设备互传。<br>使用场景：需要在手机、电脑或不同系统间免安装传输照片、文档或文本时，可用它通过配对设备或公共房间完成传送。 | 跨设备传文件、局域网文件共享、WebRTC、PWA、临时公共房间 | 其他 |
+| [localsend/localsend](https://github.com/localsend/localsend) | LocalSend 通过局域网、REST API 与 HTTPS 加密，在无互联网或第三方服务器时向附近设备安全分享文件和消息。<br>使用场景：当你要在同一局域网的手机、电脑间传文件或消息，且不想依赖互联网服务时可以使用它。 | 局域网传文件、消息分享、REST API、HTTPS | 其他 |
 | [Vanilagy/mediabunny](https://github.com/Vanilagy/mediabunny) | Mediabunny 是用于在浏览器中读取、写入和转换 MP4、WebM、MP3、HLS 等媒体的 TypeScript 库。<br>使用场景：当网页需要流式转码、裁剪或调整媒体尺寸时，可用它在浏览器中处理大文件。 | 媒体格式转换、视频音频处理、WebCodecs、MP4、WebM | 其他 |
 | [dimforge/rapier](https://github.com/dimforge/rapier) | Rapier 是面向游戏、动画和机器人的 Rust 2D、3D 物理引擎集合。<br>使用场景：需要在 Rust 项目中实现二维或三维刚体物理模拟时可使用 Rapier。 | 物理引擎、游戏开发、Rust、rapier2d、rapier3d | 其他 |
 | [supercollider/supercollider](https://github.com/supercollider/supercollider) | 用于实时音频合成、算法作曲与声音处理的平台，包含 scsynth、sclang 和 scide。<br>使用场景：需要用代码控制实时音频服务器、进行现场编程或多核 DSP 合成时可以使用它。 | 音频合成、算法作曲、sclang、scsynth | 其他 |
@@ -130,6 +131,7 @@
 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 通过 Wi-Fi 上的 ADB 为 Android TV 或 Google TV 停用厂商遥测、广告服务和预装应用，并换上可恢复的简洁主屏幕。<br>使用场景：当你想去掉 Google TV 首页的推荐内容栏，又希望保留恢复原状的选项时，可以用它。 | 电视去广告、精简预装应用、ADB、Android TV、Google TV | 其他 |
 | [pjlab-songcomposer/songcomposer](https://github.com/pjlab-songcomposer/songcomposer) | SongComposer是用于歌词与旋律生成、歌曲续写及文本生成歌曲的大语言模型。<br>使用场景：当你需要从歌词生成旋律或从旋律生成歌词时，可用其符号化歌曲表示完成创作。 | 歌词生成、旋律生成、歌曲续写、SongComposer、symbolic song representations | 其他 |
 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 检查网站、应用和游戏的界面与行为，让编码代理按指定技术栈构建新版本，并与原版对比验证差异。<br>使用场景：当你想只依据访客可见的页面重建网站，并检查新版在三种屏幕宽度下的布局差异时，可以用它。 | 网站复刻、软件逆向分析、界面对比、Rust、MCP | 其他 |
+| [jub0t/Concat](https://github.com/jub0t/Concat) | Concat 是一款跨 macOS、Windows、Linux、Android 和 iOS 的本地视频编辑器，支持多轨剪辑、自动字幕、配音、特效与最高 4K 导出。<br>使用场景：需要不上传素材地制作 TikTok、YouTube Shorts 或教程视频，并可用 JSON-RPC 或 MCP 自动剪辑时使用。 | 视频剪辑、自动字幕、FFmpeg、JSON-RPC、MCP | 其他 |
 | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | The Well 汇集16个涵盖多种物理领域的15TB时空数值仿真数据集，用于机器学习与计算科学研究。<br>使用场景：当你需要为模型训练或基准测试准备多领域物理仿真数据时，可用它评估流体动力学任务。 | 物理仿真数据集、机器学习训练、时空数据、benchmark、The Well | 其他 |
 | [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) | 提供覆盖国家、州省、县、市和邮编的全球地理数据集，支持JSON、SQL、CSV等12种格式。<br>使用场景：构建地址选择器或区域检索功能，需要按国家、州省、城市和邮编加载数据时可使用。 | 国家地区数据、城市邮编、地理数据、IANA timezone、GeoJSON | 其他 |
 | [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | 提供以 JSON 分发的中文古典诗词文集数据库，涵盖唐诗、宋诗、宋词及多种典籍。<br>使用场景：当你要为诗词网站、检索页面或生成项目准备古典诗词数据时，可以使用其 JSON 数据。 | 古诗词数据、JSON、唐诗、宋词、诗词检索 | 其他 |
