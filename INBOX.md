@@ -1,9 +1,10 @@
 # 待整理清单
 
-最后成功同步：2026-11-25T09:55:37+00:00。共 243 项。分类为关键词建议，不是 AI 结论。
+最后成功同步：2026-11-26T09:39:50+00:00。共 244 项。分类为关键词建议，不是 AI 结论。
 
 | 项目 | 简介 / 使用场景 | 关键词 | 分类 |
 |---|---|---|---|
+| [dotnet-state-machine/stateless](https://github.com/dotnet-state-machine/stateless) | 在 .NET 代码中创建状态机和轻量级状态机工作流，支持层级状态、守卫条件与状态转换。<br>使用场景：需要在 C# 中建模通话连接、暂停和结束等状态转换，并执行进入或退出动作时使用。 | C#状态机、工作流编排、Hierarchical states、Guard clauses、DOT graph | 其他 |
 | [schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop) | PairDrop 是一个基于浏览器的跨平台点对点文件与文本传输服务，支持局域网及互联网设备互传。<br>使用场景：需要在手机、电脑或不同系统间免安装传输照片、文档或文本时，可用它通过配对设备或公共房间完成传送。 | 跨设备传文件、局域网文件共享、WebRTC、PWA、临时公共房间 | 其他 |
 | [localsend/localsend](https://github.com/localsend/localsend) | LocalSend 通过局域网、REST API 与 HTTPS 加密，在无互联网或第三方服务器时向附近设备安全分享文件和消息。<br>使用场景：当你要在同一局域网的手机、电脑间传文件或消息，且不想依赖互联网服务时可以使用它。 | 局域网传文件、消息分享、REST API、HTTPS | 其他 |
 | [heydamir/unslop](https://github.com/heydamir/unslop) | unslop 是面向 Claude Code、Codex 和 Google Antigravity 的技能，用于识别 AI 生成界面的常见设计问题，并按产品定位分轮改进。<br>使用场景：当上线的落地页有突兀的发光效果和不一致的间距，而你手头只有网址时，可以用它审查页面并找出改进点。 | AI 界面改版、UI 设计审查、Claude Code、Codex、Google Antigravity | 界面与网页 |
