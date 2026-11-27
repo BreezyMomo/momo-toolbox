@@ -1,6 +1,6 @@
 # 分类索引
 
-最后成功同步：2026-11-26T09:39:50+00:00。当前 Star：244。
+最后成功同步：2026-11-27T09:44:21+00:00。当前 Star：245。
 
 [待整理](INBOX.md) · [使用说明](README.md) · [个人笔记](notes.json)
 
@@ -106,6 +106,7 @@
 
 | 项目 | 简介 / 使用场景 | 关键词 | 分类 |
 |---|---|---|---|
+| [VAST-AI-Research/UniRig](https://github.com/VAST-AI-Research/UniRig) | UniRig是一个为多样3D模型自动预测骨骼层级与顶点蒙皮权重的统一绑定框架。<br>使用场景：当需要为角色、动物或物体网格生成可用于动画的骨骼与蒙皮权重时可使用。 | 3D模型绑定、自动骨骼生成、Skeleton Tree Tokenization、Bone-Point Cross Attention | 其他 |
 | [dotnet-state-machine/stateless](https://github.com/dotnet-state-machine/stateless) | 在 .NET 代码中创建状态机和轻量级状态机工作流，支持层级状态、守卫条件与状态转换。<br>使用场景：需要在 C# 中建模通话连接、暂停和结束等状态转换，并执行进入或退出动作时使用。 | C#状态机、工作流编排、Hierarchical states、Guard clauses、DOT graph | 其他 |
 | [schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop) | PairDrop 是一个基于浏览器的跨平台点对点文件与文本传输服务，支持局域网及互联网设备互传。<br>使用场景：需要在手机、电脑或不同系统间免安装传输照片、文档或文本时，可用它通过配对设备或公共房间完成传送。 | 跨设备传文件、局域网文件共享、WebRTC、PWA、临时公共房间 | 其他 |
 | [localsend/localsend](https://github.com/localsend/localsend) | LocalSend 通过局域网、REST API 与 HTTPS 加密，在无互联网或第三方服务器时向附近设备安全分享文件和消息。<br>使用场景：当你要在同一局域网的手机、电脑间传文件或消息，且不想依赖互联网服务时可以使用它。 | 局域网传文件、消息分享、REST API、HTTPS | 其他 |
